@@ -54,7 +54,8 @@ export async function fetchRootSymbols(
       encodeURIComponent(version)
     }/docs/search`,
   );
-  const json = await response.json();
+  // deno-lint-ignore no-explicit-any
+  const json = await response.json() as any;
   return json.nodes.map((node: RootSymbol) => ({
     ...node,
     file: unescape(node.file),
@@ -250,7 +251,8 @@ export async function fetchLatestVersion(
   unstable = false,
 ): Promise<Version | null> {
   const response = await fetch(`https://jsr.io/${packageName}/meta.json`);
-  const json = await response.json();
+  // deno-lint-ignore no-explicit-any
+  const json = await response.json() as any;
   let versions: SemVer[] = Object.entries(json.versions)
     // deno-lint-ignore no-explicit-any
     .filter(([_, meta]: [string, any]) => meta.yanked !== true)
