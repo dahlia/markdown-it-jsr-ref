@@ -221,7 +221,7 @@ export async function fetchIndex(
         const memberUrl = member.kind === "constructor"
           ? `${url}#constructor_${member.index}`
           : member.kind === "method" && member.static ||
-              member.kind === "call_signature"
+              member.kind === "call_signature" || member.kind === "property"
           ? `${url}.${member.name}`
           : `${url}.prototype.${member.name}`;
         index[label] = { ...member, label, url: memberUrl };
