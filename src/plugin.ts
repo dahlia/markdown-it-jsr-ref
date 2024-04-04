@@ -1,4 +1,5 @@
 import { escape } from "@std/html";
+// @deno-types="npm:@types/markdown-it@^13.0.7"
 import type MarkdownIt from "markdown-it";
 import type { PluginSimple } from "markdown-it";
 import {
@@ -67,7 +68,18 @@ export async function jsrRef(options: Options): Promise<PluginSimple> {
     );
   }
   return (md: MarkdownIt) => {
-    md.renderer.rules.code_inline = (tokens, idx, _options, _env, self) => {
+    md.renderer.rules.code_inline = (
+      // deno-lint-ignore no-explicit-any
+      tokens: any,
+      // deno-lint-ignore no-explicit-any
+      idx: any,
+      // deno-lint-ignore no-explicit-any
+      _options: any,
+      // deno-lint-ignore no-explicit-any
+      _env: any,
+      // deno-lint-ignore no-explicit-any
+      self: any,
+    ) => {
       const token = tokens[idx];
       let label = token.content;
       const entry = index[label];

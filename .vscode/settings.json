@@ -19,5 +19,7 @@
       "source.sortImports": "always"
     }
   },
-  "cSpell.words": []
+  "cSpell.words": [
+    "markdownit"
+  ]
 }
