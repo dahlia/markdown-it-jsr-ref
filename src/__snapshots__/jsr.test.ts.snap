@@ -1824,6 +1824,14 @@ snapshot[`fetchRootSymbols() 1`] = `
 snapshot[`fetchSymbolMembers() 1`] = `
 [
   {
+    kind: "property",
+    name: "data",
+  },
+  {
+    kind: "property",
+    name: "documentLoader",
+  },
+  {
     index: 0,
     kind: "call_signature",
     name: "getNodeInfoUri",
@@ -1891,6 +1899,182 @@ snapshot[`fetchSymbolMembers() 2`] = `
   {
     index: 0,
     kind: "constructor",
+  },
+  {
+    kind: "accessor",
+    name: "_documentLoader",
+  },
+  {
+    kind: "accessor",
+    name: "attachmentIds",
+  },
+  {
+    kind: "accessor",
+    name: "attributionId",
+  },
+  {
+    kind: "accessor",
+    name: "attributionIds",
+  },
+  {
+    kind: "accessor",
+    name: "audienceId",
+  },
+  {
+    kind: "accessor",
+    name: "audienceIds",
+  },
+  {
+    kind: "accessor",
+    name: "bccId",
+  },
+  {
+    kind: "accessor",
+    name: "bccIds",
+  },
+  {
+    kind: "accessor",
+    name: "btoId",
+  },
+  {
+    kind: "accessor",
+    name: "btoIds",
+  },
+  {
+    kind: "accessor",
+    name: "ccId",
+  },
+  {
+    kind: "accessor",
+    name: "ccIds",
+  },
+  {
+    kind: "accessor",
+    name: "content",
+  },
+  {
+    kind: "accessor",
+    name: "contents",
+  },
+  {
+    kind: "accessor",
+    name: "contextIds",
+  },
+  {
+    kind: "accessor",
+    name: "duration",
+  },
+  {
+    kind: "accessor",
+    name: "endTime",
+  },
+  {
+    kind: "accessor",
+    name: "generatorIds",
+  },
+  {
+    kind: "accessor",
+    name: "iconId",
+  },
+  {
+    kind: "accessor",
+    name: "iconIds",
+  },
+  {
+    kind: "property",
+    name: "id",
+  },
+  {
+    kind: "accessor",
+    name: "imageId",
+  },
+  {
+    kind: "accessor",
+    name: "imageIds",
+  },
+  {
+    kind: "accessor",
+    name: "locationId",
+  },
+  {
+    kind: "accessor",
+    name: "locationIds",
+  },
+  {
+    kind: "accessor",
+    name: "mediaType",
+  },
+  {
+    kind: "accessor",
+    name: "name",
+  },
+  {
+    kind: "accessor",
+    name: "names",
+  },
+  {
+    kind: "accessor",
+    name: "previewId",
+  },
+  {
+    kind: "accessor",
+    name: "previewIds",
+  },
+  {
+    kind: "accessor",
+    name: "published",
+  },
+  {
+    kind: "accessor",
+    name: "repliesId",
+  },
+  {
+    kind: "accessor",
+    name: "replyTargetId",
+  },
+  {
+    kind: "accessor",
+    name: "replyTargetIds",
+  },
+  {
+    kind: "accessor",
+    name: "sensitive",
+  },
+  {
+    kind: "accessor",
+    name: "startTime",
+  },
+  {
+    kind: "accessor",
+    name: "summaries",
+  },
+  {
+    kind: "accessor",
+    name: "summary",
+  },
+  {
+    kind: "accessor",
+    name: "tagIds",
+  },
+  {
+    kind: "accessor",
+    name: "toId",
+  },
+  {
+    kind: "accessor",
+    name: "toIds",
+  },
+  {
+    kind: "accessor",
+    name: "updated",
+  },
+  {
+    kind: "accessor",
+    name: "url",
+  },
+  {
+    kind: "accessor",
+    name: "urls",
   },
   {
     index: 0,
@@ -2570,6 +2754,22 @@ snapshot[`fetchRootSymbolsWithMembers() 2`] = `
         kind: "constructor",
       },
       {
+        kind: "accessor",
+        name: "length",
+      },
+      {
+        kind: "property",
+        name: "start",
+      },
+      {
+        kind: "property",
+        name: "step",
+      },
+      {
+        kind: "property",
+        name: "stop",
+      },
+      {
         index: 0,
         kind: "method",
         name: "[Symbol_asyncIterator]",
@@ -2637,6 +2837,30 @@ snapshot[`fetchIndex() 2`] = `
     name: "at",
     static: false,
     url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/Range.prototype.at",
+  },
+  "Range.length": {
+    kind: "accessor",
+    label: "Range.length",
+    name: "length",
+    url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/Range.prototype.length",
+  },
+  "Range.start": {
+    kind: "property",
+    label: "Range.start",
+    name: "start",
+    url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/Range.prototype.start",
+  },
+  "Range.step": {
+    kind: "property",
+    label: "Range.step",
+    name: "step",
+    url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/Range.prototype.step",
+  },
+  "Range.stop": {
+    kind: "property",
+    label: "Range.stop",
+    name: "stop",
+    url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/Range.prototype.stop",
   },
   "Range.toString()": {
     index: 0,
@@ -3090,6 +3314,30 @@ snapshot[`fetchIndex() 2`] = `
     static: false,
     url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/Range.prototype.at",
   },
+  "~Range.length": {
+    kind: "accessor",
+    label: "length",
+    name: "length",
+    url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/Range.prototype.length",
+  },
+  "~Range.start": {
+    kind: "property",
+    label: "start",
+    name: "start",
+    url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/Range.prototype.start",
+  },
+  "~Range.step": {
+    kind: "property",
+    label: "step",
+    name: "step",
+    url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/Range.prototype.step",
+  },
+  "~Range.stop": {
+    kind: "property",
+    label: "stop",
+    name: "stop",
+    url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/Range.prototype.stop",
+  },
   "~Range.toString()": {
     index: 0,
     kind: "method",
@@ -3116,6 +3364,22 @@ snapshot[`fetchIndex() 2`] = `
       {
         index: 0,
         kind: "constructor",
+      },
+      {
+        kind: "accessor",
+        name: "length",
+      },
+      {
+        kind: "property",
+        name: "start",
+      },
+      {
+        kind: "property",
+        name: "step",
+      },
+      {
+        kind: "property",
+        name: "stop",
       },
       {
         index: 0,

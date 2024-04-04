@@ -111,9 +111,9 @@ export async function fetchSymbolMembers(
         kind: match[2] as "call_signature" | "method",
         name: match[3],
         index: Number(match[4]),
-        static: staticMethods,
+        static: match[2] === "method" && staticMethods,
       });
-    } else if (match[2] === "accessor" || match[2] === "property") {
+    } else if (match[5] === "accessor" || match[5] === "property") {
       members.push({
         kind: match[5] as "accessor" | "property",
         name: match[6],
@@ -220,7 +220,8 @@ export async function fetchIndex(
         if (label in index) continue;
         const memberUrl = member.kind === "constructor"
           ? `${url}#constructor_${member.index}`
-          : member.kind === "method" && member.static
+          : member.kind === "method" && member.static ||
+              member.kind === "call_signature"
           ? `${url}.${member.name}`
           : `${url}.prototype.${member.name}`;
         index[label] = { ...member, label, url: memberUrl };
