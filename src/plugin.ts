@@ -80,9 +80,19 @@ export async function jsrRef(options: Options): Promise<PluginSimple> {
       // deno-lint-ignore no-explicit-any
       self: any,
     ) => {
+      let depth = 0;
+      for (let i = idx - 1; i >= 0; i--) {
+        const token = tokens[i];
+        if (token.type === "link_close") {
+          depth++;
+        } else if (token.type === "link_open") {
+          depth--;
+          if (depth < 0) break;
+        }
+      }
       const token = tokens[idx];
       let label = token.content;
-      const entry = index[label];
+      const entry = depth < 0 ? null : index[label];
       if (entry != null) {
         label = entry.label;
       }

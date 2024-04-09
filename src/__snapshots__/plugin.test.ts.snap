@@ -8,6 +8,7 @@ snapshot[`jsrRef() 1`] = `
 <li><a href="https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/Range.prototype.at"><code>Range.at()</code></a></li>
 <li><a href="https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/Range.prototype.at"><code>at()</code></a></li>
 <li><a href="https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/take"><code>take()</code></a></li>
+<li><a href="test.html">code already inside a link: <code>Range</code></a></li>
 </ul>
 '
 `;

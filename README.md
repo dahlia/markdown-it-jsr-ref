@@ -27,7 +27,7 @@ and rendered as:
 > The [`jsrRef()`] function takes [`Options`] object as its argument.
 
 [JSR]: https://jsr.io/@hongminhee/markdown-it-jsr-ref
-[JSR badge]: https://jsr.io/badges/@hongminhee/markdown-it-jsr-ref?
+[JSR badge]: https://jsr.io/badges/@hongminhee/markdown-it-jsr-ref?v=0.2.0
 [npm]: https://www.npmjs.com/package/markdown-it-jsr-ref
 [npm badge]: https://img.shields.io/npm/v/markdown-it-jsr-ref?logo=npm
 [GitHub Actions]: https://github.com/dahlia/markdown-it-jsr-ref/actions/workflows/main.yaml
