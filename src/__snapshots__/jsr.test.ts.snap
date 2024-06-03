@@ -7,522 +7,13 @@ snapshot[`fetchRootSymbols() 1`] = `
     deprecated: false,
     file: ".",
     kind: [
-      "function",
-    ],
-    location: {
-      byteIndex: 220,
-      col: 0,
-      filename: "webfinger/lookup.ts",
-      line: 9,
-    },
-    name: "lookupWebFinger",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: ".",
-    kind: [
-      "interface",
-    ],
-    location: {
-      byteIndex: 129,
-      col: 0,
-      filename: "webfinger/jrd.ts",
-      line: 5,
-    },
-    name: "ResourceDescriptor",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: ".",
-    kind: [
-      "typeAlias",
-    ],
-    location: {
-      byteIndex: 116,
-      col: 0,
-      filename: "nodeinfo/types.ts",
-      line: 6,
-    },
-    name: "JsonValue",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: ".",
-    kind: [
-      "interface",
-    ],
-    location: {
-      byteIndex: 314,
-      col: 0,
-      filename: "nodeinfo/types.ts",
-      line: 17,
-    },
-    name: "NodeInfo",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: ".",
-    kind: [
-      "interface",
-    ],
-    location: {
-      byteIndex: 1082,
-      col: 0,
-      filename: "nodeinfo/types.ts",
-      line: 54,
-    },
-    name: "Software",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: ".",
-    kind: [
-      "typeAlias",
-    ],
-    location: {
-      byteIndex: 1555,
-      col: 0,
-      filename: "nodeinfo/types.ts",
-      line: 80,
-    },
-    name: "Protocol",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: ".",
-    kind: [
-      "interface",
-    ],
-    location: {
-      byteIndex: 1842,
-      col: 0,
-      filename: "nodeinfo/types.ts",
-      line: 96,
-    },
-    name: "Services",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: ".",
-    kind: [
-      "typeAlias",
-    ],
-    location: {
-      byteIndex: 2285,
-      col: 0,
-      filename: "nodeinfo/types.ts",
-      line: 114,
-    },
-    name: "InboundService",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: ".",
-    kind: [
-      "typeAlias",
-    ],
-    location: {
-      byteIndex: 2555,
-      col: 0,
-      filename: "nodeinfo/types.ts",
-      line: 129,
-    },
-    name: "OutboundService",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: ".",
-    kind: [
-      "interface",
-    ],
-    location: {
-      byteIndex: 3083,
-      col: 0,
-      filename: "nodeinfo/types.ts",
-      line: 163,
-    },
-    name: "Usage",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: ".",
-    kind: [
-      "function",
-    ],
-    location: {
-      byteIndex: 4382,
-      col: 0,
-      filename: "nodeinfo/types.ts",
-      line: 206,
-    },
-    name: "nodeInfoToJson",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: ".",
-    kind: [
-      "interface",
-    ],
-    location: {
-      byteIndex: 311,
-      col: 0,
-      filename: "runtime/docloader.ts",
-      line: 10,
-    },
-    name: "RemoteDocument",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: ".",
-    kind: [
-      "typeAlias",
-    ],
-    location: {
-      byteIndex: 582,
-      col: 0,
-      filename: "runtime/docloader.ts",
-      line: 21,
-    },
-    name: "DocumentLoader",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: ".",
-    kind: [
-      "typeAlias",
-    ],
-    location: {
-      byteIndex: 1002,
-      col: 0,
-      filename: "runtime/docloader.ts",
-      line: 32,
-    },
-    name: "AuthenticatedDocumentLoaderFactory",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: ".",
-    kind: [
       "class",
-    ],
-    location: {
-      byteIndex: 1191,
-      col: 0,
-      filename: "runtime/docloader.ts",
-      line: 39,
-    },
-    name: "FetchError",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: ".",
-    kind: [
-      "function",
-    ],
-    location: {
-      byteIndex: 2382,
-      col: 0,
-      filename: "runtime/docloader.ts",
-      line: 90,
-    },
-    name: "fetchDocumentLoader",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: ".",
-    kind: [
-      "function",
-    ],
-    location: {
-      byteIndex: 2977,
-      col: 0,
-      filename: "runtime/docloader.ts",
-      line: 107,
-    },
-    name: "getAuthenticatedDocumentLoader",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: ".",
-    kind: [
-      "interface",
-    ],
-    location: {
-      byteIndex: 3459,
-      col: 0,
-      filename: "runtime/docloader.ts",
-      line: 122,
-    },
-    name: "KvCacheParameters",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: ".",
-    kind: [
-      "function",
-    ],
-    location: {
-      byteIndex: 4532,
-      col: 0,
-      filename: "runtime/docloader.ts",
-      line: 159,
-    },
-    name: "kvCache",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: ".",
-    kind: [
-      "function",
-    ],
-    location: {
-      byteIndex: 235,
-      col: 0,
-      filename: "runtime/key.ts",
-      line: 9,
-    },
-    name: "importSpki",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: ".",
-    kind: [
-      "function",
-    ],
-    location: {
-      byteIndex: 769,
-      col: 0,
-      filename: "runtime/key.ts",
-      line: 28,
-    },
-    name: "exportSpki",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: ".",
-    kind: [
-      "class",
-    ],
-    location: {
-      byteIndex: 173,
-      col: 0,
-      filename: "runtime/langstr.ts",
-      line: 6,
-    },
-    name: "LanguageString",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: ".",
-    kind: [
-      "typeAlias",
-    ],
-    location: {
-      byteIndex: 233,
-      col: 0,
-      filename: "vocab/actor.ts",
-      line: 8,
-    },
-    name: "Actor",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: ".",
-    kind: [
-      "function",
-    ],
-    location: {
-      byteIndex: 466,
-      col: 0,
-      filename: "vocab/actor.ts",
-      line: 15,
-    },
-    name: "isActor",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: ".",
-    kind: [
-      "typeAlias",
-    ],
-    location: {
-      byteIndex: 771,
-      col: 0,
-      filename: "vocab/actor.ts",
-      line: 28,
-    },
-    name: "ActorTypeName",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: ".",
-    kind: [
-      "function",
-    ],
-    location: {
-      byteIndex: 1024,
-      col: 0,
-      filename: "vocab/actor.ts",
-      line: 40,
-    },
-    name: "getActorTypeName",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: ".",
-    kind: [
-      "function",
-    ],
-    location: {
-      byteIndex: 1588,
-      col: 0,
-      filename: "vocab/actor.ts",
-      line: 56,
-    },
-    name: "getActorClassByTypeName",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: ".",
-    kind: [
-      "function",
-    ],
-    location: {
-      byteIndex: 2778,
-      col: 0,
-      filename: "vocab/actor.ts",
-      line: 101,
-    },
-    name: "getActorHandle",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: ".",
-    kind: [
-      "interface",
-    ],
-    location: {
-      byteIndex: 256,
-      col: 0,
-      filename: "vocab/lookup.ts",
-      line: 13,
-    },
-    name: "LookupObjectOptions",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: ".",
-    kind: [
-      "function",
-    ],
-    location: {
-      byteIndex: 1472,
-      col: 0,
-      filename: "vocab/lookup.ts",
-      line: 52,
-    },
-    name: "lookupObject",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: ".",
-    kind: [
-      "class",
-    ],
-    location: {
-      byteIndex: 502,
-      col: 0,
-      filename: "vocab/vocab.ts",
-      line: 15,
-    },
-    name: "PropertyValue",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: ".",
-    kind: [
-      "class",
-    ],
-    location: {
-      byteIndex: 9190,
-      col: 0,
-      filename: "vocab/vocab.ts",
-      line: 277,
-    },
-    name: "CryptographicKey",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: ".",
-    kind: [
-      "class",
-    ],
-    location: {
-      byteIndex: 21803,
-      col: 0,
-      filename: "vocab/vocab.ts",
-      line: 675,
-    },
-    name: "Object",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: ".",
-    kind: [
-      "class",
-    ],
-    location: {
-      byteIndex: 164668,
-      col: 0,
-      filename: "vocab/vocab.ts",
-      line: 5096,
-    },
-    name: "Activity",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: ".",
-    kind: [
       "class",
     ],
     location: {
       byteIndex: 189890,
       col: 0,
-      filename: "vocab/vocab.ts",
+      filename: "",
       line: 5921,
     },
     name: "Accept",
@@ -533,11 +24,60 @@ snapshot[`fetchRootSymbols() 1`] = `
     file: ".",
     kind: [
       "class",
+      "class",
+    ],
+    location: {
+      byteIndex: 164668,
+      col: 0,
+      filename: "",
+      line: 5096,
+    },
+    name: "Activity",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: ".",
+    kind: [
+      "typeAlias",
+      "typeAlias",
+    ],
+    location: {
+      byteIndex: 233,
+      col: 0,
+      filename: "",
+      line: 8,
+    },
+    name: "Actor",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: ".",
+    kind: [
+      "typeAlias",
+      "typeAlias",
+    ],
+    location: {
+      byteIndex: 771,
+      col: 0,
+      filename: "",
+      line: 28,
+    },
+    name: "ActorTypeName",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: ".",
+    kind: [
+      "class",
+      "class",
     ],
     location: {
       byteIndex: 198311,
       col: 0,
-      filename: "vocab/vocab.ts",
+      filename: "",
       line: 6183,
     },
     name: "Add",
@@ -548,11 +88,12 @@ snapshot[`fetchRootSymbols() 1`] = `
     file: ".",
     kind: [
       "class",
+      "class",
     ],
     location: {
       byteIndex: 206533,
       col: 0,
-      filename: "vocab/vocab.ts",
+      filename: "",
       line: 6442,
     },
     name: "Announce",
@@ -563,11 +104,12 @@ snapshot[`fetchRootSymbols() 1`] = `
     file: ".",
     kind: [
       "class",
+      "class",
     ],
     location: {
       byteIndex: 214730,
       col: 0,
-      filename: "vocab/vocab.ts",
+      filename: "",
       line: 6701,
     },
     name: "Application",
@@ -578,11 +120,12 @@ snapshot[`fetchRootSymbols() 1`] = `
     file: ".",
     kind: [
       "class",
+      "class",
     ],
     location: {
       byteIndex: 265549,
       col: 0,
-      filename: "vocab/vocab.ts",
+      filename: "",
       line: 8212,
     },
     name: "Article",
@@ -593,26 +136,12 @@ snapshot[`fetchRootSymbols() 1`] = `
     file: ".",
     kind: [
       "class",
-    ],
-    location: {
-      byteIndex: 273155,
-      col: 0,
-      filename: "vocab/vocab.ts",
-      line: 8449,
-    },
-    name: "Document",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: ".",
-    kind: [
       "class",
     ],
     location: {
       byteIndex: 281568,
       col: 0,
-      filename: "vocab/vocab.ts",
+      filename: "",
       line: 8714,
     },
     name: "Audio",
@@ -622,15 +151,16 @@ snapshot[`fetchRootSymbols() 1`] = `
     deprecated: false,
     file: ".",
     kind: [
-      "class",
+      "typeAlias",
+      "typeAlias",
     ],
     location: {
-      byteIndex: 289218,
+      byteIndex: 1002,
       col: 0,
-      filename: "vocab/vocab.ts",
-      line: 8950,
+      filename: "",
+      line: 32,
     },
-    name: "Ignore",
+    name: "AuthenticatedDocumentLoaderFactory",
   },
   {
     declarationKind: "export",
@@ -638,11 +168,12 @@ snapshot[`fetchRootSymbols() 1`] = `
     file: ".",
     kind: [
       "class",
+      "class",
     ],
     location: {
       byteIndex: 297844,
       col: 0,
-      filename: "vocab/vocab.ts",
+      filename: "",
       line: 9219,
     },
     name: "Block",
@@ -653,11 +184,12 @@ snapshot[`fetchRootSymbols() 1`] = `
     file: ".",
     kind: [
       "class",
+      "class",
     ],
     location: {
       byteIndex: 306203,
       col: 0,
-      filename: "vocab/vocab.ts",
+      filename: "",
       line: 9480,
     },
     name: "Collection",
@@ -668,11 +200,12 @@ snapshot[`fetchRootSymbols() 1`] = `
     file: ".",
     kind: [
       "class",
+      "class",
     ],
     location: {
       byteIndex: 337583,
       col: 0,
-      filename: "vocab/vocab.ts",
+      filename: "",
       line: 10432,
     },
     name: "CollectionPage",
@@ -683,11 +216,12 @@ snapshot[`fetchRootSymbols() 1`] = `
     file: ".",
     kind: [
       "class",
+      "class",
     ],
     location: {
       byteIndex: 360256,
       col: 0,
-      filename: "vocab/vocab.ts",
+      filename: "",
       line: 11133,
     },
     name: "Create",
@@ -698,11 +232,28 @@ snapshot[`fetchRootSymbols() 1`] = `
     file: ".",
     kind: [
       "class",
+      "class",
+    ],
+    location: {
+      byteIndex: 9190,
+      col: 0,
+      filename: "",
+      line: 277,
+    },
+    name: "CryptographicKey",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: ".",
+    kind: [
+      "class",
+      "class",
     ],
     location: {
       byteIndex: 368542,
       col: 0,
-      filename: "vocab/vocab.ts",
+      filename: "",
       line: 11393,
     },
     name: "Delete",
@@ -713,11 +264,12 @@ snapshot[`fetchRootSymbols() 1`] = `
     file: ".",
     kind: [
       "class",
+      "class",
     ],
     location: {
       byteIndex: 376735,
       col: 0,
-      filename: "vocab/vocab.ts",
+      filename: "",
       line: 11652,
     },
     name: "Dislike",
@@ -728,11 +280,44 @@ snapshot[`fetchRootSymbols() 1`] = `
     file: ".",
     kind: [
       "class",
+      "class",
+    ],
+    location: {
+      byteIndex: 273155,
+      col: 0,
+      filename: "",
+      line: 8449,
+    },
+    name: "Document",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: ".",
+    kind: [
+      "typeAlias",
+      "typeAlias",
+    ],
+    location: {
+      byteIndex: 582,
+      col: 0,
+      filename: "",
+      line: 21,
+    },
+    name: "DocumentLoader",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: ".",
+    kind: [
+      "class",
+      "class",
     ],
     location: {
       byteIndex: 384929,
       col: 0,
-      filename: "vocab/vocab.ts",
+      filename: "",
       line: 11911,
     },
     name: "Endpoints",
@@ -743,11 +328,12 @@ snapshot[`fetchRootSymbols() 1`] = `
     file: ".",
     kind: [
       "class",
+      "class",
     ],
     location: {
       byteIndex: 400437,
       col: 0,
-      filename: "vocab/vocab.ts",
+      filename: "",
       line: 12354,
     },
     name: "Event",
@@ -758,11 +344,28 @@ snapshot[`fetchRootSymbols() 1`] = `
     file: ".",
     kind: [
       "class",
+      "class",
+    ],
+    location: {
+      byteIndex: 1191,
+      col: 0,
+      filename: "",
+      line: 39,
+    },
+    name: "FetchError",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: ".",
+    kind: [
+      "class",
+      "class",
     ],
     location: {
       byteIndex: 408165,
       col: 0,
-      filename: "vocab/vocab.ts",
+      filename: "",
       line: 12591,
     },
     name: "Flag",
@@ -773,11 +376,12 @@ snapshot[`fetchRootSymbols() 1`] = `
     file: ".",
     kind: [
       "class",
+      "class",
     ],
     location: {
       byteIndex: 416546,
       col: 0,
-      filename: "vocab/vocab.ts",
+      filename: "",
       line: 12851,
     },
     name: "Follow",
@@ -788,11 +392,12 @@ snapshot[`fetchRootSymbols() 1`] = `
     file: ".",
     kind: [
       "class",
+      "class",
     ],
     location: {
       byteIndex: 424743,
       col: 0,
-      filename: "vocab/vocab.ts",
+      filename: "",
       line: 13110,
     },
     name: "Group",
@@ -803,11 +408,28 @@ snapshot[`fetchRootSymbols() 1`] = `
     file: ".",
     kind: [
       "class",
+      "class",
+    ],
+    location: {
+      byteIndex: 289218,
+      col: 0,
+      filename: "",
+      line: 8950,
+    },
+    name: "Ignore",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: ".",
+    kind: [
+      "class",
+      "class",
     ],
     location: {
       byteIndex: 475411,
       col: 0,
-      filename: "vocab/vocab.ts",
+      filename: "",
       line: 14619,
     },
     name: "Image",
@@ -817,12 +439,29 @@ snapshot[`fetchRootSymbols() 1`] = `
     deprecated: false,
     file: ".",
     kind: [
+      "typeAlias",
+      "typeAlias",
+    ],
+    location: {
+      byteIndex: 2285,
+      col: 0,
+      filename: "",
+      line: 114,
+    },
+    name: "InboundService",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: ".",
+    kind: [
+      "class",
       "class",
     ],
     location: {
       byteIndex: 483126,
       col: 0,
-      filename: "vocab/vocab.ts",
+      filename: "",
       line: 14856,
     },
     name: "IntransitiveActivity",
@@ -832,12 +471,61 @@ snapshot[`fetchRootSymbols() 1`] = `
     deprecated: false,
     file: ".",
     kind: [
+      "typeAlias",
+      "typeAlias",
+    ],
+    location: {
+      byteIndex: 116,
+      col: 0,
+      filename: "",
+      line: 6,
+    },
+    name: "JsonValue",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: ".",
+    kind: [
+      "interface",
+      "interface",
+    ],
+    location: {
+      byteIndex: 3459,
+      col: 0,
+      filename: "",
+      line: 122,
+    },
+    name: "KvCacheParameters",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: ".",
+    kind: [
+      "class",
+      "class",
+    ],
+    location: {
+      byteIndex: 173,
+      col: 0,
+      filename: "",
+      line: 6,
+    },
+    name: "LanguageString",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: ".",
+    kind: [
+      "class",
       "class",
     ],
     location: {
       byteIndex: 491576,
       col: 0,
-      filename: "vocab/vocab.ts",
+      filename: "",
       line: 15121,
     },
     name: "Like",
@@ -848,12 +536,13 @@ snapshot[`fetchRootSymbols() 1`] = `
     file: ".",
     kind: [
       "class",
+      "class",
       "interface",
     ],
     location: {
       byteIndex: 500228,
       col: 0,
-      filename: "vocab/vocab.ts",
+      filename: "",
       line: 15385,
     },
     name: "Link",
@@ -863,12 +552,29 @@ snapshot[`fetchRootSymbols() 1`] = `
     deprecated: false,
     file: ".",
     kind: [
+      "interface",
+      "interface",
+    ],
+    location: {
+      byteIndex: 256,
+      col: 0,
+      filename: "",
+      line: 13,
+    },
+    name: "LookupObjectOptions",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: ".",
+    kind: [
+      "class",
       "class",
     ],
     location: {
       byteIndex: 525824,
       col: 0,
-      filename: "vocab/vocab.ts",
+      filename: "",
       line: 16149,
     },
     name: "Mention",
@@ -878,12 +584,29 @@ snapshot[`fetchRootSymbols() 1`] = `
     deprecated: false,
     file: ".",
     kind: [
+      "interface",
+      "interface",
+    ],
+    location: {
+      byteIndex: 314,
+      col: 0,
+      filename: "",
+      line: 17,
+    },
+    name: "NodeInfo",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: ".",
+    kind: [
+      "class",
       "class",
     ],
     location: {
       byteIndex: 530536,
       col: 0,
-      filename: "vocab/vocab.ts",
+      filename: "",
       line: 16307,
     },
     name: "Note",
@@ -894,11 +617,28 @@ snapshot[`fetchRootSymbols() 1`] = `
     file: ".",
     kind: [
       "class",
+      "class",
+    ],
+    location: {
+      byteIndex: 21803,
+      col: 0,
+      filename: "",
+      line: 675,
+    },
+    name: "Object",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: ".",
+    kind: [
+      "class",
+      "class",
     ],
     location: {
       byteIndex: 538177,
       col: 0,
-      filename: "vocab/vocab.ts",
+      filename: "",
       line: 16543,
     },
     name: "OrderedCollection",
@@ -909,11 +649,12 @@ snapshot[`fetchRootSymbols() 1`] = `
     file: ".",
     kind: [
       "class",
+      "class",
     ],
     location: {
       byteIndex: 546496,
       col: 0,
-      filename: "vocab/vocab.ts",
+      filename: "",
       line: 16794,
     },
     name: "OrderedCollectionPage",
@@ -924,11 +665,12 @@ snapshot[`fetchRootSymbols() 1`] = `
     file: ".",
     kind: [
       "class",
+      "class",
     ],
     location: {
       byteIndex: 556647,
       col: 0,
-      filename: "vocab/vocab.ts",
+      filename: "",
       line: 17100,
     },
     name: "Organization",
@@ -938,12 +680,29 @@ snapshot[`fetchRootSymbols() 1`] = `
     deprecated: false,
     file: ".",
     kind: [
+      "typeAlias",
+      "typeAlias",
+    ],
+    location: {
+      byteIndex: 2555,
+      col: 0,
+      filename: "",
+      line: 129,
+    },
+    name: "OutboundService",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: ".",
+    kind: [
+      "class",
       "class",
     ],
     location: {
       byteIndex: 607454,
       col: 0,
-      filename: "vocab/vocab.ts",
+      filename: "",
       line: 18611,
     },
     name: "Page",
@@ -954,11 +713,12 @@ snapshot[`fetchRootSymbols() 1`] = `
     file: ".",
     kind: [
       "class",
+      "class",
     ],
     location: {
       byteIndex: 615009,
       col: 0,
-      filename: "vocab/vocab.ts",
+      filename: "",
       line: 18846,
     },
     name: "Person",
@@ -969,11 +729,12 @@ snapshot[`fetchRootSymbols() 1`] = `
     file: ".",
     kind: [
       "class",
+      "class",
     ],
     location: {
       byteIndex: 665851,
       col: 0,
-      filename: "vocab/vocab.ts",
+      filename: "",
       line: 20359,
     },
     name: "Place",
@@ -984,11 +745,12 @@ snapshot[`fetchRootSymbols() 1`] = `
     file: ".",
     kind: [
       "class",
+      "class",
     ],
     location: {
       byteIndex: 683998,
       col: 0,
-      filename: "vocab/vocab.ts",
+      filename: "",
       line: 20885,
     },
     name: "Profile",
@@ -999,11 +761,44 @@ snapshot[`fetchRootSymbols() 1`] = `
     file: ".",
     kind: [
       "class",
+      "class",
+    ],
+    location: {
+      byteIndex: 502,
+      col: 0,
+      filename: "",
+      line: 15,
+    },
+    name: "PropertyValue",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: ".",
+    kind: [
+      "typeAlias",
+      "typeAlias",
+    ],
+    location: {
+      byteIndex: 1555,
+      col: 0,
+      filename: "",
+      line: 80,
+    },
+    name: "Protocol",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: ".",
+    kind: [
+      "class",
+      "class",
     ],
     location: {
       byteIndex: 695307,
       col: 0,
-      filename: "vocab/vocab.ts",
+      filename: "",
       line: 21237,
     },
     name: "Reject",
@@ -1014,11 +809,12 @@ snapshot[`fetchRootSymbols() 1`] = `
     file: ".",
     kind: [
       "class",
+      "class",
     ],
     location: {
       byteIndex: 703787,
       col: 0,
-      filename: "vocab/vocab.ts",
+      filename: "",
       line: 21502,
     },
     name: "Relationship",
@@ -1028,12 +824,29 @@ snapshot[`fetchRootSymbols() 1`] = `
     deprecated: false,
     file: ".",
     kind: [
+      "interface",
+      "interface",
+    ],
+    location: {
+      byteIndex: 311,
+      col: 0,
+      filename: "",
+      line: 10,
+    },
+    name: "RemoteDocument",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: ".",
+    kind: [
+      "class",
       "class",
     ],
     location: {
       byteIndex: 726416,
       col: 0,
-      filename: "vocab/vocab.ts",
+      filename: "",
       line: 22227,
     },
     name: "Remove",
@@ -1043,12 +856,29 @@ snapshot[`fetchRootSymbols() 1`] = `
     deprecated: false,
     file: ".",
     kind: [
+      "interface",
+      "interface",
+    ],
+    location: {
+      byteIndex: 129,
+      col: 0,
+      filename: "",
+      line: 5,
+    },
+    name: "ResourceDescriptor",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: ".",
+    kind: [
+      "class",
       "class",
     ],
     location: {
       byteIndex: 734593,
       col: 0,
-      filename: "vocab/vocab.ts",
+      filename: "",
       line: 22486,
     },
     name: "Service",
@@ -1058,12 +888,45 @@ snapshot[`fetchRootSymbols() 1`] = `
     deprecated: false,
     file: ".",
     kind: [
+      "interface",
+      "interface",
+    ],
+    location: {
+      byteIndex: 1842,
+      col: 0,
+      filename: "",
+      line: 96,
+    },
+    name: "Services",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: ".",
+    kind: [
+      "interface",
+      "interface",
+    ],
+    location: {
+      byteIndex: 1082,
+      col: 0,
+      filename: "",
+      line: 54,
+    },
+    name: "Software",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: ".",
+    kind: [
+      "class",
       "class",
     ],
     location: {
       byteIndex: 785669,
       col: 0,
-      filename: "vocab/vocab.ts",
+      filename: "",
       line: 24003,
     },
     name: "Undo",
@@ -1074,11 +937,12 @@ snapshot[`fetchRootSymbols() 1`] = `
     file: ".",
     kind: [
       "class",
+      "class",
     ],
     location: {
       byteIndex: 794027,
       col: 0,
-      filename: "vocab/vocab.ts",
+      filename: "",
       line: 24264,
     },
     name: "Update",
@@ -1088,12 +952,29 @@ snapshot[`fetchRootSymbols() 1`] = `
     deprecated: false,
     file: ".",
     kind: [
+      "interface",
+      "interface",
+    ],
+    location: {
+      byteIndex: 3083,
+      col: 0,
+      filename: "",
+      line: 163,
+    },
+    name: "Usage",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: ".",
+    kind: [
+      "class",
       "class",
     ],
     location: {
       byteIndex: 802211,
       col: 0,
-      filename: "vocab/vocab.ts",
+      filename: "",
       line: 24523,
     },
     name: "Video",
@@ -1101,32 +982,194 @@ snapshot[`fetchRootSymbols() 1`] = `
   {
     declarationKind: "export",
     deprecated: false,
-    file: "/federation",
+    file: ".",
     kind: [
+      "function",
       "function",
     ],
     location: {
-      byteIndex: 11150,
+      byteIndex: 769,
       col: 0,
-      filename: "federation/handler.ts",
-      line: 364,
+      filename: "",
+      line: 28,
     },
-    name: "respondWithObject",
+    name: "exportSpki",
   },
   {
     declarationKind: "export",
     deprecated: false,
-    file: "/federation",
+    file: ".",
     kind: [
+      "function",
       "function",
     ],
     location: {
-      byteIndex: 11701,
+      byteIndex: 2382,
       col: 0,
-      filename: "federation/handler.ts",
-      line: 385,
+      filename: "",
+      line: 90,
     },
-    name: "respondWithObjectIfAcceptable",
+    name: "fetchDocumentLoader",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: ".",
+    kind: [
+      "function",
+      "function",
+    ],
+    location: {
+      byteIndex: 1588,
+      col: 0,
+      filename: "",
+      line: 56,
+    },
+    name: "getActorClassByTypeName",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: ".",
+    kind: [
+      "function",
+      "function",
+    ],
+    location: {
+      byteIndex: 2778,
+      col: 0,
+      filename: "",
+      line: 101,
+    },
+    name: "getActorHandle",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: ".",
+    kind: [
+      "function",
+      "function",
+    ],
+    location: {
+      byteIndex: 1024,
+      col: 0,
+      filename: "",
+      line: 40,
+    },
+    name: "getActorTypeName",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: ".",
+    kind: [
+      "function",
+      "function",
+    ],
+    location: {
+      byteIndex: 2977,
+      col: 0,
+      filename: "",
+      line: 107,
+    },
+    name: "getAuthenticatedDocumentLoader",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: ".",
+    kind: [
+      "function",
+      "function",
+    ],
+    location: {
+      byteIndex: 235,
+      col: 0,
+      filename: "",
+      line: 9,
+    },
+    name: "importSpki",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: ".",
+    kind: [
+      "function",
+      "function",
+    ],
+    location: {
+      byteIndex: 466,
+      col: 0,
+      filename: "",
+      line: 15,
+    },
+    name: "isActor",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: ".",
+    kind: [
+      "function",
+      "function",
+    ],
+    location: {
+      byteIndex: 4532,
+      col: 0,
+      filename: "",
+      line: 159,
+    },
+    name: "kvCache",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: ".",
+    kind: [
+      "function",
+      "function",
+    ],
+    location: {
+      byteIndex: 1472,
+      col: 0,
+      filename: "",
+      line: 52,
+    },
+    name: "lookupObject",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: ".",
+    kind: [
+      "function",
+      "function",
+    ],
+    location: {
+      byteIndex: 220,
+      col: 0,
+      filename: "",
+      line: 9,
+    },
+    name: "lookupWebFinger",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: ".",
+    kind: [
+      "function",
+      "function",
+    ],
+    location: {
+      byteIndex: 4382,
+      col: 0,
+      filename: "",
+      line: 206,
+    },
+    name: "nodeInfoToJson",
   },
   {
     declarationKind: "export",
@@ -1134,14 +1177,15 @@ snapshot[`fetchRootSymbols() 1`] = `
     file: "/federation",
     kind: [
       "interface",
+      "interface",
     ],
     location: {
-      byteIndex: 10849,
+      byteIndex: 29458,
       col: 0,
-      filename: "federation/handler.ts",
-      line: 350,
+      filename: "",
+      line: 893,
     },
-    name: "RespondWithObjectOptions",
+    name: "ActorCallbackSetters",
   },
   {
     declarationKind: "export",
@@ -1149,26 +1193,12 @@ snapshot[`fetchRootSymbols() 1`] = `
     file: "/federation",
     kind: [
       "typeAlias",
-    ],
-    location: {
-      byteIndex: 416,
-      col: 0,
-      filename: "federation/callback.ts",
-      line: 12,
-    },
-    name: "NodeInfoDispatcher",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: "/federation",
-    kind: [
       "typeAlias",
     ],
     location: {
       byteIndex: 684,
       col: 0,
-      filename: "federation/callback.ts",
+      filename: "",
       line: 21,
     },
     name: "ActorDispatcher",
@@ -1179,11 +1209,12 @@ snapshot[`fetchRootSymbols() 1`] = `
     file: "/federation",
     kind: [
       "typeAlias",
+      "typeAlias",
     ],
     location: {
       byteIndex: 1007,
       col: 0,
-      filename: "federation/callback.ts",
+      filename: "",
       line: 32,
     },
     name: "ActorKeyPairDispatcher",
@@ -1193,15 +1224,16 @@ snapshot[`fetchRootSymbols() 1`] = `
     deprecated: false,
     file: "/federation",
     kind: [
-      "typeAlias",
+      "interface",
+      "interface",
     ],
     location: {
-      byteIndex: 1298,
+      byteIndex: 29892,
       col: 0,
-      filename: "federation/callback.ts",
-      line: 42,
+      filename: "",
+      line: 907,
     },
-    name: "CollectionDispatcher",
+    name: "CollectionCallbackSetters",
   },
   {
     declarationKind: "export",
@@ -1209,11 +1241,12 @@ snapshot[`fetchRootSymbols() 1`] = `
     file: "/federation",
     kind: [
       "typeAlias",
+      "typeAlias",
     ],
     location: {
       byteIndex: 1656,
       col: 0,
-      filename: "federation/callback.ts",
+      filename: "",
       line: 53,
     },
     name: "CollectionCounter",
@@ -1224,11 +1257,12 @@ snapshot[`fetchRootSymbols() 1`] = `
     file: "/federation",
     kind: [
       "typeAlias",
+      "typeAlias",
     ],
     location: {
       byteIndex: 1968,
       col: 0,
-      filename: "federation/callback.ts",
+      filename: "",
       line: 63,
     },
     name: "CollectionCursor",
@@ -1239,29 +1273,15 @@ snapshot[`fetchRootSymbols() 1`] = `
     file: "/federation",
     kind: [
       "typeAlias",
-    ],
-    location: {
-      byteIndex: 2322,
-      col: 0,
-      filename: "federation/callback.ts",
-      line: 74,
-    },
-    name: "InboxListener",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: "/federation",
-    kind: [
       "typeAlias",
     ],
     location: {
-      byteIndex: 2620,
+      byteIndex: 1298,
       col: 0,
-      filename: "federation/callback.ts",
-      line: 84,
+      filename: "",
+      line: 42,
     },
-    name: "InboxErrorHandler",
+    name: "CollectionDispatcher",
   },
   {
     declarationKind: "export",
@@ -1269,26 +1289,12 @@ snapshot[`fetchRootSymbols() 1`] = `
     file: "/federation",
     kind: [
       "interface",
-    ],
-    location: {
-      byteIndex: 28,
-      col: 0,
-      filename: "federation/collection.ts",
-      line: 4,
-    },
-    name: "PageItems",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: "/federation",
-    kind: [
       "interface",
     ],
     location: {
       byteIndex: 201,
       col: 0,
-      filename: "federation/context.ts",
+      filename: "",
       line: 8,
     },
     name: "Context",
@@ -1298,132 +1304,13 @@ snapshot[`fetchRootSymbols() 1`] = `
     deprecated: false,
     file: "/federation",
     kind: [
-      "interface",
-    ],
-    location: {
-      byteIndex: 4336,
-      col: 0,
-      filename: "federation/context.ts",
-      line: 134,
-    },
-    name: "RequestContext",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: "/federation",
-    kind: [
-      "interface",
-    ],
-    location: {
-      byteIndex: 4652,
-      col: 0,
-      filename: "federation/context.ts",
-      line: 150,
-    },
-    name: "SendActivityOptions",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: "/federation",
-    kind: [
-      "typeAlias",
-    ],
-    location: {
-      byteIndex: 155,
-      col: 0,
-      filename: "federation/kv.ts",
-      line: 8,
-    },
-    name: "KvKey",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: "/federation",
-    kind: [
-      "interface",
-    ],
-    location: {
-      byteIndex: 319,
-      col: 0,
-      filename: "federation/kv.ts",
-      line: 15,
-    },
-    name: "KvStoreSetOptions",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: "/federation",
-    kind: [
-      "interface",
-    ],
-    location: {
-      byteIndex: 516,
-      col: 0,
-      filename: "federation/kv.ts",
-      line: 27,
-    },
-    name: "KvStore",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: "/federation",
-    kind: [
       "class",
-    ],
-    location: {
-      byteIndex: 1370,
-      col: 0,
-      filename: "federation/kv.ts",
-      line: 57,
-    },
-    name: "MemoryKvStore",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: "/federation",
-    kind: [
-      "interface",
-    ],
-    location: {
-      byteIndex: 1288,
-      col: 0,
-      filename: "federation/middleware.ts",
-      line: 44,
-    },
-    name: "FederationParameters",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: "/federation",
-    kind: [
-      "interface",
-    ],
-    location: {
-      byteIndex: 2701,
-      col: 0,
-      filename: "federation/middleware.ts",
-      line: 93,
-    },
-    name: "FederationKvPrefixes",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: "/federation",
-    kind: [
       "class",
     ],
     location: {
       byteIndex: 3347,
       col: 0,
-      filename: "federation/middleware.ts",
+      filename: "",
       line: 114,
     },
     name: "Federation",
@@ -1434,11 +1321,12 @@ snapshot[`fetchRootSymbols() 1`] = `
     file: "/federation",
     kind: [
       "interface",
+      "interface",
     ],
     location: {
       byteIndex: 28256,
       col: 0,
-      filename: "federation/middleware.ts",
+      filename: "",
       line: 852,
     },
     name: "FederationFetchOptions",
@@ -1449,14 +1337,15 @@ snapshot[`fetchRootSymbols() 1`] = `
     file: "/federation",
     kind: [
       "interface",
+      "interface",
     ],
     location: {
-      byteIndex: 29458,
+      byteIndex: 2701,
       col: 0,
-      filename: "federation/middleware.ts",
-      line: 893,
+      filename: "",
+      line: 93,
     },
-    name: "ActorCallbackSetters",
+    name: "FederationKvPrefixes",
   },
   {
     declarationKind: "export",
@@ -1464,59 +1353,15 @@ snapshot[`fetchRootSymbols() 1`] = `
     file: "/federation",
     kind: [
       "interface",
-    ],
-    location: {
-      byteIndex: 29892,
-      col: 0,
-      filename: "federation/middleware.ts",
-      line: 907,
-    },
-    name: "CollectionCallbackSetters",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: "/federation",
-    kind: [
       "interface",
     ],
     location: {
-      byteIndex: 30347,
+      byteIndex: 1288,
       col: 0,
-      filename: "federation/middleware.ts",
-      line: 924,
+      filename: "",
+      line: 44,
     },
-    name: "InboxListenerSetter",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: "/federation",
-    kind: [
-      "interface",
-    ],
-    location: {
-      byteIndex: 193,
-      col: 0,
-      filename: "federation/mq.ts",
-      line: 9,
-    },
-    name: "MessageQueueEnqueueOptions",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: "/federation",
-    kind: [
-      "interface",
-    ],
-    location: {
-      byteIndex: 425,
-      col: 0,
-      filename: "federation/mq.ts",
-      line: 21,
-    },
-    name: "MessageQueue",
+    name: "FederationParameters",
   },
   {
     declarationKind: "export",
@@ -1524,11 +1369,12 @@ snapshot[`fetchRootSymbols() 1`] = `
     file: "/federation",
     kind: [
       "class",
+      "class",
     ],
     location: {
       byteIndex: 1032,
       col: 0,
-      filename: "federation/mq.ts",
+      filename: "",
       line: 42,
     },
     name: "InProcessMessageQueue",
@@ -1538,12 +1384,221 @@ snapshot[`fetchRootSymbols() 1`] = `
     deprecated: false,
     file: "/federation",
     kind: [
+      "typeAlias",
+      "typeAlias",
+    ],
+    location: {
+      byteIndex: 2620,
+      col: 0,
+      filename: "",
+      line: 84,
+    },
+    name: "InboxErrorHandler",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: "/federation",
+    kind: [
+      "typeAlias",
+      "typeAlias",
+    ],
+    location: {
+      byteIndex: 2322,
+      col: 0,
+      filename: "",
+      line: 74,
+    },
+    name: "InboxListener",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: "/federation",
+    kind: [
+      "interface",
+      "interface",
+    ],
+    location: {
+      byteIndex: 30347,
+      col: 0,
+      filename: "",
+      line: 924,
+    },
+    name: "InboxListenerSetter",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: "/federation",
+    kind: [
+      "typeAlias",
+      "typeAlias",
+    ],
+    location: {
+      byteIndex: 155,
+      col: 0,
+      filename: "",
+      line: 8,
+    },
+    name: "KvKey",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: "/federation",
+    kind: [
+      "interface",
+      "interface",
+    ],
+    location: {
+      byteIndex: 516,
+      col: 0,
+      filename: "",
+      line: 27,
+    },
+    name: "KvStore",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: "/federation",
+    kind: [
+      "interface",
+      "interface",
+    ],
+    location: {
+      byteIndex: 319,
+      col: 0,
+      filename: "",
+      line: 15,
+    },
+    name: "KvStoreSetOptions",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: "/federation",
+    kind: [
+      "class",
+      "class",
+    ],
+    location: {
+      byteIndex: 1370,
+      col: 0,
+      filename: "",
+      line: 57,
+    },
+    name: "MemoryKvStore",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: "/federation",
+    kind: [
+      "interface",
+      "interface",
+    ],
+    location: {
+      byteIndex: 425,
+      col: 0,
+      filename: "",
+      line: 21,
+    },
+    name: "MessageQueue",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: "/federation",
+    kind: [
+      "interface",
+      "interface",
+    ],
+    location: {
+      byteIndex: 193,
+      col: 0,
+      filename: "",
+      line: 9,
+    },
+    name: "MessageQueueEnqueueOptions",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: "/federation",
+    kind: [
+      "typeAlias",
+      "typeAlias",
+    ],
+    location: {
+      byteIndex: 416,
+      col: 0,
+      filename: "",
+      line: 12,
+    },
+    name: "NodeInfoDispatcher",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: "/federation",
+    kind: [
+      "interface",
+      "interface",
+    ],
+    location: {
+      byteIndex: 28,
+      col: 0,
+      filename: "",
+      line: 4,
+    },
+    name: "PageItems",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: "/federation",
+    kind: [
+      "interface",
+      "interface",
+    ],
+    location: {
+      byteIndex: 4336,
+      col: 0,
+      filename: "",
+      line: 134,
+    },
+    name: "RequestContext",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: "/federation",
+    kind: [
+      "interface",
+      "interface",
+    ],
+    location: {
+      byteIndex: 10849,
+      col: 0,
+      filename: "",
+      line: 350,
+    },
+    name: "RespondWithObjectOptions",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: "/federation",
+    kind: [
+      "class",
       "class",
     ],
     location: {
       byteIndex: 281,
       col: 0,
-      filename: "federation/router.ts",
+      filename: "",
       line: 9,
     },
     name: "Router",
@@ -1554,11 +1609,12 @@ snapshot[`fetchRootSymbols() 1`] = `
     file: "/federation",
     kind: [
       "class",
+      "class",
     ],
     location: {
       byteIndex: 2213,
       col: 0,
-      filename: "federation/router.ts",
+      filename: "",
       line: 77,
     },
     name: "RouterError",
@@ -1566,14 +1622,79 @@ snapshot[`fetchRootSymbols() 1`] = `
   {
     declarationKind: "export",
     deprecated: false,
+    file: "/federation",
+    kind: [
+      "interface",
+      "interface",
+    ],
+    location: {
+      byteIndex: 4652,
+      col: 0,
+      filename: "",
+      line: 150,
+    },
+    name: "SendActivityOptions",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: "/federation",
+    kind: [
+      "function",
+      "function",
+    ],
+    location: {
+      byteIndex: 11150,
+      col: 0,
+      filename: "",
+      line: 364,
+    },
+    name: "respondWithObject",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: "/federation",
+    kind: [
+      "function",
+      "function",
+    ],
+    location: {
+      byteIndex: 11701,
+      col: 0,
+      filename: "",
+      line: 385,
+    },
+    name: "respondWithObjectIfAcceptable",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
     file: "/httpsig",
     kind: [
+      "function",
+      "function",
+    ],
+    location: {
+      byteIndex: 7154,
+      col: 0,
+      filename: "httpsig",
+      line: 212,
+    },
+    name: "doesActorOwnKey",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: "/httpsig",
+    kind: [
+      "function",
       "function",
     ],
     location: {
       byteIndex: 1825,
       col: 0,
-      filename: "httpsig/key.ts",
+      filename: "",
       line: 61,
     },
     name: "exportJwk",
@@ -1584,11 +1705,12 @@ snapshot[`fetchRootSymbols() 1`] = `
     file: "/httpsig",
     kind: [
       "function",
+      "function",
     ],
     location: {
       byteIndex: 1238,
       col: 0,
-      filename: "httpsig/key.ts",
+      filename: "",
       line: 40,
     },
     name: "generateCryptoKeyPair",
@@ -1599,11 +1721,12 @@ snapshot[`fetchRootSymbols() 1`] = `
     file: "/httpsig",
     kind: [
       "function",
+      "function",
     ],
     location: {
       byteIndex: 2243,
       col: 0,
-      filename: "httpsig/key.ts",
+      filename: "",
       line: 74,
     },
     name: "importJwk",
@@ -1613,6 +1736,7 @@ snapshot[`fetchRootSymbols() 1`] = `
     deprecated: false,
     file: "/httpsig",
     kind: [
+      "function",
       "function",
     ],
     location: {
@@ -1629,6 +1753,7 @@ snapshot[`fetchRootSymbols() 1`] = `
     file: "/httpsig",
     kind: [
       "function",
+      "function",
     ],
     location: {
       byteIndex: 3242,
@@ -1637,36 +1762,6 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 94,
     },
     name: "verify",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: "/httpsig",
-    kind: [
-      "function",
-    ],
-    location: {
-      byteIndex: 7154,
-      col: 0,
-      filename: "httpsig",
-      line: 212,
-    },
-    name: "doesActorOwnKey",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: "/x/denokv",
-    kind: [
-      "class",
-    ],
-    location: {
-      byteIndex: 691,
-      col: 0,
-      filename: "x/denokv",
-      line: 22,
-    },
-    name: "DenoKvStore",
   },
   {
     declarationKind: "export",
@@ -1686,6 +1781,21 @@ snapshot[`fetchRootSymbols() 1`] = `
   {
     declarationKind: "export",
     deprecated: false,
+    file: "/x/denokv",
+    kind: [
+      "class",
+    ],
+    location: {
+      byteIndex: 691,
+      col: 0,
+      filename: "x/denokv",
+      line: 22,
+    },
+    name: "DenoKvStore",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
     file: "/x/fresh",
     kind: [
       "function",
@@ -1697,21 +1807,6 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 42,
     },
     name: "integrateFetchOptions",
-  },
-  {
-    declarationKind: "export",
-    deprecated: true,
-    file: "/x/fresh",
-    kind: [
-      "variable",
-    ],
-    location: {
-      byteIndex: 2446,
-      col: 13,
-      filename: "x/fresh",
-      line: 80,
-    },
-    name: "integrateHandlerOptions",
   },
   {
     declarationKind: "export",
@@ -1729,19 +1824,19 @@ snapshot[`fetchRootSymbols() 1`] = `
     name: "integrateHandler",
   },
   {
-    declarationKind: "private",
-    deprecated: false,
+    declarationKind: "export",
+    deprecated: true,
     file: "/x/fresh",
     kind: [
-      "interface",
+      "variable",
     ],
     location: {
-      byteIndex: 320,
-      col: 0,
+      byteIndex: 2446,
+      col: 13,
       filename: "x/fresh",
-      line: 18,
+      line: 80,
     },
-    name: "FreshContext",
+    name: "integrateHandlerOptions",
   },
   {
     declarationKind: "export",
@@ -1772,51 +1867,6 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 56,
     },
     name: "federation",
-  },
-  {
-    declarationKind: "private",
-    deprecated: false,
-    file: "/x/hono",
-    kind: [
-      "interface",
-    ],
-    location: {
-      byteIndex: 280,
-      col: 0,
-      filename: "x/hono",
-      line: 17,
-    },
-    name: "HonoRequest",
-  },
-  {
-    declarationKind: "private",
-    deprecated: false,
-    file: "/x/hono",
-    kind: [
-      "interface",
-    ],
-    location: {
-      byteIndex: 323,
-      col: 0,
-      filename: "x/hono",
-      line: 21,
-    },
-    name: "HonoContext",
-  },
-  {
-    declarationKind: "private",
-    deprecated: false,
-    file: "/x/hono",
-    kind: [
-      "typeAlias",
-    ],
-    location: {
-      byteIndex: 387,
-      col: 0,
-      filename: "x/hono",
-      line: 26,
-    },
-    name: "HonoMiddleware",
   },
 ]
 `;
@@ -2373,325 +2423,6 @@ snapshot[`fetchRootSymbolsWithMembers() 2`] = `
     file: ".",
     kind: [
       "function",
-    ],
-    location: {
-      byteIndex: 753,
-      col: 0,
-      filename: "collections",
-      line: 27,
-    },
-    members: [],
-    name: "fromIterable",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: ".",
-    kind: [
-      "function",
-    ],
-    location: {
-      byteIndex: 1722,
-      col: 0,
-      filename: "collections",
-      line: 59,
-    },
-    members: [],
-    name: "toArray",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: ".",
-    kind: [
-      "function",
-    ],
-    location: {
-      byteIndex: 5175,
-      col: 0,
-      filename: "collections",
-      line: 162,
-    },
-    members: [],
-    name: "toMap",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: ".",
-    kind: [
-      "function",
-    ],
-    location: {
-      byteIndex: 3136,
-      col: 0,
-      filename: "collections",
-      line: 104,
-    },
-    members: [],
-    name: "toSet",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: ".",
-    kind: [
-      "function",
-    ],
-    location: {
-      byteIndex: 952,
-      col: 0,
-      filename: "concat",
-      line: 34,
-    },
-    members: [],
-    name: "concat",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: ".",
-    kind: [
-      "function",
-    ],
-    location: {
-      byteIndex: 1286,
-      col: 0,
-      filename: "drop",
-      line: 45,
-    },
-    members: [],
-    name: "drop",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: ".",
-    kind: [
-      "function",
-    ],
-    location: {
-      byteIndex: 5414,
-      col: 0,
-      filename: "drop",
-      line: 180,
-    },
-    members: [],
-    name: "dropEnd",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: ".",
-    kind: [
-      "function",
-    ],
-    location: {
-      byteIndex: 3591,
-      col: 0,
-      filename: "drop",
-      line: 122,
-    },
-    members: [],
-    name: "dropWhile",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: ".",
-    kind: [
-      "function",
-    ],
-    location: {
-      byteIndex: 1566,
-      col: 0,
-      filename: "filter",
-      line: 50,
-    },
-    members: [],
-    name: "filter",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: ".",
-    kind: [
-      "function",
-    ],
-    location: {
-      byteIndex: 1992,
-      col: 0,
-      filename: "fold",
-      line: 63,
-    },
-    members: [],
-    name: "reduce",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: ".",
-    kind: [
-      "function",
-    ],
-    location: {
-      byteIndex: 1608,
-      col: 0,
-      filename: "infinite",
-      line: 79,
-    },
-    members: [],
-    name: "count",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: ".",
-    kind: [
-      "function",
-    ],
-    location: {
-      byteIndex: 3000,
-      col: 0,
-      filename: "infinite",
-      line: 136,
-    },
-    members: [],
-    name: "cycle",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: ".",
-    kind: [
-      "function",
-    ],
-    location: {
-      byteIndex: 4464,
-      col: 0,
-      filename: "infinite",
-      line: 197,
-    },
-    members: [],
-    name: "repeat",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: ".",
-    kind: [
-      "function",
-    ],
-    location: {
-      byteIndex: 1416,
-      col: 0,
-      filename: "map",
-      line: 54,
-    },
-    members: [],
-    name: "map",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: ".",
-    kind: [
-      "function",
-    ],
-    location: {
-      byteIndex: 466,
-      col: 0,
-      filename: "range",
-      line: 24,
-    },
-    members: [],
-    name: "range",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: ".",
-    kind: [
-      "function",
-    ],
-    location: {
-      byteIndex: 1238,
-      col: 0,
-      filename: "take",
-      line: 50,
-    },
-    members: [],
-    name: "take",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: ".",
-    kind: [
-      "function",
-    ],
-    location: {
-      byteIndex: 5072,
-      col: 0,
-      filename: "take",
-      line: 185,
-    },
-    members: [],
-    name: "takeEnd",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: ".",
-    kind: [
-      "function",
-    ],
-    location: {
-      byteIndex: 3391,
-      col: 0,
-      filename: "take",
-      line: 124,
-    },
-    members: [],
-    name: "takeWhile",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: ".",
-    kind: [
-      "function",
-    ],
-    location: {
-      byteIndex: 50,
-      col: 0,
-      filename: "tee",
-      line: 3,
-    },
-    members: [],
-    name: "tee",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: ".",
-    kind: [
-      "function",
-    ],
-    location: {
-      byteIndex: 790,
-      col: 0,
-      filename: "testing",
-      line: 24,
-    },
-    members: [],
-    name: "assertStreams",
-  },
-  {
-    declarationKind: "export",
-    deprecated: false,
-    file: ".",
-    kind: [
       "function",
     ],
     location: {
@@ -2709,6 +2440,160 @@ snapshot[`fetchRootSymbolsWithMembers() 2`] = `
     file: ".",
     kind: [
       "function",
+      "function",
+    ],
+    location: {
+      byteIndex: 790,
+      col: 0,
+      filename: "testing",
+      line: 24,
+    },
+    members: [],
+    name: "assertStreams",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: ".",
+    kind: [
+      "function",
+      "function",
+    ],
+    location: {
+      byteIndex: 952,
+      col: 0,
+      filename: "concat",
+      line: 34,
+    },
+    members: [],
+    name: "concat",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: ".",
+    kind: [
+      "function",
+      "function",
+    ],
+    location: {
+      byteIndex: 1608,
+      col: 0,
+      filename: "infinite",
+      line: 79,
+    },
+    members: [],
+    name: "count",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: ".",
+    kind: [
+      "function",
+      "function",
+    ],
+    location: {
+      byteIndex: 3000,
+      col: 0,
+      filename: "infinite",
+      line: 136,
+    },
+    members: [],
+    name: "cycle",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: ".",
+    kind: [
+      "function",
+      "function",
+    ],
+    location: {
+      byteIndex: 1286,
+      col: 0,
+      filename: "drop",
+      line: 45,
+    },
+    members: [],
+    name: "drop",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: ".",
+    kind: [
+      "function",
+      "function",
+    ],
+    location: {
+      byteIndex: 5414,
+      col: 0,
+      filename: "drop",
+      line: 180,
+    },
+    members: [],
+    name: "dropEnd",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: ".",
+    kind: [
+      "function",
+      "function",
+    ],
+    location: {
+      byteIndex: 3591,
+      col: 0,
+      filename: "drop",
+      line: 122,
+    },
+    members: [],
+    name: "dropWhile",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: ".",
+    kind: [
+      "function",
+      "function",
+    ],
+    location: {
+      byteIndex: 1566,
+      col: 0,
+      filename: "filter",
+      line: 50,
+    },
+    members: [],
+    name: "filter",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: ".",
+    kind: [
+      "function",
+      "function",
+    ],
+    location: {
+      byteIndex: 753,
+      col: 0,
+      filename: "collections",
+      line: 27,
+    },
+    members: [],
+    name: "fromIterable",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: ".",
+    kind: [
+      "function",
+      "function",
     ],
     location: {
       byteIndex: 3571,
@@ -2725,6 +2610,236 @@ snapshot[`fetchRootSymbolsWithMembers() 2`] = `
     file: ".",
     kind: [
       "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+    ],
+    location: {
+      byteIndex: 1416,
+      col: 0,
+      filename: "map",
+      line: 54,
+    },
+    members: [],
+    name: "map",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: ".",
+    kind: [
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+    ],
+    location: {
+      byteIndex: 466,
+      col: 0,
+      filename: "range",
+      line: 24,
+    },
+    members: [],
+    name: "range",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: ".",
+    kind: [
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+    ],
+    location: {
+      byteIndex: 1992,
+      col: 0,
+      filename: "fold",
+      line: 63,
+    },
+    members: [],
+    name: "reduce",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: ".",
+    kind: [
+      "function",
+      "function",
+    ],
+    location: {
+      byteIndex: 4464,
+      col: 0,
+      filename: "infinite",
+      line: 197,
+    },
+    members: [],
+    name: "repeat",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: ".",
+    kind: [
+      "function",
+      "function",
+    ],
+    location: {
+      byteIndex: 1238,
+      col: 0,
+      filename: "take",
+      line: 50,
+    },
+    members: [],
+    name: "take",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: ".",
+    kind: [
+      "function",
+      "function",
+    ],
+    location: {
+      byteIndex: 5072,
+      col: 0,
+      filename: "take",
+      line: 185,
+    },
+    members: [],
+    name: "takeEnd",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: ".",
+    kind: [
+      "function",
+      "function",
+    ],
+    location: {
+      byteIndex: 3391,
+      col: 0,
+      filename: "take",
+      line: 124,
+    },
+    members: [],
+    name: "takeWhile",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: ".",
+    kind: [
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+    ],
+    location: {
+      byteIndex: 50,
+      col: 0,
+      filename: "tee",
+      line: 3,
+    },
+    members: [],
+    name: "tee",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: ".",
+    kind: [
+      "function",
+      "function",
+    ],
+    location: {
+      byteIndex: 1722,
+      col: 0,
+      filename: "collections",
+      line: 59,
+    },
+    members: [],
+    name: "toArray",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: ".",
+    kind: [
+      "function",
+      "function",
+    ],
+    location: {
+      byteIndex: 5175,
+      col: 0,
+      filename: "collections",
+      line: 162,
+    },
+    members: [],
+    name: "toMap",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: ".",
+    kind: [
+      "function",
+      "function",
+    ],
+    location: {
+      byteIndex: 3136,
+      col: 0,
+      filename: "collections",
+      line: 104,
+    },
+    members: [],
+    name: "toSet",
+  },
+  {
+    declarationKind: "export",
+    deprecated: false,
+    file: ".",
+    kind: [
+      "function",
+      "function",
     ],
     location: {
       byteIndex: 1848,
@@ -2740,6 +2855,7 @@ snapshot[`fetchRootSymbolsWithMembers() 2`] = `
     deprecated: false,
     file: ".",
     kind: [
+      "class",
       "class",
     ],
     location: {
@@ -2876,6 +2992,7 @@ snapshot[`fetchIndex() 2`] = `
     file: ".",
     kind: [
       "function",
+      "function",
     ],
     label: "assertStreamStartsWith()",
     location: {
@@ -2893,6 +3010,7 @@ snapshot[`fetchIndex() 2`] = `
     deprecated: false,
     file: ".",
     kind: [
+      "function",
       "function",
     ],
     label: "assertStreams()",
@@ -2912,6 +3030,7 @@ snapshot[`fetchIndex() 2`] = `
     file: ".",
     kind: [
       "function",
+      "function",
     ],
     label: "concat()",
     location: {
@@ -2929,6 +3048,7 @@ snapshot[`fetchIndex() 2`] = `
     deprecated: false,
     file: ".",
     kind: [
+      "function",
       "function",
     ],
     label: "count()",
@@ -2948,6 +3068,7 @@ snapshot[`fetchIndex() 2`] = `
     file: ".",
     kind: [
       "function",
+      "function",
     ],
     label: "cycle()",
     location: {
@@ -2965,6 +3086,7 @@ snapshot[`fetchIndex() 2`] = `
     deprecated: false,
     file: ".",
     kind: [
+      "function",
       "function",
     ],
     label: "drop()",
@@ -2984,6 +3106,7 @@ snapshot[`fetchIndex() 2`] = `
     file: ".",
     kind: [
       "function",
+      "function",
     ],
     label: "dropEnd()",
     location: {
@@ -3001,6 +3124,7 @@ snapshot[`fetchIndex() 2`] = `
     deprecated: false,
     file: ".",
     kind: [
+      "function",
       "function",
     ],
     label: "dropWhile()",
@@ -3020,6 +3144,7 @@ snapshot[`fetchIndex() 2`] = `
     file: ".",
     kind: [
       "function",
+      "function",
     ],
     label: "filter()",
     location: {
@@ -3037,6 +3162,7 @@ snapshot[`fetchIndex() 2`] = `
     deprecated: false,
     file: ".",
     kind: [
+      "function",
       "function",
     ],
     label: "fromIterable()",
@@ -3056,6 +3182,7 @@ snapshot[`fetchIndex() 2`] = `
     file: ".",
     kind: [
       "function",
+      "function",
     ],
     label: "groupBy()",
     location: {
@@ -3073,6 +3200,17 @@ snapshot[`fetchIndex() 2`] = `
     deprecated: false,
     file: ".",
     kind: [
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
       "function",
     ],
     label: "map()",
@@ -3098,6 +3236,19 @@ snapshot[`fetchIndex() 2`] = `
     file: ".",
     kind: [
       "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
     ],
     label: "range()",
     location: {
@@ -3115,6 +3266,11 @@ snapshot[`fetchIndex() 2`] = `
     deprecated: false,
     file: ".",
     kind: [
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
       "function",
     ],
     label: "reduce()",
@@ -3134,6 +3290,7 @@ snapshot[`fetchIndex() 2`] = `
     file: ".",
     kind: [
       "function",
+      "function",
     ],
     label: "repeat()",
     location: {
@@ -3151,6 +3308,7 @@ snapshot[`fetchIndex() 2`] = `
     deprecated: false,
     file: ".",
     kind: [
+      "function",
       "function",
     ],
     label: "take()",
@@ -3170,6 +3328,7 @@ snapshot[`fetchIndex() 2`] = `
     file: ".",
     kind: [
       "function",
+      "function",
     ],
     label: "takeEnd()",
     location: {
@@ -3187,6 +3346,7 @@ snapshot[`fetchIndex() 2`] = `
     deprecated: false,
     file: ".",
     kind: [
+      "function",
       "function",
     ],
     label: "takeWhile()",
@@ -3206,6 +3366,23 @@ snapshot[`fetchIndex() 2`] = `
     file: ".",
     kind: [
       "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
+      "function",
     ],
     label: "tee()",
     location: {
@@ -3223,6 +3400,7 @@ snapshot[`fetchIndex() 2`] = `
     deprecated: false,
     file: ".",
     kind: [
+      "function",
       "function",
     ],
     label: "toArray()",
@@ -3242,6 +3420,7 @@ snapshot[`fetchIndex() 2`] = `
     file: ".",
     kind: [
       "function",
+      "function",
     ],
     label: "toMap()",
     location: {
@@ -3260,6 +3439,7 @@ snapshot[`fetchIndex() 2`] = `
     file: ".",
     kind: [
       "function",
+      "function",
     ],
     label: "toSet()",
     location: {
@@ -3277,6 +3457,7 @@ snapshot[`fetchIndex() 2`] = `
     deprecated: false,
     file: ".",
     kind: [
+      "function",
       "function",
     ],
     label: "unique()",
@@ -3351,6 +3532,7 @@ snapshot[`fetchIndex() 2`] = `
     deprecated: false,
     file: ".",
     kind: [
+      "class",
       "class",
     ],
     label: "Range",
