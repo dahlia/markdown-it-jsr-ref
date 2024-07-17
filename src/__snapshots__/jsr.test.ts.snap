@@ -3,8 +3,12 @@ export const snapshot = {};
 snapshot[`fetchRootSymbols() 1`] = `
 [
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "Indicates that the \`actor\` accepts the \`object\`.  The \`target\` property can be
+used in certain circumstances to indicate the context into which the \`object\`
+has been accepted.",
     file: ".",
     kind: [
       "class",
@@ -17,10 +21,17 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 5921,
     },
     name: "Accept",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/Accept",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "An Activity is a subtype of {@link Object} that describes some form of action
+that may happen, is currently happening, or has already happened.
+The {@link Activity} type itself serves as an abstract base type for all types
+of activities.  It is important to note that the {@link Activity} type itself
+does not carry any specific semantics about the kind of action being taken.",
     file: ".",
     kind: [
       "class",
@@ -33,10 +44,14 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 5096,
     },
     name: "Activity",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/Activity",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "Actor types are {@link Object} types that are capable of performing
+activities.",
     file: ".",
     kind: [
       "typeAlias",
@@ -49,10 +64,13 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 8,
     },
     name: "Actor",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/Actor",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "A string representation of an actor type name.",
     file: ".",
     kind: [
       "typeAlias",
@@ -65,10 +83,16 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 28,
     },
     name: "ActorTypeName",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/ActorTypeName",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "Indicates that the \`actor\` has added the \`object\` to the \`target\`.
+If the \`target\` property is not explicitly specified, the target would need
+to be determined implicitly by context.  The \`origin\` can be used to identify
+the context from which the \`object\` originated.",
     file: ".",
     kind: [
       "class",
@@ -81,10 +105,15 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 6183,
     },
     name: "Add",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/Add",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "Indicates that the \`actor\` is calling the \`target\`'s attention the \`object\`.
+
+The \`origin\` typically has no defined meaning.",
     file: ".",
     kind: [
       "class",
@@ -97,10 +126,13 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 6442,
     },
     name: "Announce",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/Announce",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "Describes a software application.",
     file: ".",
     kind: [
       "class",
@@ -113,10 +145,13 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 6701,
     },
     name: "Application",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/Application",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "Represents any kind of multi-paragraph written work.",
     file: ".",
     kind: [
       "class",
@@ -129,10 +164,13 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 8212,
     },
     name: "Article",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/Article",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "Represents an audio document of any kind.",
     file: ".",
     kind: [
       "class",
@@ -145,10 +183,15 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 8714,
     },
     name: "Audio",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/Audio",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "A factory function that creates an authenticated {@link DocumentLoader} for
+a given identity.  This is used for fetching documents that require
+authentication.",
     file: ".",
     kind: [
       "typeAlias",
@@ -161,10 +204,16 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 32,
     },
     name: "AuthenticatedDocumentLoaderFactory",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/AuthenticatedDocumentLoaderFactory",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "Indicates that the \`actor\` is blocking the \`object\`.  Blocking is a stronger
+form of {@link Ignore}.  The typical use is to support social systems that
+allow one user to block activities or content of other users.  The \`target\`
+and \`origin\` typically have no defined meaning.",
     file: ".",
     kind: [
       "class",
@@ -177,10 +226,17 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 9219,
     },
     name: "Block",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/Block",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "A \`Collection\` is a subtype of {@link Object} that represents ordered or
+unordered sets of {@link Object} or {@link Link} instances.
+
+Refer to the Activity Streams 2.0 Core specification for a complete
+description of the Collection type.",
     file: ".",
     kind: [
       "class",
@@ -193,10 +249,15 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 9480,
     },
     name: "Collection",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/Collection",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "Used to represent distinct subsets of items from a \`Collection\`.
+Refer to the Activity Streams 2.0 Core for a complete description of
+the \`CollectionPage\` object.",
     file: ".",
     kind: [
       "class",
@@ -209,10 +270,13 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 10432,
     },
     name: "CollectionPage",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/CollectionPage",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "Indicates that the \`actor\` has created the \`object\`.",
     file: ".",
     kind: [
       "class",
@@ -225,10 +289,13 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 11133,
     },
     name: "Create",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/Create",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "A key owned by an actor.",
     file: ".",
     kind: [
       "class",
@@ -241,10 +308,14 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 277,
     },
     name: "CryptographicKey",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/CryptographicKey",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "Indicates that the \`actor\` has deleted the \`object\`.  If specified,
+the \`origin\` indicates the context from which the \`object\` was deleted.",
     file: ".",
     kind: [
       "class",
@@ -257,10 +328,13 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 11393,
     },
     name: "Delete",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/Delete",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "Indicates that the \`actor\` dislikes the \`object\`.",
     file: ".",
     kind: [
       "class",
@@ -273,10 +347,13 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 11652,
     },
     name: "Dislike",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/Dislike",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "Represents a document of any kind.",
     file: ".",
     kind: [
       "class",
@@ -289,10 +366,13 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 8449,
     },
     name: "Document",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/Document",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "A JSON-LD document loader that fetches documents from the Web.",
     file: ".",
     kind: [
       "typeAlias",
@@ -305,10 +385,13 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 21,
     },
     name: "DocumentLoader",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/DocumentLoader",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "Contents of {@link Actor}'s \`endpoints\`.",
     file: ".",
     kind: [
       "class",
@@ -321,10 +404,13 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 11911,
     },
     name: "Endpoints",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/Endpoints",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "Represents any kind of event.",
     file: ".",
     kind: [
       "class",
@@ -337,10 +423,13 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 12354,
     },
     name: "Event",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/Event",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "Error thrown when fetching a JSON-LD document failed.",
     file: ".",
     kind: [
       "class",
@@ -353,10 +442,15 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 39,
     },
     name: "FetchError",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/FetchError",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: 'Indicates that the \`actor\` is "flagging" the \`object\`.  Flagging is defined
+in the sense common to many social platforms as reporting content as being
+inappropriate for any number of reasons.',
     file: ".",
     kind: [
       "class",
@@ -369,10 +463,16 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 12591,
     },
     name: "Flag",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/Flag",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: 'Indicates that the \`actor\` is "following" the \`object\`.  Following is defined
+in the sense typically used within Social systems in which the actor is
+interested in any activity performed by or on the object.  The \`target\` and
+\`origin\` typically have no defined meaning.',
     file: ".",
     kind: [
       "class",
@@ -385,10 +485,13 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 12851,
     },
     name: "Follow",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/Follow",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "Represents a formal or informal collective of Actors.",
     file: ".",
     kind: [
       "class",
@@ -401,10 +504,14 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 13110,
     },
     name: "Group",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/Group",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "Indicates that the \`actor\` is ignoring the \`object\`.  The \`target\` and
+\`origin\` typically have no defined meaning.",
     file: ".",
     kind: [
       "class",
@@ -417,10 +524,13 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 8950,
     },
     name: "Ignore",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/Ignore",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "An image document of any kind.",
     file: ".",
     kind: [
       "class",
@@ -433,10 +543,14 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 14619,
     },
     name: "Image",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/Image",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "The third party sites this server can retrieve messages from for combined
+display with regular traffic.",
     file: ".",
     kind: [
       "typeAlias",
@@ -449,10 +563,15 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 114,
     },
     name: "InboundService",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/InboundService",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "Instances of \`IntransitiveActivity\` are a subtype of {@link Activity}
+representing intransitive actions.  The \`object\` property is therefore
+inappropriate for these activities.",
     file: ".",
     kind: [
       "class",
@@ -465,10 +584,13 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 14856,
     },
     name: "IntransitiveActivity",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/IntransitiveActivity",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "The type of the result of parsing JSON.",
     file: ".",
     kind: [
       "typeAlias",
@@ -481,10 +603,13 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 6,
     },
     name: "JsonValue",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/JsonValue",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "The parameters for {@link kvCache} function.",
     file: ".",
     kind: [
       "interface",
@@ -497,10 +622,13 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 122,
     },
     name: "KvCacheParameters",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/KvCacheParameters",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "A language-tagged string which corresponds to the \`rdf:langString\` type.",
     file: ".",
     kind: [
       "class",
@@ -513,10 +641,14 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 6,
     },
     name: "LanguageString",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/LanguageString",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "Indicates that the \`actor\` likes, recommends or endorses the \`object\`.
+The \`target\` and \`origin\` typically have no defined meaning.",
     file: ".",
     kind: [
       "class",
@@ -529,10 +661,20 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 15121,
     },
     name: "Like",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/Like",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "A Link is an indirect, qualified reference to a resource identified by a URL.
+The fundamental model for links is established by RFC 5988. Many of the
+properties defined by the Activity Vocabulary allow values that are either
+instances of {@link Object} or {@link Link}. When a {@link Link} is used,
+it establishes a qualified relation connecting the subject (the containing
+object) to the resource identified by the \`href\`. Properties of
+the {@link Link} are properties of the reference as opposed to properties of
+the resource.",
     file: ".",
     kind: [
       "class",
@@ -546,10 +688,14 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 15385,
     },
     name: "Link",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/Link",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "Options for the \`lookupObject\` function.
+",
     file: ".",
     kind: [
       "interface",
@@ -562,10 +708,13 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 13,
     },
     name: "LookupObjectOptions",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/LookupObjectOptions",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "A specialized {@link Link} that represents an @mention.",
     file: ".",
     kind: [
       "class",
@@ -578,10 +727,13 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 16149,
     },
     name: "Mention",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/Mention",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "A NodeInfo object as defined in the NodeInfo 2.1 schema.",
     file: ".",
     kind: [
       "interface",
@@ -594,10 +746,14 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 17,
     },
     name: "NodeInfo",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/NodeInfo",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "Represents a short written work typically less than a single paragraph in
+length.",
     file: ".",
     kind: [
       "class",
@@ -610,10 +766,17 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 16307,
     },
     name: "Note",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/Note",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "Describes an object of any kind. The Object type serves as the base type for
+most of the other kinds of objects defined in the Activity Vocabulary,
+including other Core types such as {@link Activity},
+{@link IntransitiveActivity}, {@link Collection} and
+{@link OrderedCollection}.",
     file: ".",
     kind: [
       "class",
@@ -626,10 +789,14 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 675,
     },
     name: "Object",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/Object",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "A subtype of {@link Collection} in which members of the logical collection
+are assumed to always be strictly ordered.",
     file: ".",
     kind: [
       "class",
@@ -642,10 +809,15 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 16543,
     },
     name: "OrderedCollection",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/OrderedCollection",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "Used to represent ordered subsets of items from an \`OrderedCollection\`.
+Refer to the Activity Streams 2.0 Core for a complete description of
+the \`OrderedCollectionPage\` object.",
     file: ".",
     kind: [
       "class",
@@ -658,10 +830,13 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 16794,
     },
     name: "OrderedCollectionPage",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/OrderedCollectionPage",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "Represents an organization.",
     file: ".",
     kind: [
       "class",
@@ -674,10 +849,14 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 17100,
     },
     name: "Organization",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/Organization",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "The third party sites this server can publish messages to on the behalf
+of a user.",
     file: ".",
     kind: [
       "typeAlias",
@@ -690,10 +869,13 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 129,
     },
     name: "OutboundService",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/OutboundService",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "Represents a Web Page.",
     file: ".",
     kind: [
       "class",
@@ -706,10 +888,13 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 18611,
     },
     name: "Page",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/Page",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "Represents an individual person.",
     file: ".",
     kind: [
       "class",
@@ -722,10 +907,15 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 18846,
     },
     name: "Person",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/Person",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "Represents a logical or physical location.  See [5.3 Representing
+Places](https://www.w3.org/TR/activitystreams-vocabulary/#places)
+for additional information.",
     file: ".",
     kind: [
       "class",
@@ -738,10 +928,17 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 20359,
     },
     name: "Place",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/Place",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "A {@link Profile} is a content object that describes another {@link Object},
+typically used to describe [Actor
+Type](https://www.w3.org/TR/activitystreams-vocabulary/#actor-types) objects.
+The {@link Profile.describes} property is used to reference the object being
+described by the profile.",
     file: ".",
     kind: [
       "class",
@@ -754,10 +951,13 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 20885,
     },
     name: "Profile",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/Profile",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "A pair of property name and value.",
     file: ".",
     kind: [
       "class",
@@ -770,10 +970,13 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 15,
     },
     name: "PropertyValue",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/PropertyValue",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "The protocols supported on this server.",
     file: ".",
     kind: [
       "typeAlias",
@@ -786,10 +989,14 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 80,
     },
     name: "Protocol",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/Protocol",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "Indicates that the \`actor\` is rejecting the \`object\`.  The \`target\` and
+\`origin\` typically have no defined meaning.",
     file: ".",
     kind: [
       "class",
@@ -802,10 +1009,19 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 21237,
     },
     name: "Reject",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/Reject",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "Describes a relationship between two individuals.
+The {@link Relationship.subject} and {@link Relationship.object} properties
+are used to identify the connected individuals.
+
+See [5.2 Representing Relationships Between
+Entities](https://www.w3.org/TR/activitystreams-vocabulary/#connections)
+for additional information.",
     file: ".",
     kind: [
       "class",
@@ -818,10 +1034,14 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 21502,
     },
     name: "Relationship",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/Relationship",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "A remote JSON-LD document and its context fetched by
+a {@link DocumentLoader}.",
     file: ".",
     kind: [
       "interface",
@@ -834,10 +1054,14 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 10,
     },
     name: "RemoteDocument",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/RemoteDocument",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "Indicates that the \`actor\` is removing the \`object\`.  If specified,
+the \`origin\` indicates the context from which the \`object\` is being removed.",
     file: ".",
     kind: [
       "class",
@@ -850,10 +1074,14 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 22227,
     },
     name: "Remove",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/Remove",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "Describes a resource.  See also
+[RFC 7033 section 4.4](https://datatracker.ietf.org/doc/html/rfc7033#section-4.4).",
     file: ".",
     kind: [
       "interface",
@@ -866,10 +1094,13 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 5,
     },
     name: "ResourceDescriptor",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/ResourceDescriptor",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "Represents a service of any kind.",
     file: ".",
     kind: [
       "class",
@@ -882,10 +1113,13 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 22486,
     },
     name: "Service",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/Service",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "The third party sites this server can connect to via their application API.",
     file: ".",
     kind: [
       "interface",
@@ -898,10 +1132,13 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 96,
     },
     name: "Services",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/Services",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "Metadata about server software in use.",
     file: ".",
     kind: [
       "interface",
@@ -914,10 +1151,19 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 54,
     },
     name: "Software",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/Software",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: 'Indicates that the \`actor\` is undoing the \`object\`.  In most cases,
+the \`object\` will be an {@link Activity} describing some previously performed
+action (for instance, a person may have previously "liked" an article but,
+for whatever reason, might choose to undo that like at some later point in
+time).
+
+The \`target\` and \`origin\` typically have no defined meaning.',
     file: ".",
     kind: [
       "class",
@@ -930,10 +1176,17 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 24003,
     },
     name: "Undo",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/Undo",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "Indicates that the \`actor\` has updated the \`object\`.  Note, however,
+that this vocabulary does not define a mechanism for describing the actual
+set of modifications made to \`object\`.
+
+The \`target\` and \`origin\` typically have no defined meaning.",
     file: ".",
     kind: [
       "class",
@@ -946,10 +1199,13 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 24264,
     },
     name: "Update",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/Update",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "Usage statistics for this server.",
     file: ".",
     kind: [
       "interface",
@@ -962,10 +1218,13 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 163,
     },
     name: "Usage",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/Usage",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "Represents a video document of any kind.",
     file: ".",
     kind: [
       "class",
@@ -978,10 +1237,13 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 24523,
     },
     name: "Video",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/Video",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "Exports a public key in PEM-SPKI format.",
     file: ".",
     kind: [
       "function",
@@ -994,10 +1256,13 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 28,
     },
     name: "exportSpki",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/exportSpki",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "A JSON-LD document loader that utilizes the browser's \`fetch\` API.",
     file: ".",
     kind: [
       "function",
@@ -1010,10 +1275,13 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 90,
     },
     name: "fetchDocumentLoader",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/fetchDocumentLoader",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "Gets the actor class by the given type name.",
     file: ".",
     kind: [
       "function",
@@ -1026,10 +1294,15 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 56,
     },
     name: "getActorClassByTypeName",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/getActorClassByTypeName",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "Gets the actor handle, of the form \`@username@domain\`, from the given actor
+or an actor URI.
+",
     file: ".",
     kind: [
       "function",
@@ -1042,10 +1315,13 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 101,
     },
     name: "getActorHandle",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/getActorHandle",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "Gets the type name of the given actor.",
     file: ".",
     kind: [
       "function",
@@ -1058,10 +1334,15 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 40,
     },
     name: "getActorTypeName",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/getActorTypeName",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "Gets an authenticated {@link DocumentLoader} for the given identity.
+Note that an authenticated document loader intentionally does not cache
+the fetched documents.",
     file: ".",
     kind: [
       "function",
@@ -1074,10 +1355,13 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 107,
     },
     name: "getAuthenticatedDocumentLoader",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/getAuthenticatedDocumentLoader",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "Imports a PEM-SPKI formatted public key.",
     file: ".",
     kind: [
       "function",
@@ -1090,10 +1374,13 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 9,
     },
     name: "importSpki",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/importSpki",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "Checks if the given object is an {@link Actor}.",
     file: ".",
     kind: [
       "function",
@@ -1106,10 +1393,13 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 15,
     },
     name: "isActor",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/isActor",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "Decorates a {@link DocumentLoader} with a cache backed by a {@link Deno.Kv}.",
     file: ".",
     kind: [
       "function",
@@ -1122,10 +1412,15 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 159,
     },
     name: "kvCache",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/kvCache",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "Looks up an ActivityStreams object by its URI (including \`acct:\` URIs)
+or a fediverse handle (e.g., \`@user@server\` or \`user@server\`).
+",
     file: ".",
     kind: [
       "function",
@@ -1138,10 +1433,13 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 52,
     },
     name: "lookupObject",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/lookupObject",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "Looks up a WebFinger resource.",
     file: ".",
     kind: [
       "function",
@@ -1154,10 +1452,13 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 9,
     },
     name: "lookupWebFinger",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/lookupWebFinger",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "Converts a {@link NodeInfo} object to a JSON value.",
     file: ".",
     kind: [
       "function",
@@ -1170,11 +1471,24 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 206,
     },
     name: "nodeInfoToJson",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/~/nodeInfoToJson",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
-    file: "/federation",
+    doc: 'Additional settings for the actor dispatcher.
+
+\`\`\` typescript
+const federation = new Federation<void>({ ... });
+federation.setActorDispatcher("/users/{handle}", async (ctx, handle, key) => {
+  ...
+})
+  .setKeyPairDispatcher(async (ctxData, handle) => {
+    ...
+  });
+\`\`\`',
+    file: "federation",
     kind: [
       "interface",
       "interface",
@@ -1186,11 +1500,15 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 893,
     },
     name: "ActorCallbackSetters",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/federation/~/ActorCallbackSetters",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
-    file: "/federation",
+    doc: "A callback that dispatches an {@link Actor} object.
+",
+    file: "federation",
     kind: [
       "typeAlias",
       "typeAlias",
@@ -1202,11 +1520,15 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 21,
     },
     name: "ActorDispatcher",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/federation/~/ActorDispatcher",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
-    file: "/federation",
+    doc: "A callback that dispatches a key pair for an actor.
+",
+    file: "federation",
     kind: [
       "typeAlias",
       "typeAlias",
@@ -1218,11 +1540,14 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 32,
     },
     name: "ActorKeyPairDispatcher",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/federation/~/ActorKeyPairDispatcher",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
-    file: "/federation",
+    doc: "Additional settings for a collection dispatcher.",
+    file: "federation",
     kind: [
       "interface",
       "interface",
@@ -1234,11 +1559,15 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 907,
     },
     name: "CollectionCallbackSetters",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/federation/~/CollectionCallbackSetters",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
-    file: "/federation",
+    doc: "A callback that counts the number of items in a collection.
+",
+    file: "federation",
     kind: [
       "typeAlias",
       "typeAlias",
@@ -1250,11 +1579,15 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 53,
     },
     name: "CollectionCounter",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/federation/~/CollectionCounter",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
-    file: "/federation",
+    doc: "A callback that returns a cursor for a collection.
+",
+    file: "federation",
     kind: [
       "typeAlias",
       "typeAlias",
@@ -1266,11 +1599,15 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 63,
     },
     name: "CollectionCursor",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/federation/~/CollectionCursor",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
-    file: "/federation",
+    doc: "A callback that dispatches a collection.
+",
+    file: "federation",
     kind: [
       "typeAlias",
       "typeAlias",
@@ -1282,11 +1619,14 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 42,
     },
     name: "CollectionDispatcher",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/federation/~/CollectionDispatcher",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
-    file: "/federation",
+    doc: "A context.",
+    file: "federation",
     kind: [
       "interface",
       "interface",
@@ -1298,11 +1638,18 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 8,
     },
     name: "Context",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/federation/~/Context",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
-    file: "/federation",
+    doc: "An object that registers federation-related business logic and dispatches
+requests to the appropriate handlers.
+
+It also provides a middleware interface for handling requests before your
+web framework's router; see {@link Federation.handle}.",
+    file: "federation",
     kind: [
       "class",
       "class",
@@ -1314,11 +1661,15 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 114,
     },
     name: "Federation",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/federation/~/Federation",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
-    file: "/federation",
+    doc: "Parameters of {@link Federation.fetch} method.
+",
+    file: "federation",
     kind: [
       "interface",
       "interface",
@@ -1330,11 +1681,14 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 852,
     },
     name: "FederationFetchOptions",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/federation/~/FederationFetchOptions",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
-    file: "/federation",
+    doc: "Prefixes for namespacing keys in the Deno KV store.",
+    file: "federation",
     kind: [
       "interface",
       "interface",
@@ -1346,11 +1700,14 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 93,
     },
     name: "FederationKvPrefixes",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/federation/~/FederationKvPrefixes",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
-    file: "/federation",
+    doc: "Parameters for initializing a {@link Federation} instance.",
+    file: "federation",
     kind: [
       "interface",
       "interface",
@@ -1362,11 +1719,16 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 44,
     },
     name: "FederationParameters",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/federation/~/FederationParameters",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
-    file: "/federation",
+    doc: "A message queue that processes messages in the same process.
+Do not use this in production as it does not persist messages.
+",
+    file: "federation",
     kind: [
       "class",
       "class",
@@ -1378,11 +1740,15 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 42,
     },
     name: "InProcessMessageQueue",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/federation/~/InProcessMessageQueue",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
-    file: "/federation",
+    doc: "A callback that handles errors in an inbox.
+",
+    file: "federation",
     kind: [
       "typeAlias",
       "typeAlias",
@@ -1394,11 +1760,15 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 84,
     },
     name: "InboxErrorHandler",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/federation/~/InboxErrorHandler",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
-    file: "/federation",
+    doc: "A callback that listens for activities in an inbox.
+",
+    file: "federation",
     kind: [
       "typeAlias",
       "typeAlias",
@@ -1410,11 +1780,14 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 74,
     },
     name: "InboxListener",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/federation/~/InboxListener",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
-    file: "/federation",
+    doc: "Registry for inbox listeners for different activity types.",
+    file: "federation",
     kind: [
       "interface",
       "interface",
@@ -1426,11 +1799,15 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 924,
     },
     name: "InboxListenerSetter",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/federation/~/InboxListenerSetter",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
-    file: "/federation",
+    doc: "A key for a key-value store.  An array of one or more strings.
+",
+    file: "federation",
     kind: [
       "typeAlias",
       "typeAlias",
@@ -1442,11 +1819,15 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 8,
     },
     name: "KvKey",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/federation/~/KvKey",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
-    file: "/federation",
+    doc: "An abstract interface for a key-value store.
+",
+    file: "federation",
     kind: [
       "interface",
       "interface",
@@ -1458,11 +1839,15 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 27,
     },
     name: "KvStore",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/federation/~/KvStore",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
-    file: "/federation",
+    doc: "Additional options for setting a value in a key-value store.
+",
+    file: "federation",
     kind: [
       "interface",
       "interface",
@@ -1474,11 +1859,16 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 15,
     },
     name: "KvStoreSetOptions",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/federation/~/KvStoreSetOptions",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
-    file: "/federation",
+    doc: "A key-value store that stores values in memory.
+Do not use this in production as it does not persist values.
+",
+    file: "federation",
     kind: [
       "class",
       "class",
@@ -1490,11 +1880,15 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 57,
     },
     name: "MemoryKvStore",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/federation/~/MemoryKvStore",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
-    file: "/federation",
+    doc: "An abstract interface for a message queue.
+",
+    file: "federation",
     kind: [
       "interface",
       "interface",
@@ -1506,11 +1900,15 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 21,
     },
     name: "MessageQueue",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/federation/~/MessageQueue",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
-    file: "/federation",
+    doc: "Additional options for enqueuing a message in a queue.
+",
+    file: "federation",
     kind: [
       "interface",
       "interface",
@@ -1522,11 +1920,15 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 9,
     },
     name: "MessageQueueEnqueueOptions",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/federation/~/MessageQueueEnqueueOptions",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
-    file: "/federation",
+    doc: "A callback that dispatches a {@link NodeInfo} object.
+",
+    file: "federation",
     kind: [
       "typeAlias",
       "typeAlias",
@@ -1538,11 +1940,14 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 12,
     },
     name: "NodeInfoDispatcher",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/federation/~/NodeInfoDispatcher",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
-    file: "/federation",
+    doc: "A page of items.",
+    file: "federation",
     kind: [
       "interface",
       "interface",
@@ -1554,11 +1959,14 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 4,
     },
     name: "PageItems",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/federation/~/PageItems",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
-    file: "/federation",
+    doc: "A context for a request.",
+    file: "federation",
     kind: [
       "interface",
       "interface",
@@ -1570,11 +1978,15 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 134,
     },
     name: "RequestContext",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/federation/~/RequestContext",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
-    file: "/federation",
+    doc: "Options for the {@link respondWithObject} and
+{@link respondWithObjectIfAcceptable} functions.",
+    file: "federation",
     kind: [
       "interface",
       "interface",
@@ -1586,11 +1998,15 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 350,
     },
     name: "RespondWithObjectOptions",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/federation/~/RespondWithObjectOptions",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
-    file: "/federation",
+    doc: "URL router and constructor based on URI Template
+([RFC 6570](https://tools.ietf.org/html/rfc6570)).",
+    file: "federation",
     kind: [
       "class",
       "class",
@@ -1602,11 +2018,14 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 9,
     },
     name: "Router",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/federation/~/Router",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
-    file: "/federation",
+    doc: "An error thrown by the {@link Router}.",
+    file: "federation",
     kind: [
       "class",
       "class",
@@ -1618,11 +2037,15 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 77,
     },
     name: "RouterError",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/federation/~/RouterError",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
-    file: "/federation",
+    doc: "Options for {@link Context.sendActivity} method and
+{@link Federation.sendActivity} method.",
+    file: "federation",
     kind: [
       "interface",
       "interface",
@@ -1634,11 +2057,15 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 150,
     },
     name: "SendActivityOptions",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/federation/~/SendActivityOptions",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
-    file: "/federation",
+    doc: "Responds with the given object in JSON-LD format.
+",
+    file: "federation",
     kind: [
       "function",
       "function",
@@ -1650,11 +2077,16 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 364,
     },
     name: "respondWithObject",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/federation/~/respondWithObject",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
-    file: "/federation",
+    doc: "Responds with the given object in JSON-LD format if the request accepts
+JSON-LD.
+",
+    file: "federation",
     kind: [
       "function",
       "function",
@@ -1666,11 +2098,14 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 385,
     },
     name: "respondWithObjectIfAcceptable",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/federation/~/respondWithObjectIfAcceptable",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
-    file: "/httpsig",
+    doc: "Checks if the actor of the given activity owns the specified key.",
+    file: "httpsig",
     kind: [
       "function",
       "function",
@@ -1682,11 +2117,14 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 212,
     },
     name: "doesActorOwnKey",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/httpsig/~/doesActorOwnKey",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
-    file: "/httpsig",
+    doc: "Exports a key in JWK format.",
+    file: "httpsig",
     kind: [
       "function",
       "function",
@@ -1698,11 +2136,14 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 61,
     },
     name: "exportJwk",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/httpsig/~/exportJwk",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
-    file: "/httpsig",
+    doc: "Generates a key pair which is appropriate for Fedify.",
+    file: "httpsig",
     kind: [
       "function",
       "function",
@@ -1714,11 +2155,14 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 40,
     },
     name: "generateCryptoKeyPair",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/httpsig/~/generateCryptoKeyPair",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
-    file: "/httpsig",
+    doc: "Imports a key from JWK format.",
+    file: "httpsig",
     kind: [
       "function",
       "function",
@@ -1730,11 +2174,14 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 74,
     },
     name: "importJwk",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/httpsig/~/importJwk",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
-    file: "/httpsig",
+    doc: "Signs a request using the given private key.",
+    file: "httpsig",
     kind: [
       "function",
       "function",
@@ -1746,11 +2193,19 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 29,
     },
     name: "sign",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/httpsig/~/sign",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
-    file: "/httpsig",
+    doc: "Verifies the signature of a request.
+
+Note that this function consumes the request body, so it should not be used
+if the request body is already consumed.  Consuming the request body after
+calling this function is okay, since this function clones the request
+under the hood.",
+    file: "httpsig",
     kind: [
       "function",
       "function",
@@ -1762,11 +2217,14 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 94,
     },
     name: "verify",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/httpsig/~/verify",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
-    file: "/x/denokv",
+    doc: "Represents a message queue adapter that uses Deno KV store.",
+    file: "x/denokv",
     kind: [
       "class",
     ],
@@ -1777,11 +2235,14 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 69,
     },
     name: "DenoKvMessageQueue",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/x/denokv/~/DenoKvMessageQueue",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
-    file: "/x/denokv",
+    doc: "Represents a key-value store implementation using Deno's KV store.",
+    file: "x/denokv",
     kind: [
       "class",
     ],
@@ -1792,11 +2253,33 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 22,
     },
     name: "DenoKvStore",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/x/denokv/~/DenoKvStore",
   },
   {
+    category: "",
+    declarationKind: "private",
+    deprecated: false,
+    doc: "",
+    file: "x/fresh",
+    kind: [
+      "interface",
+    ],
+    location: {
+      byteIndex: 320,
+      col: 0,
+      filename: "x/fresh",
+      line: 18,
+    },
+    name: "FreshContext",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/x/fresh/~/FreshContext",
+  },
+  {
+    category: "",
     declarationKind: "export",
     deprecated: false,
-    file: "/x/fresh",
+    doc: "Create options for the \`federation\` object to integrate with Fresh.
+",
+    file: "x/fresh",
     kind: [
       "function",
     ],
@@ -1807,11 +2290,16 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 42,
     },
     name: "integrateFetchOptions",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/x/fresh/~/integrateFetchOptions",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
-    file: "/x/fresh",
+    doc: "Create a Fresh middleware handler to integrate with the {@link Federation}
+object.
+",
+    file: "x/fresh",
     kind: [
       "function",
     ],
@@ -1822,11 +2310,15 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 101,
     },
     name: "integrateHandler",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/x/fresh/~/integrateHandler",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: true,
-    file: "/x/fresh",
+    doc: "Create options for the \`federation\` object to integrate with Fresh.
+",
+    file: "x/fresh",
     kind: [
       "variable",
     ],
@@ -1837,11 +2329,16 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 80,
     },
     name: "integrateHandlerOptions",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/x/fresh/~/integrateHandlerOptions",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
-    file: "/x/hono",
+    doc: "A factory function to create a context data for the {@link Federation}
+object.
+",
+    file: "x/hono",
     kind: [
       "typeAlias",
     ],
@@ -1852,11 +2349,69 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 41,
     },
     name: "ContextDataFactory",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/x/hono/~/ContextDataFactory",
   },
   {
+    category: "",
+    declarationKind: "private",
+    deprecated: false,
+    doc: "",
+    file: "x/hono",
+    kind: [
+      "interface",
+    ],
+    location: {
+      byteIndex: 323,
+      col: 0,
+      filename: "x/hono",
+      line: 21,
+    },
+    name: "HonoContext",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/x/hono/~/HonoContext",
+  },
+  {
+    category: "",
+    declarationKind: "private",
+    deprecated: false,
+    doc: "",
+    file: "x/hono",
+    kind: [
+      "typeAlias",
+    ],
+    location: {
+      byteIndex: 387,
+      col: 0,
+      filename: "x/hono",
+      line: 26,
+    },
+    name: "HonoMiddleware",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/x/hono/~/HonoMiddleware",
+  },
+  {
+    category: "",
+    declarationKind: "private",
+    deprecated: false,
+    doc: "",
+    file: "x/hono",
+    kind: [
+      "interface",
+    ],
+    location: {
+      byteIndex: 280,
+      col: 0,
+      filename: "x/hono",
+      line: 17,
+    },
+    name: "HonoRequest",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/x/hono/~/HonoRequest",
+  },
+  {
+    category: "",
     declarationKind: "export",
     deprecated: false,
-    file: "/x/hono",
+    doc: "Create a Hono middleware to integrate with the {@link Federation} object.
+",
+    file: "x/hono",
     kind: [
       "function",
     ],
@@ -1867,6 +2422,7 @@ snapshot[`fetchRootSymbols() 1`] = `
       line: 56,
     },
     name: "federation",
+    url: "/@fedify/fedify@0.6.0-dev.104+a35268bc/doc/x/hono/~/federation",
   },
 ]
 `;
@@ -1879,67 +2435,67 @@ snapshot[`fetchSymbolMembers() 1`] = `
   },
   {
     kind: "property",
-    name: "documentLoader",
+    name: "documentloader",
   },
   {
     index: 0,
     kind: "call_signature",
-    name: "getNodeInfoUri",
+    name: "getnodeinfouri",
   },
   {
     index: 1,
     kind: "call_signature",
-    name: "getActorUri",
+    name: "getactoruri",
   },
   {
     index: 2,
     kind: "call_signature",
-    name: "getOutboxUri",
+    name: "getoutboxuri",
   },
   {
     index: 3,
     kind: "call_signature",
-    name: "getInboxUri",
+    name: "getinboxuri",
   },
   {
     index: 4,
     kind: "call_signature",
-    name: "getInboxUri",
+    name: "getinboxuri",
   },
   {
     index: 5,
     kind: "call_signature",
-    name: "getFollowingUri",
+    name: "getfollowinguri",
   },
   {
     index: 6,
     kind: "call_signature",
-    name: "getFollowersUri",
+    name: "getfollowersuri",
   },
   {
     index: 7,
     kind: "call_signature",
-    name: "getHandleFromActorUri",
+    name: "gethandlefromactoruri",
   },
   {
     index: 8,
     kind: "call_signature",
-    name: "getActorKey",
+    name: "getactorkey",
   },
   {
     index: 9,
     kind: "call_signature",
-    name: "getDocumentLoader",
+    name: "getdocumentloader",
   },
   {
     index: 10,
     kind: "call_signature",
-    name: "getDocumentLoader",
+    name: "getdocumentloader",
   },
   {
     index: 11,
     kind: "call_signature",
-    name: "sendActivity",
+    name: "sendactivity",
   },
 ]
 `;
@@ -1952,51 +2508,51 @@ snapshot[`fetchSymbolMembers() 2`] = `
   },
   {
     kind: "accessor",
-    name: "_documentLoader",
+    name: "_documentloader",
   },
   {
     kind: "accessor",
-    name: "attachmentIds",
+    name: "attachmentids",
   },
   {
     kind: "accessor",
-    name: "attributionId",
+    name: "attributionid",
   },
   {
     kind: "accessor",
-    name: "attributionIds",
+    name: "attributionids",
   },
   {
     kind: "accessor",
-    name: "audienceId",
+    name: "audienceid",
   },
   {
     kind: "accessor",
-    name: "audienceIds",
+    name: "audienceids",
   },
   {
     kind: "accessor",
-    name: "bccId",
+    name: "bccid",
   },
   {
     kind: "accessor",
-    name: "bccIds",
+    name: "bccids",
   },
   {
     kind: "accessor",
-    name: "btoId",
+    name: "btoid",
   },
   {
     kind: "accessor",
-    name: "btoIds",
+    name: "btoids",
   },
   {
     kind: "accessor",
-    name: "ccId",
+    name: "ccid",
   },
   {
     kind: "accessor",
-    name: "ccIds",
+    name: "ccids",
   },
   {
     kind: "accessor",
@@ -2008,7 +2564,7 @@ snapshot[`fetchSymbolMembers() 2`] = `
   },
   {
     kind: "accessor",
-    name: "contextIds",
+    name: "contextids",
   },
   {
     kind: "accessor",
@@ -2016,19 +2572,19 @@ snapshot[`fetchSymbolMembers() 2`] = `
   },
   {
     kind: "accessor",
-    name: "endTime",
+    name: "endtime",
   },
   {
     kind: "accessor",
-    name: "generatorIds",
+    name: "generatorids",
   },
   {
     kind: "accessor",
-    name: "iconId",
+    name: "iconid",
   },
   {
     kind: "accessor",
-    name: "iconIds",
+    name: "iconids",
   },
   {
     kind: "property",
@@ -2036,23 +2592,23 @@ snapshot[`fetchSymbolMembers() 2`] = `
   },
   {
     kind: "accessor",
-    name: "imageId",
+    name: "imageid",
   },
   {
     kind: "accessor",
-    name: "imageIds",
+    name: "imageids",
   },
   {
     kind: "accessor",
-    name: "locationId",
+    name: "locationid",
   },
   {
     kind: "accessor",
-    name: "locationIds",
+    name: "locationids",
   },
   {
     kind: "accessor",
-    name: "mediaType",
+    name: "mediatype",
   },
   {
     kind: "accessor",
@@ -2064,11 +2620,11 @@ snapshot[`fetchSymbolMembers() 2`] = `
   },
   {
     kind: "accessor",
-    name: "previewId",
+    name: "previewid",
   },
   {
     kind: "accessor",
-    name: "previewIds",
+    name: "previewids",
   },
   {
     kind: "accessor",
@@ -2076,15 +2632,15 @@ snapshot[`fetchSymbolMembers() 2`] = `
   },
   {
     kind: "accessor",
-    name: "repliesId",
+    name: "repliesid",
   },
   {
     kind: "accessor",
-    name: "replyTargetId",
+    name: "replytargetid",
   },
   {
     kind: "accessor",
-    name: "replyTargetIds",
+    name: "replytargetids",
   },
   {
     kind: "accessor",
@@ -2092,7 +2648,7 @@ snapshot[`fetchSymbolMembers() 2`] = `
   },
   {
     kind: "accessor",
-    name: "startTime",
+    name: "starttime",
   },
   {
     kind: "accessor",
@@ -2104,15 +2660,15 @@ snapshot[`fetchSymbolMembers() 2`] = `
   },
   {
     kind: "accessor",
-    name: "tagIds",
+    name: "tagids",
   },
   {
     kind: "accessor",
-    name: "toId",
+    name: "toid",
   },
   {
     kind: "accessor",
-    name: "toIds",
+    name: "toids",
   },
   {
     kind: "accessor",
@@ -2129,19 +2685,19 @@ snapshot[`fetchSymbolMembers() 2`] = `
   {
     index: 0,
     kind: "method",
-    name: "[Symbol_for(&amp;quot;Deno_customInspect&amp;quot;)]",
+    name: "symbol_forquotdeno_custominspectquot",
     static: false,
   },
   {
     index: 0,
     kind: "method",
-    name: "[Symbol_for(&amp;quot;nodejs_util_inspect_custom&amp;quot;)]",
+    name: "symbol_forquotnodejs_util_inspect_customquot",
     static: false,
   },
   {
     index: 0,
     kind: "method",
-    name: "_getCustomInspectProxy",
+    name: "_getcustominspectproxy",
     static: false,
   },
   {
@@ -2153,175 +2709,175 @@ snapshot[`fetchSymbolMembers() 2`] = `
   {
     index: 0,
     kind: "method",
-    name: "getAttachments",
+    name: "getattachments",
     static: false,
   },
   {
     index: 0,
     kind: "method",
-    name: "getAttribution",
+    name: "getattribution",
     static: false,
   },
   {
     index: 0,
     kind: "method",
-    name: "getAttributions",
+    name: "getattributions",
     static: false,
   },
   {
     index: 0,
     kind: "method",
-    name: "getAudience",
+    name: "getaudience",
     static: false,
   },
   {
     index: 0,
     kind: "method",
-    name: "getAudiences",
+    name: "getaudiences",
     static: false,
   },
   {
     index: 0,
     kind: "method",
-    name: "getBcc",
+    name: "getbcc",
     static: false,
   },
   {
     index: 0,
     kind: "method",
-    name: "getBccs",
+    name: "getbccs",
     static: false,
   },
   {
     index: 0,
     kind: "method",
-    name: "getBto",
+    name: "getbto",
     static: false,
   },
   {
     index: 0,
     kind: "method",
-    name: "getBtos",
+    name: "getbtos",
     static: false,
   },
   {
     index: 0,
     kind: "method",
-    name: "getCc",
+    name: "getcc",
     static: false,
   },
   {
     index: 0,
     kind: "method",
-    name: "getCcs",
+    name: "getccs",
     static: false,
   },
   {
     index: 0,
     kind: "method",
-    name: "getContexts",
+    name: "getcontexts",
     static: false,
   },
   {
     index: 0,
     kind: "method",
-    name: "getGenerators",
+    name: "getgenerators",
     static: false,
   },
   {
     index: 0,
     kind: "method",
-    name: "getIcon",
+    name: "geticon",
     static: false,
   },
   {
     index: 0,
     kind: "method",
-    name: "getIcons",
+    name: "geticons",
     static: false,
   },
   {
     index: 0,
     kind: "method",
-    name: "getImage",
+    name: "getimage",
     static: false,
   },
   {
     index: 0,
     kind: "method",
-    name: "getImages",
+    name: "getimages",
     static: false,
   },
   {
     index: 0,
     kind: "method",
-    name: "getLocation",
+    name: "getlocation",
     static: false,
   },
   {
     index: 0,
     kind: "method",
-    name: "getLocations",
+    name: "getlocations",
     static: false,
   },
   {
     index: 0,
     kind: "method",
-    name: "getPreview",
+    name: "getpreview",
     static: false,
   },
   {
     index: 0,
     kind: "method",
-    name: "getPreviews",
+    name: "getpreviews",
     static: false,
   },
   {
     index: 0,
     kind: "method",
-    name: "getReplies",
+    name: "getreplies",
     static: false,
   },
   {
     index: 0,
     kind: "method",
-    name: "getReplyTarget",
+    name: "getreplytarget",
     static: false,
   },
   {
     index: 0,
     kind: "method",
-    name: "getReplyTargets",
+    name: "getreplytargets",
     static: false,
   },
   {
     index: 0,
     kind: "method",
-    name: "getTags",
+    name: "gettags",
     static: false,
   },
   {
     index: 0,
     kind: "method",
-    name: "getTo",
+    name: "getto",
     static: false,
   },
   {
     index: 0,
     kind: "method",
-    name: "getTos",
+    name: "gettos",
     static: false,
   },
   {
     index: 0,
     kind: "method",
-    name: "toJsonLd",
+    name: "tojsonld",
     static: false,
   },
   {
     index: 0,
     kind: "method",
-    name: "fromJsonLd",
+    name: "fromjsonld",
     static: true,
   },
 ]
@@ -2336,13 +2892,13 @@ snapshot[`fetchSymbolMembers() 3`] = `
   {
     index: 0,
     kind: "method",
-    name: "createContext",
+    name: "createcontext",
     static: false,
   },
   {
     index: 1,
     kind: "method",
-    name: "createContext",
+    name: "createcontext",
     static: false,
   },
   {
@@ -2360,43 +2916,43 @@ snapshot[`fetchSymbolMembers() 3`] = `
   {
     index: 0,
     kind: "method",
-    name: "sendActivity",
+    name: "sendactivity",
     static: false,
   },
   {
     index: 0,
     kind: "method",
-    name: "setActorDispatcher",
+    name: "setactordispatcher",
     static: false,
   },
   {
     index: 0,
     kind: "method",
-    name: "setFollowersDispatcher",
+    name: "setfollowersdispatcher",
     static: false,
   },
   {
     index: 0,
     kind: "method",
-    name: "setFollowingDispatcher",
+    name: "setfollowingdispatcher",
     static: false,
   },
   {
     index: 0,
     kind: "method",
-    name: "setInboxListeners",
+    name: "setinboxlisteners",
     static: false,
   },
   {
     index: 0,
     kind: "method",
-    name: "setNodeInfoDispatcher",
+    name: "setnodeinfodispatcher",
     static: false,
   },
   {
     index: 0,
     kind: "method",
-    name: "setOutboxDispatcher",
+    name: "setoutboxdispatcher",
     static: false,
   },
 ]
@@ -2418,8 +2974,22 @@ snapshot[`fetchRootSymbolsWithMembers() 1`] = `
 snapshot[`fetchRootSymbolsWithMembers() 2`] = `
 [
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: 'Makes an assertion that the beginning elements of the \`actual\` iterable are
+in common with the elements of the \`expected\` array.
+
+\`\`\` typescript
+import { assertStreamStartsWith } from "./testing.ts";
+import { count } from "./infinite.ts";
+
+Deno.test("your test name", async () => {
+  const stream = count(0, 5);
+  await assertStreamStartsWith(stream, [0, 5, 10, 15]);
+});
+\`\`\`
+',
     file: ".",
     kind: [
       "function",
@@ -2433,10 +3003,26 @@ snapshot[`fetchRootSymbolsWithMembers() 2`] = `
     },
     members: [],
     name: "assertStreamStartsWith",
+    url: "/@hongminhee/aitertools@0.6.0/doc/~/assertStreamStartsWith",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: 'Makes an assertion that the elements of the \`actual\` iterable are equal to
+the elements of the \`expected\` array.
+
+\`\`\` typescript
+import { assertStreams } from "./testing.ts";
+
+async function* gen() { yield "actual"; yield "elements"; }
+
+Deno.test("your test name", async () => {
+  const stream = gen();
+  await assertStreams(stream, ["actual", "elements"]);
+});
+\`\`\`
+',
     file: ".",
     kind: [
       "function",
@@ -2450,10 +3036,35 @@ snapshot[`fetchRootSymbolsWithMembers() 2`] = `
     },
     members: [],
     name: "assertStreams",
+    url: "/@hongminhee/aitertools@0.6.0/doc/~/assertStreams",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: 'Concatenates multiple async iterables into one async iterable.
+
+\`\`\` typescript
+import { concat } from "./concat.ts";
+
+async function* gen() { yield "foo"; yield "bar"; yield "baz"; yield "qux" }
+const iterable = concat(gen(), ["a", "b", "c", "d"]);
+for await (const value of iterable) console.log(value);
+\`\`\`
+
+The above example will print the following 8 lines:
+
+~~~
+foo
+bar
+baz
+qux
+a
+b
+c
+d
+~~~
+',
     file: ".",
     kind: [
       "function",
@@ -2467,10 +3078,84 @@ snapshot[`fetchRootSymbolsWithMembers() 2`] = `
     },
     members: [],
     name: "concat",
+    url: "/@hongminhee/aitertools@0.6.0/doc/~/concat",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "Makes an infinite async iterable of evenly spaced values starting with
+the \`start\` number.
+
+\`\`\` typescript
+import { count } from \\"./infinite.ts\\";
+const iterable = count(5);
+for await (const value of iterable) {
+  console.log(value);
+}
+\`\`\`
+
+The above example will print the following and keep going forever:
+
+~~~
+5
+6
+7
+8
+9
+(...)
+~~~
+
+You could adjust the interval by passing a second argument to \`count()\`:
+
+\`\`\` typescript
+import { count } from \\"./infinite.ts\\";
+const iterable = count(0, 3);
+for await (const value of iterable) {
+  console.log(value);
+}
+\`\`\`
+
+The above example will print the following and keep going forever:
+
+~~~
+0
+3
+6
+9
+12
+(...)
+~~~
+
+As it's infinite, it's usually used with \`break\` to stop the iteration:
+
+\`\`\` typescript
+import { count } from \\"./infinite.ts\\";
+for await (const value of count(0)) {
+  if (value > 4) break;
+  console.log(value);
+}
+\`\`\`
+
+Or with other async generators like \`takeWhile()\`:
+
+\`\`\` typescript
+import { count } from \\"./infinite.ts\\";
+import { takeWhile } from \\"./take.ts\\";
+for await (const value of takeWhile(count(0), v => v <= 4)) {
+  console.log(value);
+}
+\`\`\`
+
+The both examples above will print the following 4 lines:
+
+~~~
+0
+1
+2
+3
+~~~
+",
     file: ".",
     kind: [
       "function",
@@ -2484,10 +3169,39 @@ snapshot[`fetchRootSymbolsWithMembers() 2`] = `
     },
     members: [],
     name: "count",
+    url: "/@hongminhee/aitertools@0.6.0/doc/~/count",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: 'Makes an async iterator that yields elements from the \`source\` and saving
+a copy of each.  When the \`source\` is exhausted, yields saved copies
+indefinitely.
+
+Note that it may require significant memory to save the copies
+depending on the length of the \`source\`.
+
+\`\`\` typescript
+import { cycle } from "./infinite.ts";
+
+async function* gen() { yield 3; yield 6; yield 9; }
+const iterable = cycle(gen());
+for await (const value of iterable) console.log(value);
+\`\`\`
+
+The above example will print the following and keep going forever:
+
+~~~
+3
+6
+9
+3
+6
+9
+(...)
+~~~
+',
     file: ".",
     kind: [
       "function",
@@ -2501,10 +3215,47 @@ snapshot[`fetchRootSymbolsWithMembers() 2`] = `
     },
     members: [],
     name: "cycle",
+    url: "/@hongminhee/aitertools@0.6.0/doc/~/cycle",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: 'Drops a specified number of elements from the beginning of an async iterable,
+and yields the remaining elements.
+
+\`\`\` typescript
+import { drop } from "./drop.ts";
+
+async function* gen() { yield "foo"; yield "bar"; yield "baz"; yield "qux" }
+const iterable = drop(gen(), 2);
+for await (const value of iterable) {
+  console.log(value);
+}
+\`\`\`
+
+The above example will print the following 2 lines:
+
+~~~
+baz
+qux
+~~~
+
+If the iterable is shorter than or equal to the specified number, no elements
+are yielded.
+
+\`\`\` typescript
+import { drop } from "./drop.ts";
+
+async function* gen() { yield "foo"; yield "bar"; yield "baz"; yield "qux" }
+const iterable = drop(gen(), 4);
+for await (const value of iterable) {
+  console.log(value);
+}
+\`\`\`
+
+The above example will print nothing.
+',
     file: ".",
     kind: [
       "function",
@@ -2518,10 +3269,43 @@ snapshot[`fetchRootSymbolsWithMembers() 2`] = `
     },
     members: [],
     name: "drop",
+    url: "/@hongminhee/aitertools@0.6.0/doc/~/drop",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: 'Drops a specified number of elements from the end of an async iterable, and
+yields the remaining elements.
+
+\`\`\` typescript
+import { dropEnd } from "./drop.ts";
+
+async function* gen() { yield "foo"; yield "bar"; yield "baz"; yield "qux" }
+const iterable = dropEnd(gen(), 2);
+for await (const value of iterable) console.log(value);
+\`\`\`
+
+The above example will print the following 2 lines:
+
+~~~
+foo
+bar
+~~~
+
+If the iterable is shorter than or equal to the specified number, no elements
+are yielded.
+
+\`\`\` typescript
+import { dropEnd } from "./drop.ts";
+
+async function* gen() { yield "foo"; yield "bar"; yield "baz"; yield "qux" }
+const iterable = dropEnd(gen(), 4);
+for await (const value of iterable) console.log(value);
+\`\`\`
+
+The above example will print nothing.
+',
     file: ".",
     kind: [
       "function",
@@ -2535,10 +3319,65 @@ snapshot[`fetchRootSymbolsWithMembers() 2`] = `
     },
     members: [],
     name: "dropEnd",
+    url: "/@hongminhee/aitertools@0.6.0/doc/~/dropEnd",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: 'Drops elements from the beginning of an async iterable as long as a specified
+condition is met, and yields the remaining elements.
+
+\`\`\` typescript
+import { dropWhile } from "./drop.ts";
+
+async function* gen() { yield "foo"; yield "bar"; yield "baz"; yield "qux" }
+const iterable = dropWhile(gen(), v => v !== "baz");
+for await (const value of iterable) {
+  console.log(value);
+}
+\`\`\`
+
+The above example will print the following 2 lines:
+
+~~~
+baz
+qux
+~~~
+
+An async \`predicate\` function also works.  The following example will print
+the same 2 lines as the previous example:
+
+\`\`\` typescript
+import { dropWhile } from "./drop.ts";
+
+async function* gen() { yield "foo"; yield "bar"; yield "baz"; yield "qux" }
+const iterable = dropWhile(gen(), v => Promise.resolve(v !== "baz"));
+for await (const value of iterable) {
+  console.log(value);
+}
+\`\`\`
+
+A \`predicate\` function can take an index as well as the value.
+
+\`\`\` typescript
+import { dropWhile } from "./drop.ts";
+
+async function* gen() { yield "foo"; yield "bar"; yield "baz"; yield "qux" }
+const iterable = dropWhile(gen(), (_, i) => i % 2 === 0);
+for await (const value of iterable) {
+  console.log(value);
+}
+\`\`\`
+
+The above example will print the following 3 lines:
+
+~~~
+bar
+baz
+qux
+~~~
+',
     file: ".",
     kind: [
       "function",
@@ -2552,10 +3391,49 @@ snapshot[`fetchRootSymbolsWithMembers() 2`] = `
     },
     members: [],
     name: "dropWhile",
+    url: "/@hongminhee/aitertools@0.6.0/doc/~/dropWhile",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: 'Eliminates all elements from the iterable \`source\` that do not satisfy
+the \`predicate\` function.
+
+\`\`\` typescript
+import { filter } from "./filter.ts";
+
+async function* gen() { yield "foo"; yield "bar"; yield "baz"; yield "qux" }
+const iterable = filter((v: string) => !!v.match(/^b/), gen());
+for await (const value of iterable) console.log(value);
+\`\`\`
+
+The above example will print the following 2 lines:
+
+~~~
+bar
+baz
+~~~
+
+The \`predicate\` function can take an index as well as the value.
+
+\`\`\` typescript
+import { filter } from "./filter.ts";
+
+const iterable = filter(
+  (v: string, i: number) => !v.match(/^b/) && i % 2 === 0,
+  ["foo", "bar", "baz", "qux", "quux"]
+);
+for await (const value of iterable) console.log(value);
+\`\`\`
+
+The above example will print the following 2 lines:
+
+~~~
+foo
+quux
+~~~
+',
     file: ".",
     kind: [
       "function",
@@ -2569,10 +3447,30 @@ snapshot[`fetchRootSymbolsWithMembers() 2`] = `
     },
     members: [],
     name: "filter",
+    url: "/@hongminhee/aitertools@0.6.0/doc/~/filter",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: 'Turns a synchrnous iterable \`source\` into an async iterable.
+
+\`\`\` typescript
+import { fromIterable } from "./collections.ts";
+
+function* iterable() { yield 1; yield 2; yield 3; }
+const asyncIterable = fromIterable(iterable());
+for await (const value of asyncIterable) console.log(value);
+\`\`\`
+
+The above example will print the following lines:
+
+~~~
+1
+2
+3
+~~~
+',
     file: ".",
     kind: [
       "function",
@@ -2586,10 +3484,40 @@ snapshot[`fetchRootSymbolsWithMembers() 2`] = `
     },
     members: [],
     name: "fromIterable",
+    url: "/@hongminhee/aitertools@0.6.0/doc/~/fromIterable",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: 'Groups elmenets of an async interable \`source\` according to a specified
+\`keySelector\` function and creates a map of each group key to the elements in
+that group.  Key values are compared using the \`===\` operator.
+
+\`\`\` typescript
+import { groupBy } from "./unique.ts";
+
+interface IdName { id: number; name: string; }
+async function* gen(): AsyncIterableIterator<IdName> {
+  yield { id: 1, name: "foo" };
+  yield { id: 2, name: "bar" };
+  yield { id: 3, name: "bar" };
+  yield { id: 4, name: "foo" };
+}
+
+const map = await groupBy<string, IdName>(gen(), o => o.name);
+console.log(map);
+\`\`\`
+
+The above example will print the following:
+
+~~~
+Map {
+ "foo" => [ { id: 1, name: "foo" }, { id: 4, name: "foo" } ],
+ "bar" => [ { id: 2, name: "bar" }, { id: 3, name: "bar" } ]
+}
+~~~
+',
     file: ".",
     kind: [
       "function",
@@ -2603,10 +3531,54 @@ snapshot[`fetchRootSymbolsWithMembers() 2`] = `
     },
     members: [],
     name: "groupBy",
+    url: "/@hongminhee/aitertools@0.6.0/doc/~/groupBy",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: 'Transforms every element of the iterable \`source\` into a new iterable.
+
+\`\`\` typescript
+import { map } from "./map.ts";
+import { count } from "./infinite.ts";
+
+const iterable = map((v: number) => v * 2, count());
+for await (const value of iterable) console.log(value);
+\`\`\`
+
+The above example will print the following and keep going forever:
+
+~~~
+0
+2
+4
+6
+(...)
+~~~
+
+The \`fn\` function can take an additional argument, which is the index of the
+element in the iterable.
+
+\`\`\` typescript
+import { map } from "./map.ts";
+
+const iterable = map(
+  (v: string, i: number) => \`\${i}. \${v.toUpperCase()}\`,
+  ["foo", "bar", "baz", "qux"]
+);
+for await (const value of iterable) console.log(value);
+\`\`\`
+
+The above example will print the following 4 lines:
+
+~~~
+0. FOO
+1. BAR
+2. BAZ
+3. QUX
+~~~
+',
     file: ".",
     kind: [
       "function",
@@ -2630,10 +3602,32 @@ snapshot[`fetchRootSymbolsWithMembers() 2`] = `
     },
     members: [],
     name: "map",
+    url: "/@hongminhee/aitertools@0.6.0/doc/~/map",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: 'Creates a {@link Range} of numbers from 0 to \`stop\` with step 1.
+
+\`\`\` typescript
+import { range } from "./range.ts";
+
+for (const value of range(4)) console.log(value);
+\`\`\`
+
+The above example will print the following 4 lines:
+
+~~~
+0
+1
+2
+3
+~~~
+
+Note that the type of the range is \`Range<number>\`, which implements
+both \`Iterable<number>\` and \`AsyncIterable<number>\`.
+',
     file: ".",
     kind: [
       "function",
@@ -2659,10 +3653,59 @@ snapshot[`fetchRootSymbolsWithMembers() 2`] = `
     },
     members: [],
     name: "range",
+    url: "/@hongminhee/aitertools@0.6.0/doc/~/range",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: 'Apply \`reducer\` function of two arguments cumulatively to the elements of
+an async iterable \`source\`, from left to right, so as to reduce the async
+iterable to a single value.
+
+\`\`\` typescript
+import { reduce } from "./fold.ts";
+
+async function* oneToFive() { yield 1; yield 2; yield 3; yield 4; yield 5; }
+const reducedValue = await reduce(
+  (x, y) => { console.log(\`\${x} + \${y} = \${x + y}\`); return x + y; },
+  oneToFive(),
+  0,
+);
+console.log("reduced value:", reducedValue);
+\`\`\`
+
+The above example will print the following:
+
+~~~
+0 + 1 = 1
+1 + 2 = 3
+3 + 3 = 6
+6 + 4 = 10
+10 + 5 = 15
+reduced value: 15
+~~~
+
+If the async iterable \`source\` is empty, the \`reducer\` function is not
+called and \`initialValue\` is returned.
+
+\`\`\` typescript
+import { reduce } from "./fold.ts";
+
+const reducedValue = await reduce(
+  (x, y) => { console.log(\`\${x} + \${y} = \${x * y}\`); return x * y; },
+  [],
+  1,
+);
+console.log("reduced value:", reducedValue);
+\`\`\`
+
+The above example will print the following:
+
+~~~
+reduced value: 1
+~~~
+',
     file: ".",
     kind: [
       "function",
@@ -2680,10 +3723,49 @@ snapshot[`fetchRootSymbolsWithMembers() 2`] = `
     },
     members: [],
     name: "reduce",
+    url: "/@hongminhee/aitertools@0.6.0/doc/~/reduce",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: 'Makes an async iterator that yields the same value over and over again.
+It will repeat indefinitely unless \`times\` is specified.
+
+\`\`\` typescript
+import { repeat } from "./infinite.ts";
+
+const iterable = repeat("v");
+for await (const value of iterable) console.log(value);
+\`\`\`
+
+The above example will print the following and keep going forever:
+
+~~~
+v
+v
+v
+(...)
+~~~
+
+However, if you specify the second parameter \`times\` it will repeat that many
+times:
+
+\`\`\` typescript
+import { repeat } from "./infinite.ts";
+
+const iterable = repeat("V", 3);
+for await (const value of iterable) console.log(value);
+\`\`\`
+
+The above example will print the following 3 lines:
+
+~~~
+V
+V
+V
+~~~
+',
     file: ".",
     kind: [
       "function",
@@ -2697,10 +3779,52 @@ snapshot[`fetchRootSymbolsWithMembers() 2`] = `
     },
     members: [],
     name: "repeat",
+    url: "/@hongminhee/aitertools@0.6.0/doc/~/repeat",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: 'Takes a specified number of elements from the beginning of an async iterable.
+
+\`\`\` typescript
+import { take } from "./take.ts";
+import { count } from "./infinite.ts";
+
+const iterable = take(count(0, 5), 3);
+for await (const value of iterable) {
+  console.log(value);
+}
+\`\`\`
+
+The above example will print the following 3 lines:
+
+~~~
+0
+5
+10
+~~~
+
+If the iterable is shorter than the specified number, the whole elements are
+taken.
+
+\`\`\` typescript
+import { take } from "./take.ts";
+
+async function* gen() { yield "foo"; yield "bar"; yield "baz"; }
+const iterable = take(gen(), 5);
+for await (const value of iterable) console.log(value);
+\`\`\`
+
+The above example will print only 3 elements, because \`gen()\` yields only 3
+elements:
+
+~~~
+foo
+bar
+baz
+~~~
+',
     file: ".",
     kind: [
       "function",
@@ -2714,10 +3838,50 @@ snapshot[`fetchRootSymbolsWithMembers() 2`] = `
     },
     members: [],
     name: "take",
+    url: "/@hongminhee/aitertools@0.6.0/doc/~/take",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: 'Takes a specified number of elements from the end of an async iterable.
+
+\`\`\` typescript
+import { takeEnd } from "./take.ts";
+import { range } from "./range.ts";
+
+const iterable = takeEnd(range(10), 3);
+for await (const value of iterable) console.log(value);
+\`\`\`
+
+The above example will print the following 3 lines:
+
+~~~
+7
+8
+9
+~~~
+
+If the iterable is shorter than the specified number, the whole elements are
+taken.
+
+\`\`\` typescript
+import { takeEnd } from "./take.ts";
+
+async function* gen() { yield "foo"; yield "bar"; yield "baz"; }
+const iterable = takeEnd(gen(), 5);
+for await (const value of iterable) console.log(value);
+\`\`\`
+
+The above example will print only 3 elements, because \`gen()\` yields only 3
+elements:
+
+~~~
+foo
+bar
+baz
+~~~
+',
     file: ".",
     kind: [
       "function",
@@ -2731,10 +3895,62 @@ snapshot[`fetchRootSymbolsWithMembers() 2`] = `
     },
     members: [],
     name: "takeEnd",
+    url: "/@hongminhee/aitertools@0.6.0/doc/~/takeEnd",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: 'Takes elements from the beginning of an async iterable as long as a specified
+condition is met.  If the condition is not met, the iterable stops.
+
+\`\`\` typescript
+import { takeWhile } from "./take.ts";
+import { count } from "./infinite.ts";
+
+const iterable = takeWhile(count(0), v => v < 4);
+for await (const value of iterable) console.log(value);
+\`\`\`
+
+The above example will print the following 4 lines:
+
+~~~
+0
+1
+2
+3
+~~~
+
+An async \`predicate\` function also works.  The following example will print
+the same 4 lines as the previous example:
+
+\`\`\` typescript
+import { takeWhile } from "./take.ts";
+import { count } from "./infinite.ts";
+
+const iterable = takeWhile(count(0), v => Promise.resolve(v < 4));
+for await (const value of iterable) console.log(value);
+\`\`\`
+
+A \`predicate\` function can take an index as well as the value.
+
+\`\`\` typescript
+import { takeWhile } from "./take.ts";
+import { count } from "./infinite.ts";
+
+const iterable = takeWhile(count(0, 10), (_, i) => i < 4);
+for await (const value of iterable) console.log(value);
+\`\`\`
+
+The above example will print the following 4 lines:
+
+~~~
+0
+10
+20
+30
+~~~
+',
     file: ".",
     kind: [
       "function",
@@ -2748,10 +3964,13 @@ snapshot[`fetchRootSymbolsWithMembers() 2`] = `
     },
     members: [],
     name: "takeWhile",
+    url: "/@hongminhee/aitertools@0.6.0/doc/~/takeWhile",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "",
     file: ".",
     kind: [
       "function",
@@ -2781,10 +4000,33 @@ snapshot[`fetchRootSymbolsWithMembers() 2`] = `
     },
     members: [],
     name: "tee",
+    url: "/@hongminhee/aitertools@0.6.0/doc/~/tee",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: 'Creates an array from an async iterable.
+
+\`\`\` typescript
+import { toArray } from "./collections.ts";
+
+async function* gen() { yield "foo"; yield "bar"; yield "baz"; }
+const array = await toArray(gen());
+\`\`\`
+
+The \`array\` variable will be an array like \`["foo", "bar", "baz"]\`.
+
+Note that its first parameter is assumed to be finite; otherwise, it will
+never return.  The following example will never return:
+
+\`\`\` typescript
+import { toArray } from "./collections.ts";
+import { count } from "./infinite.ts";
+
+await toArray(count(0));
+\`\`\`
+',
     file: ".",
     kind: [
       "function",
@@ -2798,10 +4040,55 @@ snapshot[`fetchRootSymbolsWithMembers() 2`] = `
     },
     members: [],
     name: "toArray",
+    url: "/@hongminhee/aitertools@0.6.0/doc/~/toArray",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: 'Creates a map from an async iterable of key-value pairs.  Each pair is
+represented as an array of two elements.
+
+\`\`\` typescript
+import { toMap } from "./collections.ts";
+
+async function* gen(): AsyncIterableIterator<[string, number]> {
+  yield ["foo", 1]; yield ["bar", 2]; yield ["baz", 3]; yield ["qux", 4];
+}
+const map = await toMap<string, number>(gen());
+\`\`\`
+
+The \`map\` variable will be a map like \`Map { "foo" => 1, "bar" => 2,
+"baz" => 3, "qux" => 4 }\`.
+
+Duplicate keys are removed except for the last occurrence of each key.  E.g.:
+
+\`\`\` typescript
+import { fromIterable, toMap } from "./collections.ts";
+
+const iterable = fromIterable<[string, number]>([
+  ["foo", 1], ["bar", 2], ["baz", 3], ["qux", 4],
+  ["foo", 5], ["bar", 6],
+]);
+const map = await toMap<string, number>(iterable);
+\`\`\`
+
+The \`map\` variable will be a map like \`Map { "foo" => 5, "bar" => 6,
+"baz" => 3, "qux" => 4 }\`.
+
+Note that the iterable \`source\` is assumed to be finite; otherwise, it will
+never return.  The following example will never return:
+
+\`\`\` typescript
+import { toMap } from "./collections.ts";
+import { count } from "./infinite.ts";
+import { map } from "./map.ts";
+
+await toMap<number, number>(
+  map((v: number) => [v, v] as [number, number], count(0))
+);
+\`\`\`
+',
     file: ".",
     kind: [
       "function",
@@ -2815,10 +4102,45 @@ snapshot[`fetchRootSymbolsWithMembers() 2`] = `
     },
     members: [],
     name: "toMap",
+    url: "/@hongminhee/aitertools@0.6.0/doc/~/toMap",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: 'Creates a set from an async iterable.
+
+\`\`\` typescript
+import { toSet } from "./collections.ts";
+
+async function* gen() { yield "foo"; yield "bar"; yield "baz"; }
+const set = await toSet(gen());
+\`\`\`
+
+The \`set\` variable will be a set like \`new Set(["foo", "bar", "baz"])\`.
+
+Duplicate elements are removed except for the first occurrence of each
+element.  E.g.:
+
+\`\`\` typescript
+import { toSet } from "./collections.ts";
+
+async function* gen() { yield "foo"; yield "bar"; yield "foo"; }
+const set = await toSet(gen());
+\`\`\`
+
+The \`set\` variable will be a set like \`new Set(["foo", "bar"])\`.
+
+Note that the iterable \`source\` is assumed to be finite; otherwise, it will
+never return.  The following example will never return:
+
+\`\`\` typescript
+import { toSet } from "./collections.ts";
+import { count } from "./infinite.ts";
+
+await toSet(count(0));
+\`\`\`
+',
     file: ".",
     kind: [
       "function",
@@ -2832,10 +4154,65 @@ snapshot[`fetchRootSymbolsWithMembers() 2`] = `
     },
     members: [],
     name: "toSet",
+    url: "/@hongminhee/aitertools@0.6.0/doc/~/toSet",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: 'Eliminate duplicates in an async iterable \`source\`.
+
+\`\`\` typescript
+import { unique } from "./unique.ts";
+
+async function* gen() { yield "foo"; yield "bar"; yield "bar"; yield "foo" }
+const iterable = unique(gen());
+for await (const value of iterable) console.log(value);
+\`\`\`
+
+The above example will print the following 2 lines:
+
+~~~
+foo
+bar
+~~~
+
+For complex elements, the \`keySelector\` function can be used to specify how
+to compare the elements.   Among duplicate elements, the one with the first
+occurrence of the key is kept.  E.g.:
+
+\`\`\` typescript
+import { unique } from "./unique.ts";
+
+async function* gen() {
+  yield { id: 1, name: "foo" };
+  yield { id: 2, name: "bar" };
+  yield { id: 3, name: "bar" };
+  yield { id: 4, name: "foo" };
+}
+
+console.log("Unique by ID:");
+const uniqueIds = unique(gen(), v => v.id);
+for await (const value of uniqueIds) console.log(value);
+
+console.log("Unique by name:");
+const uniqueNames = unique(gen(), v => v.name);
+for await (const value of uniqueNames) console.log(value);
+\`\`\`
+
+The above example will print the following:
+
+~~~
+Unique by ID:
+{ id: 1, name: "foo" }
+{ id: 2, name: "bar" }
+{ id: 3, name: "bar" }
+{ id: 4, name: "foo" }
+Unique by name:
+{ id: 1, name: "foo" }
+{ id: 2, name: "bar" }
+~~~
+',
     file: ".",
     kind: [
       "function",
@@ -2849,10 +4226,16 @@ snapshot[`fetchRootSymbolsWithMembers() 2`] = `
     },
     members: [],
     name: "unique",
+    url: "/@hongminhee/aitertools@0.6.0/doc/~/unique",
   },
   {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "An immutable sequence of numbers.  It implements both \`Iterable\` and
+\`AsyncIterable\`.
+
+It is similar to Python's \`range()\` function.",
     file: ".",
     kind: [
       "class",
@@ -2888,13 +4271,13 @@ snapshot[`fetchRootSymbolsWithMembers() 2`] = `
       {
         index: 0,
         kind: "method",
-        name: "[Symbol_asyncIterator]",
+        name: "symbol_asynciterator",
         static: false,
       },
       {
         index: 0,
         kind: "method",
-        name: "[Symbol_iterator]",
+        name: "symbol_iterator",
         static: false,
       },
       {
@@ -2906,11 +4289,12 @@ snapshot[`fetchRootSymbolsWithMembers() 2`] = `
       {
         index: 0,
         kind: "method",
-        name: "toString",
+        name: "tostring",
         static: false,
       },
     ],
     name: "Range",
+    url: "/@hongminhee/aitertools@0.6.0/doc/~/Range",
   },
 ]
 `;
@@ -2930,22 +4314,6 @@ snapshot[`fetchIndex() 1`] = `
 
 snapshot[`fetchIndex() 2`] = `
 {
-  "Range.[Symbol_asyncIterator]()": {
-    index: 0,
-    kind: "method",
-    label: "Range.[Symbol_asyncIterator]()",
-    name: "[Symbol_asyncIterator]",
-    static: false,
-    url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/Range.prototype.[Symbol_asyncIterator]",
-  },
-  "Range.[Symbol_iterator]()": {
-    index: 0,
-    kind: "method",
-    label: "Range.[Symbol_iterator]()",
-    name: "[Symbol_iterator]",
-    static: false,
-    url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/Range.prototype.[Symbol_iterator]",
-  },
   "Range.at()": {
     index: 0,
     kind: "method",
@@ -2978,17 +4346,47 @@ snapshot[`fetchIndex() 2`] = `
     name: "stop",
     url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/Range.stop",
   },
-  "Range.toString()": {
+  "Range.symbol_asynciterator()": {
     index: 0,
     kind: "method",
-    label: "Range.toString()",
-    name: "toString",
+    label: "Range.symbol_asynciterator()",
+    name: "symbol_asynciterator",
     static: false,
-    url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/Range.prototype.toString",
+    url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/Range.prototype.symbol_asynciterator",
+  },
+  "Range.symbol_iterator()": {
+    index: 0,
+    kind: "method",
+    label: "Range.symbol_iterator()",
+    name: "symbol_iterator",
+    static: false,
+    url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/Range.prototype.symbol_iterator",
+  },
+  "Range.tostring()": {
+    index: 0,
+    kind: "method",
+    label: "Range.tostring()",
+    name: "tostring",
+    static: false,
+    url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/Range.prototype.tostring",
   },
   "assertStreamStartsWith()": {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: 'Makes an assertion that the beginning elements of the \`actual\` iterable are
+in common with the elements of the \`expected\` array.
+
+\`\`\` typescript
+import { assertStreamStartsWith } from "./testing.ts";
+import { count } from "./infinite.ts";
+
+Deno.test("your test name", async () => {
+  const stream = count(0, 5);
+  await assertStreamStartsWith(stream, [0, 5, 10, 15]);
+});
+\`\`\`
+',
     file: ".",
     kind: [
       "function",
@@ -3006,8 +4404,23 @@ snapshot[`fetchIndex() 2`] = `
     url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/assertStreamStartsWith",
   },
   "assertStreams()": {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: 'Makes an assertion that the elements of the \`actual\` iterable are equal to
+the elements of the \`expected\` array.
+
+\`\`\` typescript
+import { assertStreams } from "./testing.ts";
+
+async function* gen() { yield "actual"; yield "elements"; }
+
+Deno.test("your test name", async () => {
+  const stream = gen();
+  await assertStreams(stream, ["actual", "elements"]);
+});
+\`\`\`
+',
     file: ".",
     kind: [
       "function",
@@ -3025,8 +4438,32 @@ snapshot[`fetchIndex() 2`] = `
     url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/assertStreams",
   },
   "concat()": {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: 'Concatenates multiple async iterables into one async iterable.
+
+\`\`\` typescript
+import { concat } from "./concat.ts";
+
+async function* gen() { yield "foo"; yield "bar"; yield "baz"; yield "qux" }
+const iterable = concat(gen(), ["a", "b", "c", "d"]);
+for await (const value of iterable) console.log(value);
+\`\`\`
+
+The above example will print the following 8 lines:
+
+~~~
+foo
+bar
+baz
+qux
+a
+b
+c
+d
+~~~
+',
     file: ".",
     kind: [
       "function",
@@ -3044,8 +4481,81 @@ snapshot[`fetchIndex() 2`] = `
     url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/concat",
   },
   "count()": {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "Makes an infinite async iterable of evenly spaced values starting with
+the \`start\` number.
+
+\`\`\` typescript
+import { count } from \\"./infinite.ts\\";
+const iterable = count(5);
+for await (const value of iterable) {
+  console.log(value);
+}
+\`\`\`
+
+The above example will print the following and keep going forever:
+
+~~~
+5
+6
+7
+8
+9
+(...)
+~~~
+
+You could adjust the interval by passing a second argument to \`count()\`:
+
+\`\`\` typescript
+import { count } from \\"./infinite.ts\\";
+const iterable = count(0, 3);
+for await (const value of iterable) {
+  console.log(value);
+}
+\`\`\`
+
+The above example will print the following and keep going forever:
+
+~~~
+0
+3
+6
+9
+12
+(...)
+~~~
+
+As it's infinite, it's usually used with \`break\` to stop the iteration:
+
+\`\`\` typescript
+import { count } from \\"./infinite.ts\\";
+for await (const value of count(0)) {
+  if (value > 4) break;
+  console.log(value);
+}
+\`\`\`
+
+Or with other async generators like \`takeWhile()\`:
+
+\`\`\` typescript
+import { count } from \\"./infinite.ts\\";
+import { takeWhile } from \\"./take.ts\\";
+for await (const value of takeWhile(count(0), v => v <= 4)) {
+  console.log(value);
+}
+\`\`\`
+
+The both examples above will print the following 4 lines:
+
+~~~
+0
+1
+2
+3
+~~~
+",
     file: ".",
     kind: [
       "function",
@@ -3063,8 +4573,36 @@ snapshot[`fetchIndex() 2`] = `
     url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/count",
   },
   "cycle()": {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: 'Makes an async iterator that yields elements from the \`source\` and saving
+a copy of each.  When the \`source\` is exhausted, yields saved copies
+indefinitely.
+
+Note that it may require significant memory to save the copies
+depending on the length of the \`source\`.
+
+\`\`\` typescript
+import { cycle } from "./infinite.ts";
+
+async function* gen() { yield 3; yield 6; yield 9; }
+const iterable = cycle(gen());
+for await (const value of iterable) console.log(value);
+\`\`\`
+
+The above example will print the following and keep going forever:
+
+~~~
+3
+6
+9
+3
+6
+9
+(...)
+~~~
+',
     file: ".",
     kind: [
       "function",
@@ -3082,8 +4620,44 @@ snapshot[`fetchIndex() 2`] = `
     url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/cycle",
   },
   "drop()": {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: 'Drops a specified number of elements from the beginning of an async iterable,
+and yields the remaining elements.
+
+\`\`\` typescript
+import { drop } from "./drop.ts";
+
+async function* gen() { yield "foo"; yield "bar"; yield "baz"; yield "qux" }
+const iterable = drop(gen(), 2);
+for await (const value of iterable) {
+  console.log(value);
+}
+\`\`\`
+
+The above example will print the following 2 lines:
+
+~~~
+baz
+qux
+~~~
+
+If the iterable is shorter than or equal to the specified number, no elements
+are yielded.
+
+\`\`\` typescript
+import { drop } from "./drop.ts";
+
+async function* gen() { yield "foo"; yield "bar"; yield "baz"; yield "qux" }
+const iterable = drop(gen(), 4);
+for await (const value of iterable) {
+  console.log(value);
+}
+\`\`\`
+
+The above example will print nothing.
+',
     file: ".",
     kind: [
       "function",
@@ -3101,8 +4675,40 @@ snapshot[`fetchIndex() 2`] = `
     url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/drop",
   },
   "dropEnd()": {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: 'Drops a specified number of elements from the end of an async iterable, and
+yields the remaining elements.
+
+\`\`\` typescript
+import { dropEnd } from "./drop.ts";
+
+async function* gen() { yield "foo"; yield "bar"; yield "baz"; yield "qux" }
+const iterable = dropEnd(gen(), 2);
+for await (const value of iterable) console.log(value);
+\`\`\`
+
+The above example will print the following 2 lines:
+
+~~~
+foo
+bar
+~~~
+
+If the iterable is shorter than or equal to the specified number, no elements
+are yielded.
+
+\`\`\` typescript
+import { dropEnd } from "./drop.ts";
+
+async function* gen() { yield "foo"; yield "bar"; yield "baz"; yield "qux" }
+const iterable = dropEnd(gen(), 4);
+for await (const value of iterable) console.log(value);
+\`\`\`
+
+The above example will print nothing.
+',
     file: ".",
     kind: [
       "function",
@@ -3120,8 +4726,62 @@ snapshot[`fetchIndex() 2`] = `
     url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/dropEnd",
   },
   "dropWhile()": {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: 'Drops elements from the beginning of an async iterable as long as a specified
+condition is met, and yields the remaining elements.
+
+\`\`\` typescript
+import { dropWhile } from "./drop.ts";
+
+async function* gen() { yield "foo"; yield "bar"; yield "baz"; yield "qux" }
+const iterable = dropWhile(gen(), v => v !== "baz");
+for await (const value of iterable) {
+  console.log(value);
+}
+\`\`\`
+
+The above example will print the following 2 lines:
+
+~~~
+baz
+qux
+~~~
+
+An async \`predicate\` function also works.  The following example will print
+the same 2 lines as the previous example:
+
+\`\`\` typescript
+import { dropWhile } from "./drop.ts";
+
+async function* gen() { yield "foo"; yield "bar"; yield "baz"; yield "qux" }
+const iterable = dropWhile(gen(), v => Promise.resolve(v !== "baz"));
+for await (const value of iterable) {
+  console.log(value);
+}
+\`\`\`
+
+A \`predicate\` function can take an index as well as the value.
+
+\`\`\` typescript
+import { dropWhile } from "./drop.ts";
+
+async function* gen() { yield "foo"; yield "bar"; yield "baz"; yield "qux" }
+const iterable = dropWhile(gen(), (_, i) => i % 2 === 0);
+for await (const value of iterable) {
+  console.log(value);
+}
+\`\`\`
+
+The above example will print the following 3 lines:
+
+~~~
+bar
+baz
+qux
+~~~
+',
     file: ".",
     kind: [
       "function",
@@ -3139,8 +4799,46 @@ snapshot[`fetchIndex() 2`] = `
     url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/dropWhile",
   },
   "filter()": {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: 'Eliminates all elements from the iterable \`source\` that do not satisfy
+the \`predicate\` function.
+
+\`\`\` typescript
+import { filter } from "./filter.ts";
+
+async function* gen() { yield "foo"; yield "bar"; yield "baz"; yield "qux" }
+const iterable = filter((v: string) => !!v.match(/^b/), gen());
+for await (const value of iterable) console.log(value);
+\`\`\`
+
+The above example will print the following 2 lines:
+
+~~~
+bar
+baz
+~~~
+
+The \`predicate\` function can take an index as well as the value.
+
+\`\`\` typescript
+import { filter } from "./filter.ts";
+
+const iterable = filter(
+  (v: string, i: number) => !v.match(/^b/) && i % 2 === 0,
+  ["foo", "bar", "baz", "qux", "quux"]
+);
+for await (const value of iterable) console.log(value);
+\`\`\`
+
+The above example will print the following 2 lines:
+
+~~~
+foo
+quux
+~~~
+',
     file: ".",
     kind: [
       "function",
@@ -3158,8 +4856,27 @@ snapshot[`fetchIndex() 2`] = `
     url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/filter",
   },
   "fromIterable()": {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: 'Turns a synchrnous iterable \`source\` into an async iterable.
+
+\`\`\` typescript
+import { fromIterable } from "./collections.ts";
+
+function* iterable() { yield 1; yield 2; yield 3; }
+const asyncIterable = fromIterable(iterable());
+for await (const value of asyncIterable) console.log(value);
+\`\`\`
+
+The above example will print the following lines:
+
+~~~
+1
+2
+3
+~~~
+',
     file: ".",
     kind: [
       "function",
@@ -3177,8 +4894,37 @@ snapshot[`fetchIndex() 2`] = `
     url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/fromIterable",
   },
   "groupBy()": {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: 'Groups elmenets of an async interable \`source\` according to a specified
+\`keySelector\` function and creates a map of each group key to the elements in
+that group.  Key values are compared using the \`===\` operator.
+
+\`\`\` typescript
+import { groupBy } from "./unique.ts";
+
+interface IdName { id: number; name: string; }
+async function* gen(): AsyncIterableIterator<IdName> {
+  yield { id: 1, name: "foo" };
+  yield { id: 2, name: "bar" };
+  yield { id: 3, name: "bar" };
+  yield { id: 4, name: "foo" };
+}
+
+const map = await groupBy<string, IdName>(gen(), o => o.name);
+console.log(map);
+\`\`\`
+
+The above example will print the following:
+
+~~~
+Map {
+ "foo" => [ { id: 1, name: "foo" }, { id: 4, name: "foo" } ],
+ "bar" => [ { id: 2, name: "bar" }, { id: 3, name: "bar" } ]
+}
+~~~
+',
     file: ".",
     kind: [
       "function",
@@ -3196,8 +4942,51 @@ snapshot[`fetchIndex() 2`] = `
     url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/groupBy",
   },
   "map()": {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: 'Transforms every element of the iterable \`source\` into a new iterable.
+
+\`\`\` typescript
+import { map } from "./map.ts";
+import { count } from "./infinite.ts";
+
+const iterable = map((v: number) => v * 2, count());
+for await (const value of iterable) console.log(value);
+\`\`\`
+
+The above example will print the following and keep going forever:
+
+~~~
+0
+2
+4
+6
+(...)
+~~~
+
+The \`fn\` function can take an additional argument, which is the index of the
+element in the iterable.
+
+\`\`\` typescript
+import { map } from "./map.ts";
+
+const iterable = map(
+  (v: string, i: number) => \`\${i}. \${v.toUpperCase()}\`,
+  ["foo", "bar", "baz", "qux"]
+);
+for await (const value of iterable) console.log(value);
+\`\`\`
+
+The above example will print the following 4 lines:
+
+~~~
+0. FOO
+1. BAR
+2. BAZ
+3. QUX
+~~~
+',
     file: ".",
     kind: [
       "function",
@@ -3231,8 +5020,29 @@ snapshot[`fetchIndex() 2`] = `
     url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/Range#constructor_0",
   },
   "range()": {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: 'Creates a {@link Range} of numbers from 0 to \`stop\` with step 1.
+
+\`\`\` typescript
+import { range } from "./range.ts";
+
+for (const value of range(4)) console.log(value);
+\`\`\`
+
+The above example will print the following 4 lines:
+
+~~~
+0
+1
+2
+3
+~~~
+
+Note that the type of the range is \`Range<number>\`, which implements
+both \`Iterable<number>\` and \`AsyncIterable<number>\`.
+',
     file: ".",
     kind: [
       "function",
@@ -3262,8 +5072,56 @@ snapshot[`fetchIndex() 2`] = `
     url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/range",
   },
   "reduce()": {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: 'Apply \`reducer\` function of two arguments cumulatively to the elements of
+an async iterable \`source\`, from left to right, so as to reduce the async
+iterable to a single value.
+
+\`\`\` typescript
+import { reduce } from "./fold.ts";
+
+async function* oneToFive() { yield 1; yield 2; yield 3; yield 4; yield 5; }
+const reducedValue = await reduce(
+  (x, y) => { console.log(\`\${x} + \${y} = \${x + y}\`); return x + y; },
+  oneToFive(),
+  0,
+);
+console.log("reduced value:", reducedValue);
+\`\`\`
+
+The above example will print the following:
+
+~~~
+0 + 1 = 1
+1 + 2 = 3
+3 + 3 = 6
+6 + 4 = 10
+10 + 5 = 15
+reduced value: 15
+~~~
+
+If the async iterable \`source\` is empty, the \`reducer\` function is not
+called and \`initialValue\` is returned.
+
+\`\`\` typescript
+import { reduce } from "./fold.ts";
+
+const reducedValue = await reduce(
+  (x, y) => { console.log(\`\${x} + \${y} = \${x * y}\`); return x * y; },
+  [],
+  1,
+);
+console.log("reduced value:", reducedValue);
+\`\`\`
+
+The above example will print the following:
+
+~~~
+reduced value: 1
+~~~
+',
     file: ".",
     kind: [
       "function",
@@ -3285,8 +5143,46 @@ snapshot[`fetchIndex() 2`] = `
     url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/reduce",
   },
   "repeat()": {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: 'Makes an async iterator that yields the same value over and over again.
+It will repeat indefinitely unless \`times\` is specified.
+
+\`\`\` typescript
+import { repeat } from "./infinite.ts";
+
+const iterable = repeat("v");
+for await (const value of iterable) console.log(value);
+\`\`\`
+
+The above example will print the following and keep going forever:
+
+~~~
+v
+v
+v
+(...)
+~~~
+
+However, if you specify the second parameter \`times\` it will repeat that many
+times:
+
+\`\`\` typescript
+import { repeat } from "./infinite.ts";
+
+const iterable = repeat("V", 3);
+for await (const value of iterable) console.log(value);
+\`\`\`
+
+The above example will print the following 3 lines:
+
+~~~
+V
+V
+V
+~~~
+',
     file: ".",
     kind: [
       "function",
@@ -3304,8 +5200,49 @@ snapshot[`fetchIndex() 2`] = `
     url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/repeat",
   },
   "take()": {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: 'Takes a specified number of elements from the beginning of an async iterable.
+
+\`\`\` typescript
+import { take } from "./take.ts";
+import { count } from "./infinite.ts";
+
+const iterable = take(count(0, 5), 3);
+for await (const value of iterable) {
+  console.log(value);
+}
+\`\`\`
+
+The above example will print the following 3 lines:
+
+~~~
+0
+5
+10
+~~~
+
+If the iterable is shorter than the specified number, the whole elements are
+taken.
+
+\`\`\` typescript
+import { take } from "./take.ts";
+
+async function* gen() { yield "foo"; yield "bar"; yield "baz"; }
+const iterable = take(gen(), 5);
+for await (const value of iterable) console.log(value);
+\`\`\`
+
+The above example will print only 3 elements, because \`gen()\` yields only 3
+elements:
+
+~~~
+foo
+bar
+baz
+~~~
+',
     file: ".",
     kind: [
       "function",
@@ -3323,8 +5260,47 @@ snapshot[`fetchIndex() 2`] = `
     url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/take",
   },
   "takeEnd()": {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: 'Takes a specified number of elements from the end of an async iterable.
+
+\`\`\` typescript
+import { takeEnd } from "./take.ts";
+import { range } from "./range.ts";
+
+const iterable = takeEnd(range(10), 3);
+for await (const value of iterable) console.log(value);
+\`\`\`
+
+The above example will print the following 3 lines:
+
+~~~
+7
+8
+9
+~~~
+
+If the iterable is shorter than the specified number, the whole elements are
+taken.
+
+\`\`\` typescript
+import { takeEnd } from "./take.ts";
+
+async function* gen() { yield "foo"; yield "bar"; yield "baz"; }
+const iterable = takeEnd(gen(), 5);
+for await (const value of iterable) console.log(value);
+\`\`\`
+
+The above example will print only 3 elements, because \`gen()\` yields only 3
+elements:
+
+~~~
+foo
+bar
+baz
+~~~
+',
     file: ".",
     kind: [
       "function",
@@ -3342,8 +5318,59 @@ snapshot[`fetchIndex() 2`] = `
     url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/takeEnd",
   },
   "takeWhile()": {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: 'Takes elements from the beginning of an async iterable as long as a specified
+condition is met.  If the condition is not met, the iterable stops.
+
+\`\`\` typescript
+import { takeWhile } from "./take.ts";
+import { count } from "./infinite.ts";
+
+const iterable = takeWhile(count(0), v => v < 4);
+for await (const value of iterable) console.log(value);
+\`\`\`
+
+The above example will print the following 4 lines:
+
+~~~
+0
+1
+2
+3
+~~~
+
+An async \`predicate\` function also works.  The following example will print
+the same 4 lines as the previous example:
+
+\`\`\` typescript
+import { takeWhile } from "./take.ts";
+import { count } from "./infinite.ts";
+
+const iterable = takeWhile(count(0), v => Promise.resolve(v < 4));
+for await (const value of iterable) console.log(value);
+\`\`\`
+
+A \`predicate\` function can take an index as well as the value.
+
+\`\`\` typescript
+import { takeWhile } from "./take.ts";
+import { count } from "./infinite.ts";
+
+const iterable = takeWhile(count(0, 10), (_, i) => i < 4);
+for await (const value of iterable) console.log(value);
+\`\`\`
+
+The above example will print the following 4 lines:
+
+~~~
+0
+10
+20
+30
+~~~
+',
     file: ".",
     kind: [
       "function",
@@ -3361,8 +5388,10 @@ snapshot[`fetchIndex() 2`] = `
     url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/takeWhile",
   },
   "tee()": {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "",
     file: ".",
     kind: [
       "function",
@@ -3396,8 +5425,30 @@ snapshot[`fetchIndex() 2`] = `
     url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/tee",
   },
   "toArray()": {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: 'Creates an array from an async iterable.
+
+\`\`\` typescript
+import { toArray } from "./collections.ts";
+
+async function* gen() { yield "foo"; yield "bar"; yield "baz"; }
+const array = await toArray(gen());
+\`\`\`
+
+The \`array\` variable will be an array like \`["foo", "bar", "baz"]\`.
+
+Note that its first parameter is assumed to be finite; otherwise, it will
+never return.  The following example will never return:
+
+\`\`\` typescript
+import { toArray } from "./collections.ts";
+import { count } from "./infinite.ts";
+
+await toArray(count(0));
+\`\`\`
+',
     file: ".",
     kind: [
       "function",
@@ -3415,8 +5466,52 @@ snapshot[`fetchIndex() 2`] = `
     url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/toArray",
   },
   "toMap()": {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: 'Creates a map from an async iterable of key-value pairs.  Each pair is
+represented as an array of two elements.
+
+\`\`\` typescript
+import { toMap } from "./collections.ts";
+
+async function* gen(): AsyncIterableIterator<[string, number]> {
+  yield ["foo", 1]; yield ["bar", 2]; yield ["baz", 3]; yield ["qux", 4];
+}
+const map = await toMap<string, number>(gen());
+\`\`\`
+
+The \`map\` variable will be a map like \`Map { "foo" => 1, "bar" => 2,
+"baz" => 3, "qux" => 4 }\`.
+
+Duplicate keys are removed except for the last occurrence of each key.  E.g.:
+
+\`\`\` typescript
+import { fromIterable, toMap } from "./collections.ts";
+
+const iterable = fromIterable<[string, number]>([
+  ["foo", 1], ["bar", 2], ["baz", 3], ["qux", 4],
+  ["foo", 5], ["bar", 6],
+]);
+const map = await toMap<string, number>(iterable);
+\`\`\`
+
+The \`map\` variable will be a map like \`Map { "foo" => 5, "bar" => 6,
+"baz" => 3, "qux" => 4 }\`.
+
+Note that the iterable \`source\` is assumed to be finite; otherwise, it will
+never return.  The following example will never return:
+
+\`\`\` typescript
+import { toMap } from "./collections.ts";
+import { count } from "./infinite.ts";
+import { map } from "./map.ts";
+
+await toMap<number, number>(
+  map((v: number) => [v, v] as [number, number], count(0))
+);
+\`\`\`
+',
     file: ".",
     kind: [
       "function",
@@ -3434,8 +5529,42 @@ snapshot[`fetchIndex() 2`] = `
     url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/toMap",
   },
   "toSet()": {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: 'Creates a set from an async iterable.
+
+\`\`\` typescript
+import { toSet } from "./collections.ts";
+
+async function* gen() { yield "foo"; yield "bar"; yield "baz"; }
+const set = await toSet(gen());
+\`\`\`
+
+The \`set\` variable will be a set like \`new Set(["foo", "bar", "baz"])\`.
+
+Duplicate elements are removed except for the first occurrence of each
+element.  E.g.:
+
+\`\`\` typescript
+import { toSet } from "./collections.ts";
+
+async function* gen() { yield "foo"; yield "bar"; yield "foo"; }
+const set = await toSet(gen());
+\`\`\`
+
+The \`set\` variable will be a set like \`new Set(["foo", "bar"])\`.
+
+Note that the iterable \`source\` is assumed to be finite; otherwise, it will
+never return.  The following example will never return:
+
+\`\`\` typescript
+import { toSet } from "./collections.ts";
+import { count } from "./infinite.ts";
+
+await toSet(count(0));
+\`\`\`
+',
     file: ".",
     kind: [
       "function",
@@ -3453,8 +5582,62 @@ snapshot[`fetchIndex() 2`] = `
     url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/toSet",
   },
   "unique()": {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: 'Eliminate duplicates in an async iterable \`source\`.
+
+\`\`\` typescript
+import { unique } from "./unique.ts";
+
+async function* gen() { yield "foo"; yield "bar"; yield "bar"; yield "foo" }
+const iterable = unique(gen());
+for await (const value of iterable) console.log(value);
+\`\`\`
+
+The above example will print the following 2 lines:
+
+~~~
+foo
+bar
+~~~
+
+For complex elements, the \`keySelector\` function can be used to specify how
+to compare the elements.   Among duplicate elements, the one with the first
+occurrence of the key is kept.  E.g.:
+
+\`\`\` typescript
+import { unique } from "./unique.ts";
+
+async function* gen() {
+  yield { id: 1, name: "foo" };
+  yield { id: 2, name: "bar" };
+  yield { id: 3, name: "bar" };
+  yield { id: 4, name: "foo" };
+}
+
+console.log("Unique by ID:");
+const uniqueIds = unique(gen(), v => v.id);
+for await (const value of uniqueIds) console.log(value);
+
+console.log("Unique by name:");
+const uniqueNames = unique(gen(), v => v.name);
+for await (const value of uniqueNames) console.log(value);
+\`\`\`
+
+The above example will print the following:
+
+~~~
+Unique by ID:
+{ id: 1, name: "foo" }
+{ id: 2, name: "bar" }
+{ id: 3, name: "bar" }
+{ id: 4, name: "foo" }
+Unique by name:
+{ id: 1, name: "foo" }
+{ id: 2, name: "bar" }
+~~~
+',
     file: ".",
     kind: [
       "function",
@@ -3470,22 +5653,6 @@ snapshot[`fetchIndex() 2`] = `
     members: [],
     name: "unique",
     url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/unique",
-  },
-  "~Range.[Symbol_asyncIterator]()": {
-    index: 0,
-    kind: "method",
-    label: "[Symbol_asyncIterator]()",
-    name: "[Symbol_asyncIterator]",
-    static: false,
-    url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/Range.prototype.[Symbol_asyncIterator]",
-  },
-  "~Range.[Symbol_iterator]()": {
-    index: 0,
-    kind: "method",
-    label: "[Symbol_iterator]()",
-    name: "[Symbol_iterator]",
-    static: false,
-    url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/Range.prototype.[Symbol_iterator]",
   },
   "~Range.at()": {
     index: 0,
@@ -3519,17 +5686,38 @@ snapshot[`fetchIndex() 2`] = `
     name: "stop",
     url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/Range.stop",
   },
-  "~Range.toString()": {
+  "~Range.symbol_asynciterator()": {
     index: 0,
     kind: "method",
-    label: "toString()",
-    name: "toString",
+    label: "symbol_asynciterator()",
+    name: "symbol_asynciterator",
     static: false,
-    url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/Range.prototype.toString",
+    url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/Range.prototype.symbol_asynciterator",
+  },
+  "~Range.symbol_iterator()": {
+    index: 0,
+    kind: "method",
+    label: "symbol_iterator()",
+    name: "symbol_iterator",
+    static: false,
+    url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/Range.prototype.symbol_iterator",
+  },
+  "~Range.tostring()": {
+    index: 0,
+    kind: "method",
+    label: "tostring()",
+    name: "tostring",
+    static: false,
+    url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/Range.prototype.tostring",
   },
   Range: {
+    category: "",
     declarationKind: "export",
     deprecated: false,
+    doc: "An immutable sequence of numbers.  It implements both \`Iterable\` and
+\`AsyncIterable\`.
+
+It is similar to Python's \`range()\` function.",
     file: ".",
     kind: [
       "class",
@@ -3566,13 +5754,13 @@ snapshot[`fetchIndex() 2`] = `
       {
         index: 0,
         kind: "method",
-        name: "[Symbol_asyncIterator]",
+        name: "symbol_asynciterator",
         static: false,
       },
       {
         index: 0,
         kind: "method",
-        name: "[Symbol_iterator]",
+        name: "symbol_iterator",
         static: false,
       },
       {
@@ -3584,7 +5772,7 @@ snapshot[`fetchIndex() 2`] = `
       {
         index: 0,
         kind: "method",
-        name: "toString",
+        name: "tostring",
         static: false,
       },
     ],
