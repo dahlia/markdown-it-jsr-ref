@@ -13,6 +13,13 @@ const text = `\
 - [code already inside a link: \`Range\`](test.html)
 `;
 
+const text2 = `
+- \`foo\`
+- \`Federation\`
+- \`new Federation()\`
+- \`Federation.fetch()\`
+`;
+
 Deno.test("jsrRef()", async (t) => {
   const md = new MarkdownIt();
   md.use(
@@ -34,6 +41,17 @@ Deno.test("jsrRef()", async (t) => {
   );
   const rendered2 = md.render(text);
   assertEquals(rendered, rendered2);
+
+  const md3 = new MarkdownIt();
+  md3.use(
+    await jsrRef({
+      package: "@fedify/fedify",
+      version: "0.11.3",
+      cachePath: ".jsr-cache2.json",
+    }),
+  );
+  const rendered3 = md3.render(text2);
+  await assertSnapshot(t, rendered3);
 });
 
 // cSpell: ignore hongminhee aitertools

@@ -12,3 +12,13 @@ snapshot[`jsrRef() 1`] = `
 </ul>
 '
 `;
+
+snapshot[`jsrRef() 2`] = `
+'<ul>
+<li><code>foo</code></li>
+<li><a href="https://jsr.io/@fedify/fedify@0.11.3/doc/federation/~/Federation"><code>Federation</code></a></li>
+<li><a href="https://jsr.io/@fedify/fedify@0.11.3/doc/federation/~/Federation#constructor_0"><code>new Federation()</code></a></li>
+<li><a href="https://jsr.io/@fedify/fedify@0.11.3/doc/federation/~/Federation.prototype.fetch"><code>Federation.fetch()</code></a></li>
+</ul>
+'
+`;
