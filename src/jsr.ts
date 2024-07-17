@@ -87,7 +87,7 @@ export async function fetchSymbolMembers(
 ): Promise<SymbolMember[]> {
   const response = await fetch(
     `https://jsr.io/${packageName}@${version}/doc${
-      file === "." ? "" : file
+      file === "." ? "" : `/${file.replaceAll(/^\/+|\/+$/g, "")}`
     }/~/${symbol}`,
     { headers: { Accept: "text/html" } },
   );

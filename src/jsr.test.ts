@@ -24,22 +24,22 @@ Deno.test("fetchRootSymbols()", async (t) => {
 Deno.test("fetchSymbolMembers()", async (t) => {
   let members = await fetchSymbolMembers(
     "@fedify/fedify",
-    "0.6.0-dev.104+a35268bc",
+    "0.11.3",
     ".",
     "Context",
   );
   await assertSnapshot(t, members);
   members = await fetchSymbolMembers(
     "@fedify/fedify",
-    "0.6.0-dev.104+a35268bc",
-    "/vocab",
+    "0.11.3",
+    "vocab",
     "Object",
   );
   await assertSnapshot(t, members);
   members = await fetchSymbolMembers(
     "@fedify/fedify",
-    "0.6.0-dev.104+a35268bc",
-    "/federation",
+    "0.11.3",
+    "federation",
     "Federation",
   );
   await assertSnapshot(t, members);

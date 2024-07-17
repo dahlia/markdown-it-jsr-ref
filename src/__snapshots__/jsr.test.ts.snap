@@ -2438,6 +2438,10 @@ snapshot[`fetchSymbolMembers() 1`] = `
     name: "documentLoader",
   },
   {
+    kind: "property",
+    name: "contextLoader",
+  },
+  {
     index: 0,
     kind: "call_signature",
     name: "getNodeInfoUri",
@@ -2452,13 +2456,13 @@ snapshot[`fetchSymbolMembers() 1`] = `
   {
     index: 2,
     kind: "call_signature",
-    name: "getOutboxUri",
+    name: "getObjectUri",
     static: false,
   },
   {
     index: 3,
     kind: "call_signature",
-    name: "getInboxUri",
+    name: "getOutboxUri",
     static: false,
   },
   {
@@ -2470,41 +2474,77 @@ snapshot[`fetchSymbolMembers() 1`] = `
   {
     index: 5,
     kind: "call_signature",
-    name: "getFollowingUri",
+    name: "getInboxUri",
     static: false,
   },
   {
     index: 6,
     kind: "call_signature",
-    name: "getFollowersUri",
+    name: "getFollowingUri",
     static: false,
   },
   {
     index: 7,
     kind: "call_signature",
-    name: "getHandleFromActorUri",
+    name: "getFollowersUri",
     static: false,
   },
   {
     index: 8,
     kind: "call_signature",
-    name: "getActorKey",
+    name: "getLikedUri",
     static: false,
   },
   {
     index: 9,
     kind: "call_signature",
-    name: "getDocumentLoader",
+    name: "getFeaturedUri",
     static: false,
   },
   {
     index: 10,
     kind: "call_signature",
-    name: "getDocumentLoader",
+    name: "getFeaturedTagsUri",
     static: false,
   },
   {
     index: 11,
+    kind: "call_signature",
+    name: "parseUri",
+    static: false,
+  },
+  {
+    index: 12,
+    kind: "call_signature",
+    name: "getHandleFromActorUri",
+    static: false,
+  },
+  {
+    index: 13,
+    kind: "call_signature",
+    name: "getActorKeyPairs",
+    static: false,
+  },
+  {
+    index: 14,
+    kind: "call_signature",
+    name: "getActorKey",
+    static: false,
+  },
+  {
+    index: 15,
+    kind: "call_signature",
+    name: "getDocumentLoader",
+    static: false,
+  },
+  {
+    index: 16,
+    kind: "call_signature",
+    name: "getDocumentLoader",
+    static: false,
+  },
+  {
+    index: 17,
     kind: "call_signature",
     name: "sendActivity",
     static: false,
@@ -2517,6 +2557,10 @@ snapshot[`fetchSymbolMembers() 2`] = `
   {
     index: 0,
     kind: "constructor",
+  },
+  {
+    kind: "accessor",
+    name: "_contextLoader",
   },
   {
     kind: "accessor",
@@ -2637,6 +2681,14 @@ snapshot[`fetchSymbolMembers() 2`] = `
   {
     kind: "accessor",
     name: "previewIds",
+  },
+  {
+    kind: "accessor",
+    name: "proofId",
+  },
+  {
+    kind: "accessor",
+    name: "proofIds",
   },
   {
     kind: "accessor",
@@ -2847,6 +2899,18 @@ snapshot[`fetchSymbolMembers() 2`] = `
   {
     index: 0,
     kind: "method",
+    name: "getProof",
+    static: false,
+  },
+  {
+    index: 0,
+    kind: "method",
+    name: "getProofs",
+    static: false,
+  },
+  {
+    index: 0,
+    kind: "method",
     name: "getReplies",
     static: false,
   },
@@ -2887,6 +2951,10 @@ snapshot[`fetchSymbolMembers() 2`] = `
     static: false,
   },
   {
+    kind: "accessor",
+    name: "typeId",
+  },
+  {
     index: 0,
     kind: "method",
     name: "fromJsonLd",
@@ -2922,12 +2990,6 @@ snapshot[`fetchSymbolMembers() 3`] = `
   {
     index: 0,
     kind: "method",
-    name: "handle",
-    static: false,
-  },
-  {
-    index: 0,
-    kind: "method",
     name: "sendActivity",
     static: false,
   },
@@ -2935,6 +2997,18 @@ snapshot[`fetchSymbolMembers() 3`] = `
     index: 0,
     kind: "method",
     name: "setActorDispatcher",
+    static: false,
+  },
+  {
+    index: 0,
+    kind: "method",
+    name: "setFeaturedDispatcher",
+    static: false,
+  },
+  {
+    index: 0,
+    kind: "method",
+    name: "setFeaturedTagsDispatcher",
     static: false,
   },
   {
@@ -2952,13 +3026,61 @@ snapshot[`fetchSymbolMembers() 3`] = `
   {
     index: 0,
     kind: "method",
+    name: "setInboxDispatcher",
+    static: false,
+  },
+  {
+    index: 0,
+    kind: "method",
     name: "setInboxListeners",
     static: false,
   },
   {
     index: 0,
     kind: "method",
+    name: "setLikedDispatcher",
+    static: false,
+  },
+  {
+    index: 0,
+    kind: "method",
     name: "setNodeInfoDispatcher",
+    static: false,
+  },
+  {
+    index: 0,
+    kind: "method",
+    name: "setObjectDispatcher",
+    static: false,
+  },
+  {
+    index: 1,
+    kind: "method",
+    name: "setObjectDispatcher",
+    static: false,
+  },
+  {
+    index: 2,
+    kind: "method",
+    name: "setObjectDispatcher",
+    static: false,
+  },
+  {
+    index: 3,
+    kind: "method",
+    name: "setObjectDispatcher",
+    static: false,
+  },
+  {
+    index: 4,
+    kind: "method",
+    name: "setObjectDispatcher",
+    static: false,
+  },
+  {
+    index: 5,
+    kind: "method",
+    name: "setObjectDispatcher",
     static: false,
   },
   {
