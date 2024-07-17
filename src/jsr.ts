@@ -93,25 +93,25 @@ export async function fetchSymbolMembers(
   );
   const html = await response.text();
   const matches = html.matchAll(
-    /\bid="(?:(?:(constructor)|(call_signature|method)_([^"]+?))_(\d+)|(accessor|property)_([^"]+?))"|Static Methods<\/h2>/g,
+    /\bid="(constructor)_(\d+)"|\bid="(?:(call_signature|method)_(?:[^"]+?)_(\d+)|(accessor|property)_(?:[^"]+?))">(?:[^<]|<[^/]|<\/[^a]|<\/a[^>])+<\/a>\s*<a\s+class=\s*"\s*font-bold\s+font-lg\s+link\s*"\s+href=\s*"[^"]+">([^<]+)<|Static Methods<\/h2>/g,
   );
   const members: SymbolMember[] = [];
   let staticMethods = false;
   for (const match of matches) {
     if (match[1] === "constructor") {
-      members.push({ kind: "constructor", index: Number(match[4]) });
+      members.push({ kind: "constructor", index: Number(match[2]) });
     } else if (match[2] === "call_signature") {
       members.push({
         kind: match[2],
-        name: match[3],
-        index: Number(match[4]),
+        name: match[5],
+        index: Number(match[3]),
       });
-    } else if (match[2] === "call_signature" || match[2] === "method") {
+    } else if (match[3] === "call_signature" || match[3] === "method") {
       members.push({
-        kind: match[2] as "call_signature" | "method",
-        name: match[3],
+        kind: match[3] as "call_signature" | "method",
+        name: match[6],
         index: Number(match[4]),
-        static: match[2] === "method" && staticMethods,
+        static: match[3] === "method" && staticMethods,
       });
     } else if (match[5] === "accessor" || match[5] === "property") {
       members.push({
