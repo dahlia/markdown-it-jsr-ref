@@ -206,7 +206,7 @@ export async function fetchIndex(
       ? `${symbol.name}()`
       : symbol.name;
     const url = `https://jsr.io/${packageName}@${version}/doc${
-      symbol.file === "." ? "" : symbol.file
+      symbol.file === "." ? "" : `/${symbol.file.replaceAll(/^\/+|\/+$/g, "")}`
     }/~/${symbol.name}`;
     if (label in index) continue;
     index[label] = { ...symbol, label, url };
