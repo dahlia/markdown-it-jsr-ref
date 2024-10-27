@@ -1,5 +1,4 @@
 import { maxWith } from "@std/collections/max-with";
-import { unescape } from "@std/html";
 import { compare } from "@std/semver/compare";
 import { format } from "@std/semver/format";
 import { parse } from "@std/semver/parse";
@@ -28,26 +27,39 @@ export function splitPackageName(fullName: PackageName): [string, string] {
 }
 
 /**
- * A top-level symbol in a package.
+ * A symbol in a package.
  */
-export interface RootSymbol {
-  declarationKind: "export" | "private";
-  deprecated: boolean;
-  file: string;
-  kind: ("class" | "interface" | "function" | "typeAlias")[];
+export interface Symbol {
+  kind: SymbolKind[];
   name: string;
+  file: string;
+  doc: string;
+  url: string;
+  deprecated: boolean;
 }
 
 /**
- * Get the top-level symbols in a package.
+ * A kind of a {@link Symbol}.
+ */
+export type SymbolKind =
+  | { kind: "Class"; char: string; title: string }
+  | { kind: "Interface"; char: string; title: string }
+  | { kind: "Function"; char: string; title: string }
+  | { kind: "Variable"; char: string; title: string }
+  | { kind: "Method"; char: string; title: string }
+  | { kind: "Property"; char: string; title: string }
+  | { kind: "TypeAlias"; char: string; title: string };
+
+/**
+ * Get the symbols in a package.
  * @param packageName A package name including the scope.
  * @param version A version string.
- * @returns The top-level symbols.
+ * @returns The symbols.
  */
-export async function fetchRootSymbols(
+export async function fetchSymbols(
   packageName: PackageName,
   version: Version,
-): Promise<RootSymbol[]> {
+): Promise<Symbol[]> {
   const [scope, name] = splitPackageName(packageName);
   const response = await fetch(
     `https://jsr.io/api/scopes/${scope}/packages/${name}/versions/${
@@ -56,127 +68,13 @@ export async function fetchRootSymbols(
   );
   // deno-lint-ignore no-explicit-any
   const json = await response.json() as any;
-  return json.nodes.map((node: RootSymbol) => ({
-    ...node,
-    file: unescape(node.file),
-  }));
-}
-
-/**
- * A member of a symbol.
- */
-export type SymbolMember =
-  | { kind: "constructor"; index: number }
-  | { kind: "call_signature"; name: string; index: number }
-  | { kind: "method"; name: string; index: number; static: boolean }
-  | { kind: "accessor" | "property"; name: string };
-
-/**
- * Get the members of a symbol.
- * @param packageName A package name including the scope.
- * @param version A version string.
- * @param file The file name.
- * @param symbol The symbol name.
- * @returns The members of the symbol.
- */
-export async function fetchSymbolMembers(
-  packageName: PackageName,
-  version: Version,
-  file: string,
-  symbol: string,
-): Promise<SymbolMember[]> {
-  const response = await fetch(
-    `https://jsr.io/${packageName}@${version}/doc${
-      file === "." ? "" : `/${file.replaceAll(/^\/+|\/+$/g, "")}`
-    }/~/${symbol}`,
-    { headers: { Accept: "text/html" } },
-  );
-  const html = await response.text();
-  const matches = html.matchAll(
-    /\bid="(constructor)_(\d+)"|\bid="(?:(call_signature|method)_(?:[^"]+?)_(\d+)|(accessor|property)_(?:[^"]+?))">(?:[^<]|<[^/]|<\/[^a]|<\/a[^>])+<\/a>\s*<a\s+class=\s*"\s*font-bold\s+font-lg\s+link\s*"\s+href=\s*"[^"]+">([^<]+)<|Static Methods<\/h2>/g,
-  );
-  const members: SymbolMember[] = [];
-  let staticMethods = false;
-  for (const match of matches) {
-    if (match[1] === "constructor") {
-      members.push({ kind: "constructor", index: Number(match[2]) });
-    } else if (match[2] === "call_signature") {
-      members.push({
-        kind: match[2],
-        name: match[5],
-        index: Number(match[3]),
-      });
-    } else if (match[3] === "call_signature" || match[3] === "method") {
-      members.push({
-        kind: match[3] as "call_signature" | "method",
-        name: match[6],
-        index: Number(match[4]),
-        static: match[3] === "method" && staticMethods,
-      });
-    } else if (match[5] === "accessor" || match[5] === "property") {
-      members.push({
-        kind: match[5] as "accessor" | "property",
-        name: match[6],
-      });
-    } else if (match[0] === "Static Methods</h2>") {
-      staticMethods = true;
-    }
-  }
-  return members;
-}
-
-/**
- * A top-level symbol in a package with its members.
- */
-export interface RootSymbolWithMembers extends RootSymbol {
-  members: SymbolMember[];
-}
-
-/**
- * Get the top-level symbols in a package with their members.
- * @param packageName A package name including the scope.
- * @param version A version string.
- * @param progress A callback to report the progress.
- * @returns The top-level symbols with their members.
- */
-export async function fetchRootSymbolsWithMembers(
-  packageName: PackageName,
-  version: Version,
-  progress?: (complete: number, total: number) => void | Promise<void>,
-): Promise<RootSymbolWithMembers[]> {
-  const symbols = await fetchRootSymbols(packageName, version);
-  const result: RootSymbolWithMembers[] = [];
-  for (const symbol of symbols) {
-    if (symbol.kind.includes("interface") || symbol.kind.includes("class")) {
-      continue;
-    }
-    result.push({ ...symbol, members: [] });
-  }
-  const symbolsWithMembers = symbols.filter((s) =>
-    s.kind.includes("interface") || s.kind.includes("class")
-  );
-  const total = symbolsWithMembers.length + 1;
-  await progress?.(1, total);
-  let i = 1;
-  for (const symbol of symbolsWithMembers) {
-    const members = await fetchSymbolMembers(
-      packageName,
-      version,
-      symbol.file,
-      symbol.name,
-    );
-    await progress?.(++i, total);
-    result.push({ ...symbol, members });
-  }
-  return result;
+  return json.nodes;
 }
 
 /**
  * An entry in the index.
  */
-export type IndexEntry =
-  | RootSymbol & { label: string; url: string }
-  | SymbolMember & { label: string; url: string };
+export type IndexEntry = Symbol & { label: string };
 
 /**
  * An index of a package.
@@ -193,48 +91,50 @@ export type Index = Record<string, IndexEntry>;
 export async function fetchIndex(
   packageName: PackageName,
   version: Version,
-  progress?: (complete: number, total: number) => void | Promise<void>,
 ): Promise<Index> {
-  const symbols = await fetchRootSymbolsWithMembers(
+  const symbols = await fetchSymbols(
     packageName,
     version,
-    progress,
   );
   const index: Index = {};
   for (const symbol of symbols) {
-    const label = symbol.kind.includes("function")
-      ? `${symbol.name}()`
-      : symbol.name;
-    const url = `https://jsr.io/${packageName}@${version}/doc${
-      symbol.file === "." ? "" : `/${symbol.file.replaceAll(/^\/+|\/+$/g, "")}`
-    }/~/${symbol.name}`;
+    const kinds = symbol.kind.map((kind: SymbolKind) => kind.kind);
+    let label: string;
+    if (
+      kinds.includes("Class") || kinds.includes("Interface") ||
+      kinds.includes("TypeAlias") || kinds.includes("Variable")
+    ) {
+      label = symbol.name;
+    } else if (kinds.includes("Function")) {
+      label = `${symbol.name}()`;
+    } else if (kinds.includes("Method")) {
+      label = symbol.name.replace(/\.prototype\./, ".") + "()";
+    } else if (kinds.includes("Property")) {
+      label = symbol.name.replace(/\.prototype\./, ".");
+    } else {
+      throw new Error(`Unknown kind: ${JSON.stringify(symbol.kind)}`);
+    }
     if (label in index) continue;
+    const url = "https://jsr.io/" + symbol.url.replace(/^\/+/, "");
     index[label] = { ...symbol, label, url };
-    if (symbol.kind.includes("class") || symbol.kind.includes("interface")) {
-      for (const member of symbol.members) {
-        const label = member.kind === "constructor"
-          ? `new ${symbol.name}()`
-          : member.kind === "call_signature" || member.kind === "method"
-          ? `${symbol.name}.${member.name}()`
-          : `${symbol.name}.${member.name}`;
-        if (label in index) continue;
-        const memberUrl = member.kind === "constructor"
-          ? `${url}#constructor_${member.index}`
-          : member.kind === "method" && member.static ||
-              member.kind === "call_signature" || member.kind === "property"
-          ? `${url}.${member.name}`
-          : `${url}.prototype.${member.name}`;
-        index[label] = { ...member, label, url: memberUrl };
-        if (member.kind !== "constructor") {
-          index[`~${label}`] = {
-            ...member,
-            label: member.kind === "call_signature" || member.kind === "method"
-              ? `${member.name}()`
-              : member.name,
-            url: memberUrl,
-          };
-        }
-      }
+    if (kinds.includes("Class")) {
+      index[`new ${label}`] = {
+        ...symbol,
+        label: `new ${label}`,
+        url: `${url}#constructors`,
+      };
+      index[`new ${label}()`] = {
+        ...symbol,
+        label: `new ${label}`,
+        url: `${url}#constructors`,
+      };
+    }
+    if (kinds.includes("Method") || kinds.includes("Property")) {
+      index[`~${label}`] = {
+        ...symbol,
+        label: label.replace(/^[^.]+\./, ""),
+        url,
+      };
     }
   }
   return index;

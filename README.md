@@ -53,9 +53,6 @@ md.use(await jsrRef({
   package: "@hongminhee/markdown-it-jsr-ref",
   version: "0.1.0",  // "stable" or "unstable" is also available
   cachePath: ".jsr-cache.json",  // Optional, but highly recommended
-  progress: (complete, total) => { // Optional
-    console.log(`Downloading JSR index: ${complete}/${total}`);
-  }
 }))
 ~~~~
 
@@ -67,6 +64,8 @@ The plugin recognizes backtick-enclosed symbols as JSR references.
 
 ~~~~ markdown
 - `ClassName`
+- `new ClassName`
+- `new ClassName()`
 - `InterfaceName`
 - `TypeAliasName`
 - `functionName()`

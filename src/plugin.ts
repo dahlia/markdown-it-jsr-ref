@@ -17,7 +17,6 @@ export interface Options {
   package: PackageName;
   version?: Version | "stable" | "unstable";
   cachePath?: string;
-  progress?: (complete: number, total: number) => void | Promise<void>;
 }
 
 /**
@@ -55,7 +54,6 @@ export async function jsrRef(options: Options): Promise<PluginSimple> {
   const index = cachedIndex ?? await fetchIndex(
     options.package,
     version,
-    options.progress,
   );
   if (options.cachePath != null && cachedIndex == null) {
     await Deno.writeTextFile(

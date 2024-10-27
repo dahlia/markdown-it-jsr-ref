@@ -4,7 +4,7 @@ snapshot[`jsrRef() 1`] = `
 '<ul>
 <li><code>foo</code></li>
 <li><a href="https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/Range"><code>Range</code></a></li>
-<li><a href="https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/Range#constructor_0"><code>new Range()</code></a></li>
+<li><a href="https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/Range#constructors"><code>new Range</code></a></li>
 <li><a href="https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/Range.prototype.at"><code>Range.at()</code></a></li>
 <li><a href="https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/Range.prototype.at"><code>at()</code></a></li>
 <li><a href="https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/take"><code>take()</code></a></li>
