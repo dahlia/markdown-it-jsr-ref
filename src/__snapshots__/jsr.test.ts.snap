@@ -38531,6 +38531,37 @@ object.
 
 snapshot[`fetchIndex() 1`] = `
 {
+  "Range.[Symbol.asyncIterator]": {
+    deprecated: false,
+    doc: 'Iterates over the elements of the range, in an asynchronous manner.
+
+\`\`\` typescript
+import { range } from "./range.ts";
+
+for await (const value of range(4)) console.log(value);
+\`\`\`
+
+The above example will print the following 4 lines:
+
+~~~
+0
+1
+2
+3
+~~~
+',
+    file: ".",
+    kind: [
+      {
+        char: "m",
+        kind: "Method",
+        title: "Method",
+      },
+    ],
+    label: "Range.[Symbol.asyncIterator]",
+    name: "Range.prototype.[Symbol.asyncIterator]",
+    url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/Range.prototype.[Symbol.asyncIterator]",
+  },
   "Range.[Symbol.asyncIterator]()": {
     deprecated: false,
     doc: 'Iterates over the elements of the range, in an asynchronous manner.
@@ -38561,6 +38592,37 @@ The above example will print the following 4 lines:
     label: "Range.[Symbol.asyncIterator]()",
     name: "Range.prototype.[Symbol.asyncIterator]",
     url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/Range.prototype.[Symbol.asyncIterator]",
+  },
+  "Range.[Symbol.iterator]": {
+    deprecated: false,
+    doc: 'Iterates over the elements of the range.
+
+\`\`\` typescript
+import { range } from "./range.ts";
+
+for (const value of range(4n)) console.log(value);
+\`\`\`
+
+The above example will print the following 4 lines:
+
+~~~
+0
+1
+2
+3
+~~~
+',
+    file: ".",
+    kind: [
+      {
+        char: "m",
+        kind: "Method",
+        title: "Method",
+      },
+    ],
+    label: "Range.[Symbol.iterator]",
+    name: "Range.prototype.[Symbol.iterator]",
+    url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/Range.prototype.[Symbol.iterator]",
   },
   "Range.[Symbol.iterator]()": {
     deprecated: false,
@@ -38593,6 +38655,37 @@ The above example will print the following 4 lines:
     name: "Range.prototype.[Symbol.iterator]",
     url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/Range.prototype.[Symbol.iterator]",
   },
+  "Range.at": {
+    deprecated: false,
+    doc: 'Returns the element at the specified index in the range.  Note that it
+guarantees to return the same value as \`Array.from(range).at(index)\`.
+
+\`\`\` typescript
+import { range } from "./range.ts";
+
+const r = range(10, -10, -3.5);
+console.log(r.at(3), r.at(-1));
+\`\`\`
+
+The above example will print the following 2 lines:
+
+~~~
+-0.5
+-7.5
+~~~
+',
+    file: ".",
+    kind: [
+      {
+        char: "m",
+        kind: "Method",
+        title: "Method",
+      },
+    ],
+    label: "Range.at",
+    name: "Range.prototype.at",
+    url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/Range.prototype.at",
+  },
   "Range.at()": {
     deprecated: false,
     doc: 'Returns the element at the specified index in the range.  Note that it
@@ -38623,6 +38716,31 @@ The above example will print the following 2 lines:
     label: "Range.at()",
     name: "Range.prototype.at",
     url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/Range.prototype.at",
+  },
+  "Range.length": {
+    deprecated: false,
+    doc: 'The length of the range.  Note that it guarantees to return the same value
+as \`Array.from(range).length\`.
+
+\`\`\` typescript
+import { range } from "./range.ts";
+
+console.log(range(10, -10, -3.5).length);
+\`\`\`
+
+The above example will print \`6\`.
+',
+    file: ".",
+    kind: [
+      {
+        char: "m",
+        kind: "Method",
+        title: "Method",
+      },
+    ],
+    label: "Range.length",
+    name: "Range.prototype.length",
+    url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/Range.prototype.length",
   },
   "Range.length()": {
     deprecated: false,
@@ -38693,6 +38811,21 @@ The above example will print \`6\`.
     label: "Range.stop",
     name: "Range.prototype.stop",
     url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/Range.prototype.stop",
+  },
+  "Range.toString": {
+    deprecated: false,
+    doc: "Represents the range as a string.",
+    file: ".",
+    kind: [
+      {
+        char: "m",
+        kind: "Method",
+        title: "Method",
+      },
+    ],
+    label: "Range.toString",
+    name: "Range.prototype.toString",
+    url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/Range.prototype.toString",
   },
   "Range.toString()": {
     deprecated: false,
@@ -40178,6 +40311,37 @@ Unique by name:
     name: "unique",
     url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/unique",
   },
+  "~Range.[Symbol.asyncIterator]": {
+    deprecated: false,
+    doc: 'Iterates over the elements of the range, in an asynchronous manner.
+
+\`\`\` typescript
+import { range } from "./range.ts";
+
+for await (const value of range(4)) console.log(value);
+\`\`\`
+
+The above example will print the following 4 lines:
+
+~~~
+0
+1
+2
+3
+~~~
+',
+    file: ".",
+    kind: [
+      {
+        char: "m",
+        kind: "Method",
+        title: "Method",
+      },
+    ],
+    label: "[Symbol.asyncIterator]",
+    name: "Range.prototype.[Symbol.asyncIterator]",
+    url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/Range.prototype.[Symbol.asyncIterator]",
+  },
   "~Range.[Symbol.asyncIterator]()": {
     deprecated: false,
     doc: 'Iterates over the elements of the range, in an asynchronous manner.
@@ -40208,6 +40372,37 @@ The above example will print the following 4 lines:
     label: "[Symbol.asyncIterator]()",
     name: "Range.prototype.[Symbol.asyncIterator]",
     url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/Range.prototype.[Symbol.asyncIterator]",
+  },
+  "~Range.[Symbol.iterator]": {
+    deprecated: false,
+    doc: 'Iterates over the elements of the range.
+
+\`\`\` typescript
+import { range } from "./range.ts";
+
+for (const value of range(4n)) console.log(value);
+\`\`\`
+
+The above example will print the following 4 lines:
+
+~~~
+0
+1
+2
+3
+~~~
+',
+    file: ".",
+    kind: [
+      {
+        char: "m",
+        kind: "Method",
+        title: "Method",
+      },
+    ],
+    label: "[Symbol.iterator]",
+    name: "Range.prototype.[Symbol.iterator]",
+    url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/Range.prototype.[Symbol.iterator]",
   },
   "~Range.[Symbol.iterator]()": {
     deprecated: false,
@@ -40240,6 +40435,37 @@ The above example will print the following 4 lines:
     name: "Range.prototype.[Symbol.iterator]",
     url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/Range.prototype.[Symbol.iterator]",
   },
+  "~Range.at": {
+    deprecated: false,
+    doc: 'Returns the element at the specified index in the range.  Note that it
+guarantees to return the same value as \`Array.from(range).at(index)\`.
+
+\`\`\` typescript
+import { range } from "./range.ts";
+
+const r = range(10, -10, -3.5);
+console.log(r.at(3), r.at(-1));
+\`\`\`
+
+The above example will print the following 2 lines:
+
+~~~
+-0.5
+-7.5
+~~~
+',
+    file: ".",
+    kind: [
+      {
+        char: "m",
+        kind: "Method",
+        title: "Method",
+      },
+    ],
+    label: "at",
+    name: "Range.prototype.at",
+    url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/Range.prototype.at",
+  },
   "~Range.at()": {
     deprecated: false,
     doc: 'Returns the element at the specified index in the range.  Note that it
@@ -40270,6 +40496,31 @@ The above example will print the following 2 lines:
     label: "at()",
     name: "Range.prototype.at",
     url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/Range.prototype.at",
+  },
+  "~Range.length": {
+    deprecated: false,
+    doc: 'The length of the range.  Note that it guarantees to return the same value
+as \`Array.from(range).length\`.
+
+\`\`\` typescript
+import { range } from "./range.ts";
+
+console.log(range(10, -10, -3.5).length);
+\`\`\`
+
+The above example will print \`6\`.
+',
+    file: ".",
+    kind: [
+      {
+        char: "m",
+        kind: "Method",
+        title: "Method",
+      },
+    ],
+    label: "length",
+    name: "Range.prototype.length",
+    url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/Range.prototype.length",
   },
   "~Range.length()": {
     deprecated: false,
@@ -40340,6 +40591,21 @@ The above example will print \`6\`.
     label: "stop",
     name: "Range.prototype.stop",
     url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/Range.prototype.stop",
+  },
+  "~Range.toString": {
+    deprecated: false,
+    doc: "Represents the range as a string.",
+    file: ".",
+    kind: [
+      {
+        char: "m",
+        kind: "Method",
+        title: "Method",
+      },
+    ],
+    label: "toString",
+    name: "Range.prototype.toString",
+    url: "https://jsr.io/@hongminhee/aitertools@0.6.0/doc/~/Range.prototype.toString",
   },
   "~Range.toString()": {
     deprecated: false,

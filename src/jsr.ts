@@ -136,6 +136,16 @@ export async function fetchIndex(
         url,
       };
     }
+    if (kinds.includes("Method")) {
+      // JSR has a bug that properties are recognized as methods.
+      label = label.replace(/\(\)$/, "");
+      index[label] = { ...symbol, label, url };
+      index[`~${label}`] = {
+        ...symbol,
+        label: label.replace(/^[^.]+\./, ""),
+        url,
+      };
+    }
   }
   return index;
 }
