@@ -66,15 +66,16 @@ export async function jsrRef(options: Options): Promise<PluginSimple> {
     );
   }
   return (md: MarkdownIt) => {
+    const originalHook = md.renderer.rules.code_inline;
     md.renderer.rules.code_inline = (
       // deno-lint-ignore no-explicit-any
       tokens: any,
       // deno-lint-ignore no-explicit-any
       idx: any,
       // deno-lint-ignore no-explicit-any
-      _options: any,
+      options: any,
       // deno-lint-ignore no-explicit-any
-      _env: any,
+      env: any,
       // deno-lint-ignore no-explicit-any
       self: any,
     ) => {
@@ -95,9 +96,13 @@ export async function jsrRef(options: Options): Promise<PluginSimple> {
         label = entry.label;
       }
       const code = `<code${self.renderAttrs(token)}>${escape(label)}</code>`;
-      return entry == null
-        ? code
-        : `<a href="${escape(entry.url)}">${code}</a>`;
+      if (entry == null) {
+        if (originalHook) {
+          return originalHook(tokens, idx, options, env, self);
+        }
+        return code;
+      }
+      return `<a href="${escape(entry.url)}">${code}</a>`;
     };
   };
 }

@@ -16,8 +16,11 @@ const text = `\
 const text2 = `
 - \`foo\`
 - \`Federation\`
-- \`new Federation()\`
+- \`new MemoryKvStore()\`
 - \`Federation.fetch()\`
+- \`configure()\`
+- \`Logger\`
+- \`Logger.with()\`
 `;
 
 Deno.test("jsrRef()", async (t) => {
@@ -46,8 +49,15 @@ Deno.test("jsrRef()", async (t) => {
   md3.use(
     await jsrRef({
       package: "@fedify/fedify",
-      version: "0.11.3",
+      version: "1.4.5",
       cachePath: ".jsr-cache2.json",
+    }),
+  );
+  md3.use(
+    await jsrRef({
+      package: "@logtape/logtape",
+      version: "0.8.2",
+      cachePath: ".jsr-cache3.json",
     }),
   );
   const rendered3 = md3.render(text2);

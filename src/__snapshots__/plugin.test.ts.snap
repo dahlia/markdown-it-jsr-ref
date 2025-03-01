@@ -16,9 +16,12 @@ snapshot[`jsrRef() 1`] = `
 snapshot[`jsrRef() 2`] = `
 '<ul>
 <li><code>foo</code></li>
-<li><a href="https://jsr.io/@fedify/fedify@0.11.3/doc/federation/~/Federation"><code>Federation</code></a></li>
-<li><a href="https://jsr.io/@fedify/fedify@0.11.3/doc/federation/~/Federation#constructor_0"><code>new Federation()</code></a></li>
-<li><a href="https://jsr.io/@fedify/fedify@0.11.3/doc/federation/~/Federation.prototype.fetch"><code>Federation.fetch()</code></a></li>
+<li><a href="https://jsr.io/@fedify/fedify@1.4.5/doc/federation/~/Federation"><code>Federation</code></a></li>
+<li><a href="https://jsr.io/@fedify/fedify@1.4.5/doc/federation/~/MemoryKvStore#constructors"><code>new MemoryKvStore</code></a></li>
+<li><a href="https://jsr.io/@fedify/fedify@1.4.5/doc/~/Federation.fetch"><code>Federation.fetch()</code></a></li>
+<li><a href="https://jsr.io/@logtape/logtape@0.8.2/doc/~/configure"><code>configure()</code></a></li>
+<li><a href="https://jsr.io/@logtape/logtape@0.8.2/doc/~/Logger"><code>Logger</code></a></li>
+<li><a href="https://jsr.io/@logtape/logtape@0.8.2/doc/~/Logger.with"><code>Logger.with()</code></a></li>
 </ul>
 '
 `;
