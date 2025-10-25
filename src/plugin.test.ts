@@ -1,5 +1,5 @@
+import { assertEquals } from "@std/assert/equals";
 import { assertSnapshot } from "@std/testing/snapshot";
-import { assertEquals } from "jsr:@std/assert@^0.221.0/assert-equals";
 import MarkdownIt from "markdown-it";
 import { jsrRef } from "./plugin.ts";
 
