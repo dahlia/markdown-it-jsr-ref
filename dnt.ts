@@ -47,6 +47,9 @@ await build({
   typeCheck: "both",
   declaration: "separate",
   declarationMap: true,
+  compilerOptions: {
+    lib: ["ESNext"],
+  },
   test: false,
   async postBuild() {
     await Deno.copyFile("LICENSE", "npm/LICENSE");

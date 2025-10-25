@@ -1,8 +1,5 @@
-import { maxWith } from "@std/collections/max-with";
-import { compare } from "@std/semver/compare";
-import { format } from "@std/semver/format";
-import { parse } from "@std/semver/parse";
-import type { SemVer } from "@std/semver/types";
+import { maxWith } from "@std/collections";
+import { compare, format, parse, type SemVer } from "@std/semver";
 
 /**
  * A package name including the scope.
