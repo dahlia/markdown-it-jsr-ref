@@ -94,6 +94,9 @@ export async function jsrRef(options: Options): Promise<PluginSimple> {
       if (entry != null) {
         label = entry.label;
       }
+      if (label == null && originalHook != null) {
+        return originalHook(tokens, idx, options, env, self);
+      }
       const code = `<code${self.renderAttrs(token)}>${escape(label)}</code>`;
       if (entry == null) {
         if (originalHook) {
