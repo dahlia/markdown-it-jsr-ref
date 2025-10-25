@@ -1,5 +1,4 @@
 import { escape } from "@std/html";
-// @deno-types="npm:@types/markdown-it@^13.0.7"
 import type MarkdownIt from "markdown-it";
 import type { PluginSimple } from "markdown-it";
 import {
